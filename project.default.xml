@@ -1,0 +1,126 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="GradleLocalSettings">
+        <option name="externalProjectsViewState">
+          <projects_view />
+        </option>
+        <option name="projectSyncType">
+          <map>
+            <entry key="$USER_HOME$/intellij-eta" value="PREVIEW" />
+          </map>
+        </option>
+      </component>
+      <component name="HaskellBuildOptions">
+        <ghcPath>/usr/local/bin/ghc</ghcPath>
+        <cabalPath>/usr/local/bin/cabal</cabalPath>
+        <stackPath>/usr/local/bin/stack</stackPath>
+      </component>
+      <component name="PantsLocalSettings">
+        <option name="projectSyncType">
+          <map>
+            <entry key="$USER_HOME$/Development/java/common-metrics" value="PREVIEW" />
+          </map>
+        </option>
+      </component>
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" />
+      <component name="PropertiesComponent">
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
+      </component>
+      <component name="RunManager">
+        <configuration default="true" type="Applet">
+          <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+          <method v="2">
+            <option name="Make" enabled="true" />
+          </method>
+        </configuration>
+        <configuration default="true" type="Application" factoryName="Application">
+          <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+          <method v="2">
+            <option name="Make" enabled="true" />
+          </method>
+        </configuration>
+        <configuration default="true" type="JUnit" factoryName="JUnit">
+          <option name="TEST_OBJECT" value="class" />
+          <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+          <method v="2">
+            <option name="Make" enabled="true" />
+          </method>
+        </configuration>
+        <configuration default="true" type="TestNG">
+          <option name="TEST_OBJECT" value="CLASS" />
+          <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+          <properties />
+          <listeners />
+          <method v="2">
+            <option name="Make" enabled="true" />
+          </method>
+        </configuration>
+        <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+          <module name="" />
+          <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+          <option name="PROGRAM_PARAMETERS" />
+          <predefined_log_file enabled="true" id="idea.log" />
+          <method v="2">
+            <option name="Make" enabled="true" />
+          </method>
+        </configuration>
+      </component>
+      <component name="SbtLocalSettings">
+        <option name="modificationStamps">
+          <map>
+            <entry key="$USER_HOME$/Google Drive/sun-ms-controller" value="1484063931000" />
+            <entry key="$USER_HOME$/Google Drive/sun-ms-flux" value="1484029023000" />
+            <entry key="$USER_HOME$/Google Drive/sun-ms-flux1" value="1484708484000" />
+            <entry key="$USER_HOME$/Google Drive/sun-ms-hobs1" value="1489372543000" />
+            <entry key="$USER_HOME$/Google Drive/sun-ms-router" value="1484063990000" />
+            <entry key="$USER_HOME$/play-scala" value="1474948073000" />
+            <entry key="$USER_HOME$/scripts" value="1487621826000" />
+            <entry key="$USER_HOME$/sun-ms-croudsourced" value="1488336717000" />
+            <entry key="$USER_HOME$/sun-ms-crowdsourced" value="1490200035000" />
+          </map>
+        </option>
+        <option name="projectSyncType">
+          <map>
+            <entry key="$USER_HOME$/Google Drive/gdpr-cfs" value="PREVIEW" />
+            <entry key="$USER_HOME$/Google Drive/sun-ms-hobs2" value="PREVIEW" />
+            <entry key="$USER_HOME$/crs" value="PREVIEW" />
+            <entry key="$USER_HOME$/minime" value="PREVIEW" />
+            <entry key="$USER_HOME$/mon" value="PREVIEW" />
+            <entry key="$USER_HOME$/prelude-utils" value="PREVIEW" />
+            <entry key="$USER_HOME$/scalamessaround" value="PREVIEW" />
+            <entry key="$USER_HOME$/scalaml" value="PREVIEW" />
+            <entry key="$USER_HOME$/scalaz" value="PREVIEW" />
+            <entry key="$USER_HOME$/vise/1p" value="PREVIEW" />
+            <entry key="$USER_HOME$/vise/2p" value="PREVIEW" />
+            <entry key="$USER_HOME$/vise/palermo" value="PREVIEW" />
+            <entry key="$USER_HOME$/weather/1ups" value="PREVIEW" />
+            <entry key="$USER_HOME$/weather/sun-ms-flux" value="PREVIEW" />
+          </map>
+        </option>
+      </component>
+      <component name="ScalaSbtSettings">
+        <option name="customVMPath" />
+        <option name="vmParameters" value="-XX:MaxPermSize=384M -Dsbt.override.build.repos=true -Divy.home=/home/amilkov/.sbtenv/vise/ivy2 -Dsbt.global.base=/home/amilkov/.sbtenv/vise" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

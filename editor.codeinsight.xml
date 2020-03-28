@@ -1,0 +1,9 @@
+<application>
+  <component name="Go">
+    <option name="detectGoPackageFromClipboard" value="false" />
+    <option name="showDocumentationInParameterPopup" value="true" />
+  </component>
+  <component name="GoFoldingSettings">
+    <option name="isFmtStrings" value="false" />
+  </component>
+</application>

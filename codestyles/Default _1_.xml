@@ -1,0 +1,30 @@
+<code_scheme name="Default (1)" version="173">
+  <option name="OTHER_INDENT_OPTIONS">
+    <value>
+      <option name="INDENT_SIZE" value="0" />
+      <option name="TAB_SIZE" value="2" />
+      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="SMART_TABS" value="true" />
+    </value>
+  </option>
+  <ClojureCodeStyleSettings>{
+  :defproject 0
+  :cursive.formatting/default-only-indent true
+}</ClojureCodeStyleSettings>
+  <GoCodeStyleSettings>
+    <option name="IMPORT_SORTING" value="GOIMPORTS" />
+    <option name="MOVE_ALL_IMPORTS_IN_ONE_DECLARATION" value="true" />
+    <option name="GROUP_CURRENT_PROJECT_IMPORTS" value="true" />
+  </GoCodeStyleSettings>
+  <MarkdownNavigatorCodeStyleSettings>
+    <option name="RIGHT_MARGIN" value="72" />
+  </MarkdownNavigatorCodeStyleSettings>
+  <codeStyleSettings language="Haskell">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Scala">
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+  </codeStyleSettings>
+</code_scheme>

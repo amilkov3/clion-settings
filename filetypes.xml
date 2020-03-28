@@ -1,0 +1,30 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.dyn_hi;*.dyn_o;*.hi;*.hprof;*.o;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping pattern="gomess" type="PLAIN_TEXT" />
+      <mapping pattern="hosts.conf" type="PLAIN_TEXT" />
+      <mapping pattern="allthem" type="PLAIN_TEXT" />
+      <mapping pattern="dataStructures" type="PLAIN_TEXT" />
+      <mapping pattern="aws" type="PLAIN_TEXT" />
+      <mapping pattern="snippets" type="PLAIN_TEXT" />
+      <mapping pattern="jettystuff" type="PLAIN_TEXT" />
+      <mapping pattern="scrap" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="email-template" type="PLAIN_TEXT" />
+      <mapping ext="cert" type="PLAIN_TEXT" />
+      <mapping ext="jks" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <mapping pattern="v80__add_request_analytics" type="SQL" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
+    </extensionMap>
+  </component>
+</application>

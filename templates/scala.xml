@@ -1,0 +1,17 @@
+<templateSet group="scala">
+  <template name="m" value="def main(args: Array[String]): Unit = {&#10;  $END$&#10;}" description="Template for main method" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="T" value="&lt;$TAG$&gt;$SELECTION$&lt;/$TAGNAME$&gt;&#10;" description="Surround with &lt;tag&gt;&lt;/tag&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="TAG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TAGNAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="c" value="/** $END$ */" description="Template for multiline comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+</templateSet>

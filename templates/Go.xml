@@ -1,0 +1,7 @@
+<templateSet group="Go">
+  <template name="m" value="func main() {&#10; $END$&#10;}" description="Main function" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GO_FILE" value="true" />
+    </context>
+  </template>
+</templateSet>
