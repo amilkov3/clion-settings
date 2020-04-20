@@ -162,12 +162,12 @@
         <mark key="[" line="19" column="8" />
         <mark key="]" line="23" column="48" />
       </file>
-      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1587415202599">
+      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1587415235388">
         <mark key="'" line="169" column="1" />
-        <mark key="[" line="218" column="1" />
-        <mark key="]" line="218" column="3" />
-        <mark key="." line="218" column="2" />
-        <mark key="^" line="218" column="3" />
+        <mark key="[" line="213" column="17" />
+        <mark key="]" line="213" column="19" />
+        <mark key="." line="213" column="18" />
+        <mark key="^" line="213" column="19" />
       </file>
       <file name="$USER_HOME$/rust/service/src/lib.rs" timestamp="1586830935530">
         <mark key="[" line="10" column="14" />
@@ -311,10 +311,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>: Self::ListenToServerStream</text>
+        <text encoding="base64">U2VsZjo6TGlzdGVuVG9TZXJ2ZXJTdHJlYW0gPSA=</text>
       </register>
       <register name="-" type="4">
-        <text>: Self::ListenToServerStream</text>
+        <text encoding="base64">U2VsZjo6TGlzdGVuVG9TZXJ2ZXJTdHJlYW0gPSA=</text>
       </register>
       <register name="/" type="4">
         <text>map</text>
