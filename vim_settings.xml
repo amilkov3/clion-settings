@@ -37,14 +37,20 @@
         <entry>iter_mut</entry>
         <entry>Status</entry>
         <entry>map</entry>
+        <entry>stream_resp</entry>
+        <entry>StreamArgs::from</entry>
+        <entry>pars!</entry>
+        <entry>parse!</entry>
+        <entry encoding="base64">IGFzIA==</entry>
+        <entry>RpcArgs::from</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
         <entry>%s/:?//g</entry>
         <entry>%s/{}/{:?}/g</entry>
-        <entry>bprevious</entry>
         <entry>bnext</entry>
         <entry>nohl</entry>
+        <entry>bprevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -87,6 +93,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed E</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
@@ -162,12 +171,12 @@
         <mark key="[" line="19" column="8" />
         <mark key="]" line="23" column="48" />
       </file>
-      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1587491107181">
-        <mark key="'" line="136" column="4" />
-        <mark key="[" line="120" column="6" />
-        <mark key="]" line="120" column="17" />
-        <mark key="." line="120" column="16" />
-        <mark key="^" line="120" column="17" />
+      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1587494927022">
+        <mark key="'" line="91" column="8" />
+        <mark key="[" line="125" column="23" />
+        <mark key="]" line="125" column="29" />
+        <mark key="." line="125" column="28" />
+        <mark key="^" line="125" column="29" />
       </file>
       <file name="$USER_HOME$/rust/service/src/lib.rs" timestamp="1586830935530">
         <mark key="[" line="10" column="14" />
@@ -197,39 +206,15 @@
         <mark key="^" line="156" column="18" />
         <mark key="." line="156" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587415188747">
-        <mark key="'" line="542" column="12" />
-        <mark key="[" line="542" column="20" />
-        <mark key="]" line="542" column="20" />
-        <mark key="." line="542" column="20" />
-        <mark key="^" line="542" column="141" />
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587497663316">
+        <mark key="'" line="402" column="43" />
+        <mark key="[" line="402" column="43" />
+        <mark key="]" line="402" column="44" />
+        <mark key="^" line="402" column="44" />
+        <mark key="." line="402" column="43" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="1041" column="21" filename="$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/result.rs" />
-      <jump line="1186" column="3" filename="$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/result.rs" />
-      <jump line="955" column="22" filename="$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/result.rs" />
-      <jump line="116" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="202" column="50" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="208" column="52" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="231" column="22" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="238" column="22" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="244" column="22" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="294" column="22" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="442" column="22" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="477" column="21" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="479" column="33" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="480" column="33" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="481" column="33" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="482" column="35" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="516" column="22" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="528" column="22" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="534" column="20" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.8/src/lib.rs" />
-      <jump line="12" column="7" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="146" column="21" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="56" column="1" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="49" column="19" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="16" column="1" filename="$USER_HOME$/rust/service/example/src/config.rs" />
       <jump line="45" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="50" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="61" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
@@ -306,48 +291,72 @@
       <jump line="7" column="0" filename="$USER_HOME$/rust/service/src/log.rs" />
       <jump line="1" column="0" filename="$USER_HOME$/rust/service/src/log.rs" />
       <jump line="42" column="0" filename="$USER_HOME$/rust/service/src/log.rs" />
+      <jump line="111" column="6" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="160" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="123" column="8" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="118" column="8" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="151" column="4" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="91" column="8" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="372" column="26" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="410" column="32" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="522" column="84" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="521" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="520" column="67" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="322" column="23" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="387" column="43" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="415" column="48" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="511" column="52" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="544" column="25" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="26" column="4" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="373" column="30" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="326" column="36" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="400" column="13" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="90" column="23" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="404" column="15" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="384" column="28" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="402" column="43" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>rpc1(stream_resp)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCB5ID0gcXVvdGUhIHsgI21ldGhvZCB9Owo=</text>
       </register>
       <register name="-" type="4">
-        <text>rpc1(stream_resp)</text>
+        <text>derive_input</text>
       </register>
       <register name="/" type="4">
-        <text>map</text>
+        <text>RpcArgs::from</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dHlwZSBMaXN0ZW5Ub1NlcnZlclN0cmVhbTE6IFN0cmVhbTxJdGVtID0gU2VydmljZVJlc3VsdDxDaGl0Q2hhdFJlc3BvbnNlPj4KICAgICAgICArIFNlbmQKICAgICAgICArIFN5bmMKICAgICAgICArICdzdGF0aWM7</text>
+        <text>parse_macro_input!(args as syn::Ident);</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBPayg1KS5tYXBfZXJyCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCB5ID0gcXVvdGUhIHsgI21ldGhvZCB9Owo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50bG4hKCJ7Oj99IiwgeSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB4Lm1hcCgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB4Lm1hCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCB4OiBzeW46OkRlcml2ZUlucHV0ID0gc3luOjpwYXJzZSh5LmludG8oKSkudW53cmFwKCk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">dXNlIGZ1dHVyZXM6OlN0cmVhbTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50bG4K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzdHJlYW06Om1hcAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB4Lm1hcCgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGwK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB4Lm1hcAo=</text>
+      <register name="8" type="4">
+        <text encoding="base64">ZXQgeiA9IG1hdGNoIG1ldGhvZCB7CiAgICAgICAgICAgICAgICAgICAgc3luOjpUcmFpdEl0ZW1NZXRob2QoKSA9PiAKICAgICAgICAgICAgICAgIH07</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAubWFwKHwmeHwgeCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50bG4hKCJ7Oj99IiwgbWV0aG9kLnRvX3Rva2VuXyk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
@@ -356,9 +365,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>map</last-search>
+      <last-search>RpcArgs::from</last-search>
       <last-offset />
-      <last-pattern>map</last-pattern>
+      <last-pattern>RpcArgs::from</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
