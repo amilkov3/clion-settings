@@ -44,6 +44,7 @@
         <entry encoding="base64">IGFzIA==</entry>
         <entry>RpcArgs::from</entry>
         <entry>impl_rpc</entry>
+        <entry>TypeParamBound</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -191,8 +192,8 @@
         <mark key="." line="46" column="16" />
         <mark key="^" line="36" column="19" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/item.rs" timestamp="1587140796398">
-        <mark key="'" line="829" column="8" />
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/item.rs" timestamp="1587542379716">
+        <mark key="'" line="862" column="31" />
       </file>
       <file name="$USER_HOME$/rust/service/src/acls.rs" timestamp="1585755816007">
         <mark key="'" line="203" column="18" />
@@ -207,17 +208,15 @@
         <mark key="^" line="156" column="18" />
         <mark key="." line="156" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587542321989">
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587542365517">
         <mark key="'" line="588" column="8" />
-        <mark key="[" line="567" column="18" />
-        <mark key="]" line="567" column="24" />
-        <mark key="^" line="567" column="24" />
-        <mark key="." line="567" column="23" />
+        <mark key="[" line="567" column="43" />
+        <mark key="]" line="567" column="43" />
+        <mark key="^" line="567" column="43" />
+        <mark key="." line="567" column="42" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="41" column="4" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="47" column="8" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="283" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="23" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="88" column="14" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
@@ -316,6 +315,8 @@
       <jump line="327" column="49" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="551" column="21" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="587" column="8" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="852" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/item.rs" />
+      <jump line="862" column="31" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/item.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -327,7 +328,7 @@
         <text>bounds</text>
       </register>
       <register name="/" type="4">
-        <text>impl_rpc</text>
+        <text>TypeParamBound</text>
       </register>
       <register name="0" type="4">
         <text>resp_name_to_type</text>
@@ -371,9 +372,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>impl_rpc</last-search>
+      <last-search>TypeParamBound</last-search>
       <last-offset />
-      <last-pattern>impl_rpc</last-pattern>
+      <last-pattern>TypeParamBound</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
