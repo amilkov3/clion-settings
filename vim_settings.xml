@@ -206,16 +206,15 @@
         <mark key="^" line="156" column="18" />
         <mark key="." line="156" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587520337133">
-        <mark key="'" line="376" column="9" />
-        <mark key="[" line="378" column="4" />
-        <mark key="]" line="378" column="23" />
-        <mark key="^" line="378" column="4" />
-        <mark key="." line="378" column="4" />
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587521351940">
+        <mark key="'" line="386" column="31" />
+        <mark key="[" line="386" column="11" />
+        <mark key="]" line="386" column="12" />
+        <mark key="^" line="386" column="15" />
+        <mark key="." line="386" column="12" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="34" column="20" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="51" column="21" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="154" column="21" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
@@ -315,6 +314,7 @@
       <jump line="376" column="9" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="120" column="17" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="151" column="4" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="386" column="31" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
