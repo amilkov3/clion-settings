@@ -171,12 +171,12 @@
         <mark key="[" line="19" column="8" />
         <mark key="]" line="23" column="48" />
       </file>
-      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1587494927022">
-        <mark key="'" line="91" column="8" />
-        <mark key="[" line="125" column="23" />
-        <mark key="]" line="125" column="29" />
-        <mark key="." line="125" column="28" />
-        <mark key="^" line="125" column="29" />
+      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1587520409735">
+        <mark key="'" line="151" column="4" />
+        <mark key="[" line="138" column="18" />
+        <mark key="]" line="138" column="17" />
+        <mark key="." line="138" column="16" />
+        <mark key="^" line="138" column="17" />
       </file>
       <file name="$USER_HOME$/rust/service/src/lib.rs" timestamp="1586830935530">
         <mark key="[" line="10" column="14" />
@@ -206,17 +206,15 @@
         <mark key="^" line="156" column="18" />
         <mark key="." line="156" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587498912911">
-        <mark key="'" line="405" column="43" />
-        <mark key="[" line="395" column="41" />
-        <mark key="]" line="395" column="42" />
-        <mark key="^" line="395" column="42" />
-        <mark key="." line="395" column="41" />
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587520337133">
+        <mark key="'" line="376" column="9" />
+        <mark key="[" line="378" column="4" />
+        <mark key="]" line="378" column="23" />
+        <mark key="^" line="378" column="4" />
+        <mark key="." line="378" column="4" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="45" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="50" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="61" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="34" column="20" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="51" column="21" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
@@ -295,7 +293,6 @@
       <jump line="160" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="123" column="8" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="118" column="8" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="151" column="4" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="91" column="8" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="372" column="26" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="410" column="32" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
@@ -315,21 +312,24 @@
       <jump line="404" column="15" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="384" column="28" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="402" column="43" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="376" column="9" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="120" column="17" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="151" column="4" filename="$USER_HOME$/rust/service/example/src/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCB5ID0gcXVvdGUhIHsgI21ldGhvZCB9Owo=</text>
+      <register name="&quot;" type="4">
+        <text>rpc1(</text>
       </register>
       <register name="-" type="4">
-        <text>derive_input</text>
+        <text>rpc1(</text>
       </register>
       <register name="/" type="4">
         <text>RpcArgs::from</text>
       </register>
       <register name="0" type="4">
-        <text>parse_macro_input!(args as syn::Ident);</text>
+        <text>)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCB5ID0gcXVvdGUhIHsgI21ldGhvZCB9Owo=</text>
