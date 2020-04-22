@@ -43,6 +43,7 @@
         <entry>parse!</entry>
         <entry encoding="base64">IGFzIA==</entry>
         <entry>RpcArgs::from</entry>
+        <entry>impl_rpc</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -171,12 +172,12 @@
         <mark key="[" line="19" column="8" />
         <mark key="]" line="23" column="48" />
       </file>
-      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1587534022266">
+      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1587534791171">
         <mark key="'" line="148" column="4" />
-        <mark key="[" line="133" column="23" />
-        <mark key="]" line="133" column="27" />
-        <mark key="." line="133" column="26" />
-        <mark key="^" line="133" column="27" />
+        <mark key="[" line="140" column="29" />
+        <mark key="]" line="140" column="47" />
+        <mark key="." line="140" column="46" />
+        <mark key="^" line="140" column="47" />
       </file>
       <file name="$USER_HOME$/rust/service/src/lib.rs" timestamp="1586830935530">
         <mark key="[" line="10" column="14" />
@@ -206,15 +207,15 @@
         <mark key="^" line="156" column="18" />
         <mark key="." line="156" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587534156288">
-        <mark key="'" line="318" column="24" />
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587535383685">
+        <mark key="'" line="327" column="49" />
+        <mark key="[" line="417" column="23" />
+        <mark key="]" line="417" column="24" />
+        <mark key="^" line="417" column="24" />
+        <mark key="." line="417" column="23" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="82" column="57" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="85" column="63" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="262" column="20" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="35" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="79" column="28" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="36" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="41" column="4" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
@@ -311,52 +312,57 @@
       <jump line="288" column="49" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="290" column="36" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="318" column="24" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="571" column="78" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="591" column="8" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="556" column="38" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="327" column="49" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>{
-            Some()
-        }</text>
+        <text>resp_name_to_type</text>
       </register>
       <register name="-" type="4">
-        <text>map_or(||)</text>
+        <text>ChitChatResp</text>
       </register>
       <register name="/" type="4">
-        <text>RpcArgs::from</text>
+        <text>impl_rpc</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">SGFzaE1hcDo6PFN0cmluZywgJnN5bjo6VHJhaXRJdGVtVHlwZT4=</text>
+        <text>resp_name_to_type</text>
       </register>
-      <register name="1" type="4">
-        <text>{
-            Some()
-        }</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoInt9IiwgZyk7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXNwX25hbWVfdG9fdHlwZS5nZXQoc3RyZWFtX3R5cGVfcykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50bG4hKCJ7Oj99IiwgYXR0cl9hcmdzKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaW50bG4hKCJ7Oj99IiwgYW5ub3RhdGlvbnMpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGEuaW5zZXJ0KGZvcm1hdCEoInt9IiwgeS5pZGVudCksIHkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoIns6P30iLCBwKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICApLAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGZvciAK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoKQo=</text>
+      <register name="8" type="4">
+        <text>let stream_type = syn::Ident::from_string(stream_type_str.as_str()).unwrap();
+        quote! { type #stream_type = #ret_type; }</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW50bG4hKCJmb28gezo/fSIsIGlkZW50KTsK</text>
+      <register name="9" type="4">
+        <text>.is_none() {
+            panic!(&quot;Yikes&quot;)
+        } else {
+            
+        }</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
@@ -365,9 +371,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>RpcArgs::from</last-search>
+      <last-search>impl_rpc</last-search>
       <last-offset />
-      <last-pattern>RpcArgs::from</last-pattern>
+      <last-pattern>impl_rpc</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
