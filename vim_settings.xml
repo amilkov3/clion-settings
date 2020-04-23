@@ -177,6 +177,13 @@
         <mark key="[" line="19" column="8" />
         <mark key="]" line="23" column="48" />
       </file>
+      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1587621252761">
+        <mark key="'" line="165" column="4" />
+        <mark key="[" line="165" column="27" />
+        <mark key="]" line="165" column="28" />
+        <mark key="^" line="165" column="28" />
+        <mark key="." line="165" column="27" />
+      </file>
       <file name="$USER_HOME$/rust/service/src/lib.rs" timestamp="1586830935530">
         <mark key="[" line="10" column="14" />
         <mark key="]" line="11" column="15" />
@@ -214,7 +221,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="11" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="12" column="20" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="117" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs" />
       <jump line="224" column="26" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs" />
@@ -314,21 +320,22 @@
       <jump line="446" column="8" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="621" column="37" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="168" column="13" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="165" column="4" filename="$USER_HOME$/rust/service/example/src/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>Resp</text>
       </register>
       <register name="-" type="4">
-        <text>ServiceResult</text>
+        <text>Resp</text>
       </register>
       <register name="/" type="4">
         <text>ret_type</text>
       </register>
       <register name="0" type="4">
-        <text>println!(&quot;bar {}&quot;, quote! { #x });</text>
+        <text encoding="base64">dHlwZSBDaGl0Q2hhdFN0cmVhbSA9IGR5biBTdHJlYW08SXRlbSA9IFJlc3VsdDxTdGF0dXMsIENoaXRDaGF0UmVzcG9uc2U+PiArIFNlbmQgKyBTeW5jICsgJ3N0YXRpYzs=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
