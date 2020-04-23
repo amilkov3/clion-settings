@@ -208,16 +208,15 @@
         <mark key="^" line="156" column="18" />
         <mark key="." line="156" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587615468133">
-        <mark key="'" line="567" column="18" />
-        <mark key="[" line="568" column="62" />
-        <mark key="]" line="568" column="63" />
-        <mark key="^" line="568" column="63" />
-        <mark key="." line="568" column="62" />
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587616074621">
+        <mark key="'" line="568" column="0" />
+        <mark key="[" line="568" column="81" />
+        <mark key="]" line="569" column="24" />
+        <mark key="." line="569" column="23" />
+        <mark key="^" line="569" column="24" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="23" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="88" column="14" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="282" column="16" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="58" column="17" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
@@ -317,15 +316,16 @@
       <jump line="852" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/item.rs" />
       <jump line="862" column="31" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/item.rs" />
       <jump line="567" column="18" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="568" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>{}</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>{}</text>
+        <text>println</text>
       </register>
       <register name="/" type="4">
         <text>TypeParamBound</text>
@@ -334,36 +334,31 @@
         <text>resp_name_to_type</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoInt9IiwgZyk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50bG4hKCJ7Oj99IiwgYXR0cl9hcmdzKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50bG4hKCJiYXIgezo/fSIsIHgpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJ7Oj99IiwgYW5ub3RhdGlvbnMpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoInt9IiwgZyk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoIns6P30iLCBwKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50bG4hKCJ7Oj99IiwgYXR0cl9hcmdzKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHByaW50bG4hKCJ7Oj99IiwgYW5ub3RhdGlvbnMpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoIns6P30iLCBwKTsK</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="8" type="4">
-        <text>let stream_type = syn::Ident::from_string(stream_type_str.as_str()).unwrap();
-        quote! { type #stream_type = #ret_type; }</text>
-      </register>
-      <register name="9" type="4">
-        <text>.is_none() {
-            panic!(&quot;Yikes&quot;)
-        } else {
-            
-        }</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
