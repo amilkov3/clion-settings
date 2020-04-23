@@ -45,14 +45,18 @@
         <entry>RpcArgs::from</entry>
         <entry>impl_rpc</entry>
         <entry>TypeParamBound</entry>
+        <entry>ListenToServerStream1</entry>
+        <entry>ListenToServer</entry>
+        <entry>A</entry>
+        <entry>ret_type</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
         <entry>%s/:?//g</entry>
         <entry>%s/{}/{:?}/g</entry>
         <entry>bnext</entry>
-        <entry>nohl</entry>
         <entry>bprevious</entry>
+        <entry>nohl</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -173,13 +177,6 @@
         <mark key="[" line="19" column="8" />
         <mark key="]" line="23" column="48" />
       </file>
-      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1587534791171">
-        <mark key="'" line="148" column="4" />
-        <mark key="[" line="140" column="29" />
-        <mark key="]" line="140" column="47" />
-        <mark key="." line="140" column="46" />
-        <mark key="^" line="140" column="47" />
-      </file>
       <file name="$USER_HOME$/rust/service/src/lib.rs" timestamp="1586830935530">
         <mark key="[" line="10" column="14" />
         <mark key="]" line="11" column="15" />
@@ -208,49 +205,15 @@
         <mark key="^" line="156" column="18" />
         <mark key="." line="156" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587617970687">
-        <mark key="'" line="582" column="87" />
-        <mark key="[" line="583" column="31" />
-        <mark key="]" line="583" column="32" />
-        <mark key="." line="583" column="31" />
-        <mark key="^" line="583" column="32" />
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587620153163">
+        <mark key="'" line="623" column="37" />
+        <mark key="[" line="529" column="51" />
+        <mark key="]" line="529" column="53" />
+        <mark key="." line="529" column="52" />
+        <mark key="^" line="529" column="53" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="829" column="8" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/item.rs" />
-      <jump line="13" column="13" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="359" column="37" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="348" column="19" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="43" column="52" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="54" column="51" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="293" column="34" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="335" column="68" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="291" column="29" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="301" column="75" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="210" column="23" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="223" column="20" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="137" column="4" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="170" column="25" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="401" column="5" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="232" column="4" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="403" column="6" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="305" column="32" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="328" column="3" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="13" column="34" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="38" column="26" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="62" column="19" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="64" column="6" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="446" column="36" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="413" column="33" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="803" column="20" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/punctuated.rs" />
-      <jump line="834" column="38" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/punctuated.rs" />
-      <jump line="145" column="40" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/punctuated.rs" />
-      <jump line="148" column="13" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/punctuated.rs" />
-      <jump line="154" column="55" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/punctuated.rs" />
-      <jump line="873" column="48" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/punctuated.rs" />
-      <jump line="439" column="47" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="542" column="12" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="161" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="11" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="12" column="20" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="117" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs" />
@@ -272,7 +235,6 @@
       <jump line="521" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="520" column="67" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="322" column="23" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="387" column="43" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="415" column="48" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="511" column="52" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="544" column="25" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
@@ -317,49 +279,84 @@
       <jump line="577" column="107" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="585" column="22" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="582" column="87" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="584" column="95" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="607" column="40" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="17" column="64" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="22" column="10" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="67" column="61" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="113" column="18" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="123" column="74" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="125" column="63" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="128" column="19" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="138" column="15" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="142" column="30" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="144" column="46" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="147" column="14" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="161" column="30" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="171" column="81" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="175" column="41" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="178" column="49" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="190" column="14" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="207" column="14" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="387" column="42" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="407" column="13" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="422" column="21" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="431" column="74" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="433" column="63" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="440" column="22" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="450" column="81" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="599" column="28" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="624" column="22" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="167" column="8" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="248" column="38" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="261" column="37" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="265" column="36" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="446" column="8" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="621" column="37" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="168" column="13" filename="$USER_HOME$/rust/service/example/src/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>quote! { #x }</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>ServiceResult</text>
       </register>
       <register name="/" type="4">
-        <text>TypeParamBound</text>
+        <text>ret_type</text>
       </register>
       <register name="0" type="4">
-        <text>quote! { #x }</text>
+        <text>println!(&quot;bar {}&quot;, quote! { #x });</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">I1thc3luY190cmFpdF0KaW1wbDxBPiBFeGVtcGxhckdycGNTZXJ2aWNlIGZvciBBCndoZXJlCiAgICBBOiBNeUV4YW1wbGVTZXJ2aWNlICsgU2VuZCArIFN5bmMgKyAnc3RhdGljLAp7CiAgICBhc3luYyBmbiBzYXlfaGlfdG9fZXhlbXBsYXIoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcmVxdWVzdDogdG9uaWM6OlJlcXVlc3Q8U2F5SGlUb0V4ZW1wbGFyUmVxdWVzdD4sCiAgICApIC0+IFJlc3VsdDx0b25pYzo6UmVzcG9uc2U8U2F5SGlUb0V4ZW1wbGFyUmVzcG9uc2U+LCB0b25pYzo6U3RhdHVzPiB7CiAgICAgICAgbGV0IG1tOiB0b25pYzo6bWV0YWRhdGE6Ok1ldGFkYXRhTWFwID0gcmVxdWVzdC5tZXRhZGF0YSgpLmNsb25lKCk7CiAgICAgICAgbGV0IHJlcTogU2F5SGlUb0V4ZW1wbGFyUmVxdWVzdCA9IHJlcXVlc3QuaW50b19pbm5lcigpOwogICAgICAgIGxldCByZXM6IFNheUhpVG9FeGVtcGxhclJlc3BvbnNlID0gc2VsZi5zYXlfaGlfdG9fZXhlbXBsYXIocmVxLCBtbSkuYXdhaXQ/OwogICAgICAgIE9rKHRvbmljOjpSZXNwb25zZTo6bmV3KHJlcykpCiAgICB9CiAgICB0eXBlIENoaXRDaGF0U3RyZWFtID0gQTo6TGlzdGVuVG9TZXJ2ZXJTdHJlYW0xOwogICAgYXN5bmMgZm4gY2hpdF9jaGF0KAogICAgICAgICZzZWxmLAogICAgICAgIHJlcXVlc3Q6IHRvbmljOjpSZXF1ZXN0PFN0cmVhbWluZzxDaGl0Q2hhdFJlcXVlc3Q+PiwKICAgICkgLT4gUmVzdWx0PHRvbmljOjpSZXNwb25zZTxBOjpMaXN0ZW5Ub1NlcnZlclN0cmVhbTE+LCB0b25pYzo6U3RhdHVzPiB7CiAgICAgICAgbGV0IG1tOiB0b25pYzo6bWV0YWRhdGE6Ok1ldGFkYXRhTWFwID0gcmVxdWVzdC5tZXRhZGF0YSgpLmNsb25lKCk7CiAgICAgICAgbGV0IHJlcTogU3RyZWFtaW5nPENoaXRDaGF0UmVxdWVzdD4gPSByZXF1ZXN0LmludG9faW5uZXIoKTsKICAgICAgICBsZXQgcmVzOiBBOjpMaXN0ZW5Ub1NlcnZlclN0cmVhbTEgPSBzZWxmLmNoaXRfY2hhdChyZXEsIG1tKS5hd2FpdD87CiAgICAgICAgbGV0IHJlczE6IFNlbGY6Okxpc3RlblRvU2VydmVyU3RyZWFtID0gcmVzCiAgICAgICAgICAgIC5tYXAofHh8IHgubWFwX2Vycih8X3wgU3RhdHVzOjpuZXcoQ29kZTo6SW52YWxpZEFyZ3VtZW50LCAibmFtZSBpcyBpbnZhbGlkIikpKQogICAgICAgICAgICAuaW50b19pbm5lcigpOwogICAgICAgIE9rKHRvbmljOjpSZXNwb25zZTo6bmV3KHJlczEpKQogICAgfQogICAgYXN5bmMgZm4gdGFsa19hdF9zZXJ2ZXIoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcmVxdWVzdDogdG9uaWM6OlJlcXVlc3Q8U3RyZWFtaW5nPENoaXRDaGF0UmVxdWVzdD4+LAogICAgKSAtPiBSZXN1bHQ8dG9uaWM6OlJlc3BvbnNlPENoaXRDaGF0UmVzcG9uc2U+LCB0b25pYzo6U3RhdHVzPiB7CiAgICAgICAgbGV0IG1tOiB0b25pYzo6bWV0YWRhdGE6Ok1ldGFkYXRhTWFwID0gcmVxdWVzdC5tZXRhZGF0YSgpLmNsb25lKCk7CiAgICAgICAgbGV0IHJlcTogU3RyZWFtaW5nPENoaXRDaGF0UmVxdWVzdD4gPSByZXF1ZXN0LmludG9faW5uZXIoKTsKICAgICAgICBsZXQgcmVzOiBDaGl0Q2hhdFJlc3BvbnNlID0gc2VsZi50YWxrX2F0X3NlcnZlcihyZXEsIG1tKS5hd2FpdD87CiAgICAgICAgT2sodG9uaWM6OlJlc3BvbnNlOjpuZXcocmVzKSkKICAgIH0KICAgIHR5cGUgTGlzdGVuVG9TZXJ2ZXJTdHJlYW0gPSBBOjpMaXN0ZW5Ub1NlcnZlclN0cmVhbTE7CiAgICBhc3luYyBmbiBsaXN0ZW5fdG9fc2VydmVyKAogICAgICAgICZzZWxmLAogICAgICAgIHJlcXVlc3Q6IHRvbmljOjpSZXF1ZXN0PENoaXRDaGF0UmVxdWVzdD4sCiAgICApIC0+IFJlc3VsdDx0b25pYzo6UmVzcG9uc2U8QTo6TGlzdGVuVG9TZXJ2ZXJTdHJlYW0xPiwgdG9uaWM6OlN0YXR1cz4gewogICAgICAgIGxldCBtbTogdG9uaWM6Om1ldGFkYXRhOjpNZXRhZGF0YU1hcCA9IHJlcXVlc3QubWV0YWRhdGEoKS5jbG9uZSgpOwogICAgICAgIGxldCByZXE6IENoaXRDaGF0UmVxdWVzdCA9IHJlcXVlc3QuaW50b19pbm5lcigpOwogICAgICAgIGxldCByZXM6IEE6Okxpc3RlblRvU2VydmVyU3RyZWFtMSA9IHNlbGYubGlzdGVuX3RvX3NlcnZlcihyZXEsIG1tKS5hd2FpdD87CiAgICAgICAgbGV0IHJlczEgPSByZXMKICAgICAgICAgICAgLm1hcCh8eHwgeC5tYXBfZXJyKHxffCBTdGF0dXM6Om5ldyhDb2RlOjpJbnZhbGlkQXJndW1lbnQsICJuYW1lIGlzIGludmFsaWQiKSkpCiAgICAgICAgICAgIC5pbnRvX2lubmVyKCk7CiAgICAgICAgT2sodG9uaWM6OlJlc3BvbnNlOjpuZXcocmVzMSkpCiAgICB9Cn0=</text>
+      </register>
+      <register name="3" type="4">
         <text>let req_param = req_param.clone();
     let req_type = *req_param.ty;</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text encoding="base64">bGV0IHJlcV9wYXJhbSA9IG1hdGNoICZtZXRob2Quc2lnLmlucHV0cy5pdGVyKCkuc2tpcCgxKS5uZXh0KCkgewogICAgICAgIFNvbWUoRm5Bcmc6OlR5cGVkKHR5KSkgPT4gdHksCiAgICAgICAgXyA9PiBwYW5pYyEoIlJwYyBtZXRob2QncyBmaXJzdCBhcmd1bWVudCBzaG91bGQgYmUgcHJvdG8gcmVxdWVzdCIpLAogICAgfTsKCiAgICBsZXQgcmVxX3BhcmFtID0gcmVxX3BhcmFtLmNsb25lKCk7CiAgICBsZXQgcmVxX3R5cGUgPSAqcmVxX3BhcmFtLnR5Ow==</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50bG4hKCJiYXIgezo/fSIsIHgpOwo=</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoInt9IiwgZyk7Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50bG4hKCJ7Oj99IiwgYXR0cl9hcmdzKTsK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJ7Oj99IiwgYW5ub3RhdGlvbnMpOwo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoIns6P30iLCBwKTsK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHByaW50bG4hKCJ7Oj99IiwgYW5ub3RhdGlvbnMpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
@@ -368,9 +365,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>TypeParamBound</last-search>
+      <last-search>ret_type</last-search>
       <last-offset />
-      <last-pattern>TypeParamBound</last-pattern>
+      <last-pattern>ret_type</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
