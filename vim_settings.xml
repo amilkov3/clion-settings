@@ -208,16 +208,15 @@
         <mark key="^" line="156" column="18" />
         <mark key="." line="156" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587542365517">
-        <mark key="'" line="588" column="8" />
-        <mark key="[" line="567" column="43" />
-        <mark key="]" line="567" column="43" />
-        <mark key="^" line="567" column="43" />
-        <mark key="." line="567" column="42" />
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587615468133">
+        <mark key="'" line="567" column="18" />
+        <mark key="[" line="568" column="62" />
+        <mark key="]" line="568" column="63" />
+        <mark key="^" line="568" column="63" />
+        <mark key="." line="568" column="62" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="283" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="23" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="88" column="14" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="282" column="16" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
@@ -317,15 +316,16 @@
       <jump line="587" column="8" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="852" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/item.rs" />
       <jump line="862" column="31" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/item.rs" />
+      <jump line="567" column="18" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>bounds</text>
+        <text>{}</text>
       </register>
       <register name="-" type="4">
-        <text>bounds</text>
+        <text>{}</text>
       </register>
       <register name="/" type="4">
         <text>TypeParamBound</text>
