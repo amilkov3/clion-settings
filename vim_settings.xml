@@ -52,6 +52,8 @@
         <entry>chain</entry>
         <entry>stream_resp</entry>
         <entry>cannot find</entry>
+        <entry>input</entry>
+        <entry>input1</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -214,16 +216,14 @@
         <mark key="^" line="156" column="18" />
         <mark key="." line="156" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1588263193095">
-        <mark key="'" line="322" column="51" />
-        <mark key="[" line="320" column="69" />
-        <mark key="]" line="320" column="68" />
-        <mark key="^" line="320" column="68" />
-        <mark key="." line="320" column="67" />
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1588265033354">
+        <mark key="[" line="340" column="0" />
+        <mark key="]" line="340" column="0" />
+        <mark key="^" line="309" column="72" />
+        <mark key="." line="340" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="120" column="17" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="151" column="4" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="386" column="31" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="24" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
@@ -323,48 +323,53 @@
       <jump line="330" column="14" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="395" column="45" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="312" column="51" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="322" column="8" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>Box</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIC8K</text>
       </register>
       <register name="-" type="4">
-        <text>Box</text>
+        <text>collect</text>
       </register>
       <register name="/" type="4">
-        <text>cannot find</text>
+        <text>input1</text>
       </register>
       <register name="0" type="4">
-        <text>tonic::Response::new(res)</text>
+        <text>impl_methods.into_iter().chain(vec![impl_method]).collect()</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVzLm1hcCh8cnwgdG9uaWM6OlJlc3BvbnNlOjpuZXcocikpCg==</text>
+        <text encoding="base64">ICAgIC8K</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="2" type="4">
+        <text>/*
+    impl #trait1 {
+            #( #regular_methods )*
+        }
+    *</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgT2sodG9uaWM6OlJlc3BvbnNlOjpuZXcocmVzKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxldCBpbnB1dDEgPSBwcm9jX21hY3JvMjo6VG9rZW5TdHJlYW06OmZyb20oaW5wdXQuY2xvbmUoKSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHR5cGUgTGlzdGVuVG9TZXJ2ZXJSZXNwOiBTdHJlYW08SXRlbSA9IFNlcnZpY2VSZXN1bHQ8Q2hpdENoYXRSZXNwb25zZT4+ICsgU2VuZCArIFN5bmMgKyAnc3RhdGljOwo=</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHR5cGUgQ2hpdENoYXRSZXNwOiBTdHJlYW08SXRlbSA9IFNlcnZpY2VSZXN1bHQ8Q2hpdENoYXRSZXNwb25zZT4+ICsgU2VuZCArIFN5bmMgKyAnc3RhdGljOwo=</text>
-      </register>
-      <register name="8" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
+      <register name="7" type="4">
+        <text encoding="base64">LypsZXQgaW1wbF9tZXRob2RzMTogVmVjPHByb2NfbWFjcm8yOjpUb2tlblN0cmVhbT4gPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW1wbF9tZXRob2RzLmludG9faXRlcigpLmNoYWluKHZlYyFbaW1wbF9tZXRob2RdKS5jb2xsZWN0KCk7Ki8=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vbGV0IHRyYWl0X21ldGhvZCA9IGltLmNsb25lKCk7Cg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaW50b19pdGVyKCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vbGV0IHRyYWl0X21ldGhvZCA9IGltLmNsb25lKCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
@@ -373,9 +378,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>cannot find</last-search>
+      <last-search>input1</last-search>
       <last-offset />
-      <last-pattern>cannot find</last-pattern>
+      <last-pattern>input1</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
