@@ -120,12 +120,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/rust/macros/src/lib.rs" timestamp="1588285068574">
-        <mark key="'" line="87" column="73" />
-        <mark key="[" line="19" column="13" />
-        <mark key="]" line="19" column="18" />
-        <mark key="." line="19" column="17" />
-        <mark key="^" line="19" column="18" />
+      <file name="$USER_HOME$/rust/macros/src/lib.rs" timestamp="1588286640662">
+        <mark key="[" line="108" column="83" />
+        <mark key="]" line="108" column="83" />
+        <mark key="^" line="108" column="83" />
+        <mark key="." line="108" column="82" />
       </file>
       <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588285158036">
         <mark key="[" line="130" column="61" />
@@ -326,43 +325,44 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>&quot;squareup.exemplargrpc.service.ExemplarGrpcService&quot;</text>
+        <text encoding="base64">Ojo8VmVjPF8+Pg==</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;squareup.exemplargrpc.service.ExemplarGrpcService&quot;</text>
+        <text encoding="base64">Ojo8VmVjPF8+Pg==</text>
       </register>
       <register name="/" type="4">
         <text>call_site</text>
       </register>
       <register name="0" type="4">
-        <text>#( #trait_methods )*</text>
+        <text>m.sig.ident.to_string()</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGxldCBzZXJ2aWNlX25hbWUgPSBwYXJzZV9tYWNyb19pbnB1dCEoYXJncyBhcyBzeW46OklkZW50KTsK</text>
+        <text encoding="base64">ICAgICAgICBsZXQgeCA9IG0uc2lnLmlkZW50LnRvX3N0cmluZygpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGxldCBfaW5wdXQgPSBwYXJzZV9tYWNyb19pbnB1dCEoaW5wdXQgYXMgSXRlbUZuKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmpvaW4oIiIpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxldCBtZXRob2QK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="4">
+        <text encoding="base64">Zm4gI21ldGhvZF93YXJwKCZzZWxmKSB7CgogICAgICAgIH0=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGxldCBzZXJ2aWNlX25hbWUgPSAmc2VydmljZV9hcmdzLnNlcnZpY2U7Cg==</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbWV0aG9kX25hbWVfc3RyID0gbWV0aG9kX25hbWUudG9fc3RyaW5nKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">bGV0IHNlcnZpY2VfbmFtZSA9IHBhcnNlX21hY3JvX2lucHV0IShhcmdzIGFzIHN5bjo6SWRlbnQpOwoKICAgIGZvcm1hdCEoInt9U2VydmVyIiwgJnNlcnZpY2VfbmFtZSk7</text>
+        <text>let mut stream_type_str: String = stream_type_name.join(&quot;&quot;);
+        stream_type_str.push_str(&quot;Stream&quot;);</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGZvcm1hdCEoInt9U2VydmVyIiwgJnNlcnZpY2VfbmFtZSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmNvbGxlY3QoKS5qb2luKCIiKTsK</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
