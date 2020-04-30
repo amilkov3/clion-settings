@@ -54,6 +54,13 @@
         <entry>cannot find</entry>
         <entry>input</entry>
         <entry>input1</entry>
+        <entry>Send +</entry>
+        <entry>Unexpected Default</entry>
+        <entry>Unexpected ReturnType</entry>
+        <entry>argOpt</entry>
+        <entry>method_name</entry>
+        <entry>method_name_str</entry>
+        <entry>call_site</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -113,38 +120,18 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/rust/service/src/log.rs" timestamp="1587491812141">
-        <mark key="'" line="42" column="0" />
-        <mark key="[" line="38" column="15" />
-        <mark key="]" line="38" column="19" />
-        <mark key="." line="38" column="19" />
-        <mark key="^" line="38" column="19" />
+      <file name="$USER_HOME$/rust/macros/src/lib.rs" timestamp="1588272707579">
+        <mark key="'" line="73" column="73" />
+        <mark key="[" line="73" column="46" />
+        <mark key="]" line="73" column="47" />
+        <mark key="." line="73" column="46" />
+        <mark key="^" line="73" column="47" />
       </file>
-      <file name="/Dummy.txt" timestamp="1585756034150">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/rust/service/example/README.md" timestamp="1585593579955">
-        <mark key="[" line="33" column="0" />
-        <mark key="]" line="33" column="0" />
-        <mark key="." line="33" column="0" />
-      </file>
-      <file name="$USER_HOME$/rust/service/Cargo.toml" timestamp="1586831976731">
-        <mark key="[" line="15" column="19" />
-        <mark key="]" line="16" column="18" />
-        <mark key="^" line="16" column="18" />
-        <mark key="." line="16" column="18" />
-      </file>
-      <file name="$USER_HOME$/rust/README.md" timestamp="1585594534351">
-        <mark key="[" line="10" column="95" />
-        <mark key="]" line="10" column="115" />
-        <mark key="." line="10" column="115" />
-        <mark key="^" line="10" column="115" />
-      </file>
-      <file name="$USER_HOME$/rust/service/example/build.rs" timestamp="1585589592005">
-        <mark key="[" line="9" column="9" />
-        <mark key="]" line="9" column="8" />
-        <mark key="." line="9" column="8" />
-        <mark key="^" line="9" column="8" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588271601411">
+        <mark key="[" line="49" column="58" />
+        <mark key="]" line="49" column="60" />
+        <mark key="." line="49" column="59" />
+        <mark key="^" line="49" column="60" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/punctuated.rs" timestamp="1587410389720">
         <mark key="'" line="873" column="48" />
@@ -159,6 +146,49 @@
         <mark key="^" line="1875" column="40" />
         <mark key="." line="1875" column="40" />
       </file>
+      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1588269903812">
+        <mark key="[" line="35" column="8" />
+        <mark key="]" line="35" column="12" />
+        <mark key="." line="35" column="11" />
+        <mark key="^" line="35" column="12" />
+      </file>
+      <file name="$USER_HOME$/rust/service/example/src/client.rs" timestamp="1586830654452">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="^" line="6" column="5" />
+        <mark key="." line="3" column="0" />
+      </file>
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588270422708" />
+      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1588269004084">
+        <mark key="[" line="91" column="32" />
+        <mark key="]" line="91" column="40" />
+        <mark key="^" line="91" column="40" />
+        <mark key="." line="91" column="39" />
+      </file>
+      <file name="$USER_HOME$/rust/service/src/lib.rs" timestamp="1588269046002">
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
+      </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/item.rs" timestamp="1587542379716">
+        <mark key="'" line="862" column="31" />
+      </file>
+      <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1588269660713">
+        <mark key="[" line="26" column="19" />
+        <mark key="]" line="27" column="19" />
+        <mark key="^" line="27" column="19" />
+        <mark key="." line="27" column="18" />
+      </file>
+      <file name="$USER_HOME$/rust/service/src/log.rs" timestamp="1587491812141">
+        <mark key="'" line="42" column="0" />
+        <mark key="[" line="38" column="15" />
+        <mark key="]" line="38" column="19" />
+        <mark key="." line="38" column="19" />
+        <mark key="^" line="38" column="19" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1585756034150">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" timestamp="1587416241413">
         <mark key="[" line="20" column="25" />
         <mark key="]" line="20" column="4" />
@@ -168,12 +198,6 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.2/src/body/body.rs" timestamp="1585768031004">
         <mark key="'" line="401" column="5" />
       </file>
-      <file name="$USER_HOME$/rust/service/example/src/client.rs" timestamp="1586830654452">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="^" line="6" column="5" />
-        <mark key="." line="3" column="0" />
-      </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs" timestamp="1587414742468">
         <mark key="a" line="116" column="15" />
         <mark key="'" line="223" column="34" />
@@ -182,57 +206,21 @@
         <mark key="[" line="19" column="8" />
         <mark key="]" line="23" column="48" />
       </file>
-      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1588229374797">
-        <mark key="[" line="129" column="24" />
-        <mark key="]" line="129" column="16" />
-        <mark key="." line="129" column="15" />
-        <mark key="^" line="129" column="16" />
-      </file>
-      <file name="$USER_HOME$/rust/service/src/lib.rs" timestamp="1586830935530">
-        <mark key="[" line="10" column="14" />
-        <mark key="]" line="11" column="15" />
-        <mark key="^" line="11" column="15" />
-        <mark key="." line="11" column="15" />
-      </file>
       <file name="$USER_HOME$/rust/service/src/logging.rs" timestamp="1586839285681">
         <mark key="[" line="46" column="16" />
         <mark key="]" line="46" column="16" />
         <mark key="." line="46" column="16" />
         <mark key="^" line="36" column="19" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/item.rs" timestamp="1587542379716">
-        <mark key="'" line="862" column="31" />
-      </file>
-      <file name="$USER_HOME$/rust/service/src/acls.rs" timestamp="1585755816007">
-        <mark key="'" line="203" column="18" />
-        <mark key="[" line="169" column="51" />
-        <mark key="]" line="169" column="49" />
-        <mark key="^" line="169" column="49" />
-        <mark key="." line="169" column="49" />
-      </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.0/src/request.rs" timestamp="1585627623836">
-        <mark key="[" line="156" column="19" />
-        <mark key="]" line="156" column="18" />
-        <mark key="^" line="156" column="18" />
-        <mark key="." line="156" column="18" />
-      </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1588265033354">
-        <mark key="[" line="340" column="0" />
-        <mark key="]" line="340" column="0" />
-        <mark key="^" line="309" column="72" />
-        <mark key="." line="340" column="0" />
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1588268951282">
+        <mark key="'" line="198" column="20" />
+        <mark key="[" line="83" column="66" />
+        <mark key="]" line="83" column="76" />
+        <mark key="^" line="83" column="76" />
+        <mark key="." line="83" column="75" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="151" column="4" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="386" column="31" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="24" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="52" column="20" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="375" column="17" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="522" column="71" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="325" column="89" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="349" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="279" column="11" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="287" column="30" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="286" column="12" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="285" column="55" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
@@ -324,52 +312,57 @@
       <jump line="395" column="45" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="312" column="51" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="322" column="8" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="269" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="197" column="20" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="71" column="17" filename="$USER_HOME$/rust/macros/src/lib.rs" />
+      <jump line="64" column="16" filename="$USER_HOME$/rust/macros/src/lib.rs" />
+      <jump line="33" column="20" filename="$USER_HOME$/rust/macros/src/lib.rs" />
+      <jump line="154" column="31" filename="$USER_HOME$/rust/macros/src/lib.rs" />
+      <jump line="72" column="38" filename="$USER_HOME$/rust/macros/src/lib.rs" />
+      <jump line="74" column="13" filename="$USER_HOME$/rust/macros/src/lib.rs" />
+      <jump line="73" column="73" filename="$USER_HOME$/rust/macros/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIC8K</text>
+      <register name="&quot;" type="4">
+        <text>method_name</text>
       </register>
       <register name="-" type="4">
-        <text>collect</text>
+        <text>method_name</text>
       </register>
       <register name="/" type="4">
-        <text>input1</text>
+        <text>call_site</text>
       </register>
       <register name="0" type="4">
-        <text>impl_methods.into_iter().chain(vec![impl_method]).collect()</text>
+        <text>#( #trait_methods )*</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8K</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>/*
-    impl #trait1 {
-            #( #regular_methods )*
-        }
-    *</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGxldCBtZXRob2QK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxldCBpbnB1dDEgPSBwcm9jX21hY3JvMjo6VG9rZW5TdHJlYW06OmZyb20oaW5wdXQuY2xvbmUoKSk7Cg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgbWV0aG9kX25hbWVfc3RyID0gbWV0aG9kX25hbWUudG9fc3RyaW5nKCk7Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">LypsZXQgaW1wbF9tZXRob2RzMTogVmVjPHByb2NfbWFjcm8yOjpUb2tlblN0cmVhbT4gPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW1wbF9tZXRob2RzLmludG9faXRlcigpLmNoYWluKHZlYyFbaW1wbF9tZXRob2RdKS5jb2xsZWN0KCk7Ki8=</text>
+      <register name="6" type="4">
+        <text encoding="base64">bGV0IHNlcnZpY2VfbmFtZSA9IHBhcnNlX21hY3JvX2lucHV0IShhcmdzIGFzIHN5bjo6SWRlbnQpOwoKICAgIGZvcm1hdCEoInt9U2VydmVyIiwgJnNlcnZpY2VfbmFtZSk7</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGZvcm1hdCEoInt9U2VydmVyIiwgJnNlcnZpY2VfbmFtZSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vbGV0IHRyYWl0X21ldGhvZCA9IGltLmNsb25lKCk7Cg==</text>
+        <text encoding="base64">ICAgIHByaW50bG4hKCJ7fSIsIGZvcm1hdCEoInt9U2VydmVyIiwgdHJhaXQxKSk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vbGV0IHRyYWl0X21ldGhvZCA9IGltLmNsb25lKCk7Cg==</text>
+        <text encoding="base64">dXNlIHF1b3RlOjpUb1Rva2VuczsK</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
@@ -378,9 +371,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>input1</last-search>
+      <last-search>call_site</last-search>
       <last-offset />
-      <last-pattern>input1</last-pattern>
+      <last-pattern>call_site</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
