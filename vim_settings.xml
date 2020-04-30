@@ -51,6 +51,7 @@
         <entry>sig.output</entry>
         <entry>chain</entry>
         <entry>stream_resp</entry>
+        <entry>cannot find</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -213,12 +214,12 @@
         <mark key="^" line="156" column="18" />
         <mark key="." line="156" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1588229399154">
-        <mark key="'" line="314" column="51" />
-        <mark key="[" line="307" column="67" />
-        <mark key="]" line="307" column="69" />
-        <mark key="^" line="307" column="69" />
-        <mark key="." line="307" column="68" />
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1588263193095">
+        <mark key="'" line="322" column="51" />
+        <mark key="[" line="320" column="69" />
+        <mark key="]" line="320" column="68" />
+        <mark key="^" line="320" column="68" />
+        <mark key="." line="320" column="67" />
       </file>
     </filemarks>
     <jumps>
@@ -327,43 +328,43 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>trait_methods1</text>
+        <text>Box</text>
       </register>
       <register name="-" type="4">
-        <text>trait_methods1</text>
+        <text>Box</text>
       </register>
       <register name="/" type="4">
-        <text>stream_resp</text>
+        <text>cannot find</text>
       </register>
       <register name="0" type="4">
-        <text>[trait_methods, vec![im]].concat();</text>
+        <text>tonic::Response::new(res)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVzLm1hcCh8cnwgdG9uaWM6OlJlc3BvbnNlOjpuZXcocikpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHR5cGUgTGlzdGVuVG9TZXJ2ZXJSZXNwOiBTdHJlYW08SXRlbSA9IFNlcnZpY2VSZXN1bHQ8Q2hpdENoYXRSZXNwb25zZT4+ICsgU2VuZCArIFN5bmMgKyAnc3RhdGljOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgT2sodG9uaWM6OlJlc3BvbnNlOjpuZXcocmVzKSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHR5cGUgQ2hpdENoYXRSZXNwOiBTdHJlYW08SXRlbSA9IFNlcnZpY2VSZXN1bHQ8Q2hpdENoYXRSZXNwb25zZT4+ICsgU2VuZCArIFN5bmMgKyAnc3RhdGljOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIHR5cGUgTGlzdGVuVG9TZXJ2ZXJSZXNwOiBTdHJlYW08SXRlbSA9IFNlcnZpY2VSZXN1bHQ8Q2hpdENoYXRSZXNwb25zZT4+ICsgU2VuZCArIFN5bmMgKyAnc3RhdGljOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaW50b19pdGVyKCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHR5cGUgQ2hpdENoYXRSZXNwOiBTdHJlYW08SXRlbSA9IFNlcnZpY2VSZXN1bHQ8Q2hpdENoYXRSZXNwb25zZT4+ICsgU2VuZCArIFN5bmMgKyAnc3RhdGljOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">I1thc3luY190cmFpdF0KaW1wbDxBPiBFeGVtcGxhckdycGNTZXJ2aWNlIGZvciBBCndoZXJlCiAgICBBOiBNeUV4YW1wbGVTZXJ2aWNlICsgU2VuZCArIFN5bmMgKyAnc3RhdGljLAp7CiAgICBhc3luYyBmbiBzYXlfaGlfdG9fZXhlbXBsYXIoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcmVxdWVzdDogdG9uaWM6OlJlcXVlc3Q8U2F5SGlUb0V4ZW1wbGFyUmVxdWVzdD4sCiAgICApIC0+IFJlc3VsdDx0b25pYzo6UmVzcG9uc2U8U2F5SGlUb0V4ZW1wbGFyUmVzcG9uc2U+LCB0b25pYzo6U3RhdHVzPiB7CiAgICAgICAgbGV0IG1tOiB0b25pYzo6bWV0YWRhdGE6Ok1ldGFkYXRhTWFwID0gcmVxdWVzdC5tZXRhZGF0YSgpLmNsb25lKCk7CiAgICAgICAgbGV0IHJlcTogU2F5SGlUb0V4ZW1wbGFyUmVxdWVzdCA9IHJlcXVlc3QuaW50b19pbm5lcigpOwogICAgICAgIGxldCByZXM6IFNheUhpVG9FeGVtcGxhclJlc3BvbnNlID0gc2VsZi5zYXlfaGlfdG9fZXhlbXBsYXIocmVxLCBtbSkuYXdhaXQ/OwogICAgICAgIE9rKHRvbmljOjpSZXNwb25zZTo6bmV3KHJlcykpCiAgICB9CiAgICB0eXBlIENoaXRDaGF0U3RyZWFtID0KICAgICAgICBkeW4gU3RyZWFtPEl0ZW0gPSBSZXN1bHQ8U3RhdHVzLCBDaGl0Q2hhdFJlc3BvbnNlPj4gKyBTZW5kICsgU3luYyArICdzdGF0aWM7CiAgICBhc3luYyBmbiBjaGl0X2NoYXQoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcmVxdWVzdDogdG9uaWM6OlJlcXVlc3Q8U3RyZWFtaW5nPENoaXRDaGF0UmVxdWVzdD4+LAogICAgKSAtPiBSZXN1bHQ8dG9uaWM6OlJlc3BvbnNlPEE6OkNoaXRDaGF0UmVzcD4sIHRvbmljOjpTdGF0dXM+IHsKICAgICAgICBsZXQgbW06IHRvbmljOjptZXRhZGF0YTo6TWV0YWRhdGFNYXAgPSByZXF1ZXN0Lm1ldGFkYXRhKCkuY2xvbmUoKTsKICAgICAgICBsZXQgcmVxOiBTdHJlYW1pbmc8Q2hpdENoYXRSZXF1ZXN0PiA9IHJlcXVlc3QuaW50b19pbm5lcigpOwogICAgICAgIGxldCByZXM6IEE6OkNoaXRDaGF0UmVzcCA9IHNlbGYuY2hpdF9jaGF0KHJlcSwgbW0pLmF3YWl0PzsKICAgICAgICBsZXQgcmVzMSA9IHJlcwogICAgICAgICAgICAubWFwKHx4fCB4Lm1hcF9lcnIofF98IFN0YXR1czo6bmV3KENvZGU6OkludmFsaWRBcmd1bWVudCwgIm5hbWUgaXMgaW52YWxpZCIpKSkKICAgICAgICAgICAgLmludG9faW5uZXIoKTsKICAgICAgICBPayh0b25pYzo6UmVzcG9uc2U6Om5ldyhyZXMxKSkKICAgIH0KICAgIGFzeW5jIGZuIHRhbGtfYXRfc2VydmVyKAogICAgICAgICZzZWxmLAogICAgICAgIHJlcXVlc3Q6IHRvbmljOjpSZXF1ZXN0PFN0cmVhbWluZzxDaGl0Q2hhdFJlcXVlc3Q+PiwKICAgICkgLT4gUmVzdWx0PHRvbmljOjpSZXNwb25zZTxDaGl0Q2hhdFJlc3BvbnNlPiwgdG9uaWM6OlN0YXR1cz4gewogICAgICAgIGxldCBtbTogdG9uaWM6Om1ldGFkYXRhOjpNZXRhZGF0YU1hcCA9IHJlcXVlc3QubWV0YWRhdGEoKS5jbG9uZSgpOwogICAgICAgIGxldCByZXE6IFN0cmVhbWluZzxDaGl0Q2hhdFJlcXVlc3Q+ID0gcmVxdWVzdC5pbnRvX2lubmVyKCk7CiAgICAgICAgbGV0IHJlczogQ2hpdENoYXRSZXNwb25zZSA9IHNlbGYudGFsa19hdF9zZXJ2ZXIocmVxLCBtbSkuYXdhaXQ/OwogICAgICAgIE9rKHRvbmljOjpSZXNwb25zZTo6bmV3KHJlcykpCiAgICB9CiAgICB0eXBlIExpc3RlblRvU2VydmVyU3RyZWFtID0KICAgICAgICBkeW4gU3RyZWFtPEl0ZW0gPSBSZXN1bHQ8U3RhdHVzLCBDaGl0Q2hhdFJlc3BvbnNlPj4gKyBTZW5kICsgU3luYyArICdzdGF0aWM7CiAgICBhc3luYyBmbiBsaXN0ZW5fdG9fc2VydmVyKAogICAgICAgICZzZWxmLAogICAgICAgIHJlcXVlc3Q6IHRvbmljOjpSZXF1ZXN0PENoaXRDaGF0UmVxdWVzdD4sCiAgICApIC0+IFJlc3VsdDx0b25pYzo6UmVzcG9uc2U8QTo6TGlzdGVuVG9TZXJ2ZXJSZXNwPiwgdG9uaWM6OlN0YXR1cz4gewogICAgICAgIGxldCBtbTogdG9uaWM6Om1ldGFkYXRhOjpNZXRhZGF0YU1hcCA9IHJlcXVlc3QubWV0YWRhdGEoKS5jbG9uZSgpOwogICAgICAgIGxldCByZXE6IENoaXRDaGF0UmVxdWVzdCA9IHJlcXVlc3QuaW50b19pbm5lcigpOwogICAgICAgIGxldCByZXM6IEE6Okxpc3RlblRvU2VydmVyUmVzcCA9IHNlbGYubGlzdGVuX3RvX3NlcnZlcihyZXEsIG1tKS5hd2FpdD87CiAgICAgICAgbGV0IHJlczEgPSByZXMKICAgICAgICAgICAgLm1hcCh8eHwgeC5tYXBfZXJyKHxffCBTdGF0dXM6Om5ldyhDb2RlOjpJbnZhbGlkQXJndW1lbnQsICJuYW1lIGlzIGludmFsaWQiKSkpCiAgICAgICAgICAgIC5pbnRvX2lubmVyKCk7CiAgICAgICAgT2sodG9uaWM6OlJlc3BvbnNlOjpuZXcocmVzMSkpCiAgICB9Cn0=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaW50b19pdGVyKCkK</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
@@ -372,9 +373,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>stream_resp</last-search>
+      <last-search>cannot find</last-search>
       <last-offset />
-      <last-pattern>stream_resp</last-pattern>
+      <last-pattern>cannot find</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
