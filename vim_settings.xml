@@ -120,12 +120,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/rust/macros/src/lib.rs" timestamp="1588272707579">
-        <mark key="'" line="73" column="73" />
-        <mark key="[" line="73" column="46" />
-        <mark key="]" line="73" column="47" />
-        <mark key="." line="73" column="46" />
-        <mark key="^" line="73" column="47" />
+      <file name="$USER_HOME$/rust/macros/src/lib.rs" timestamp="1588273638041">
+        <mark key="'" line="87" column="73" />
+        <mark key="[" line="40" column="67" />
+        <mark key="]" line="40" column="66" />
+        <mark key="." line="40" column="65" />
+        <mark key="^" line="40" column="66" />
       </file>
       <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588271601411">
         <mark key="[" line="49" column="58" />
@@ -326,10 +326,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>method_name</text>
+        <text>name</text>
       </register>
       <register name="-" type="4">
-        <text>method_name</text>
+        <text>name</text>
       </register>
       <register name="/" type="4">
         <text>call_site</text>
@@ -338,31 +338,31 @@
         <text>#( #trait_methods )*</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxldCBzZXJ2aWNlX25hbWUgPSBwYXJzZV9tYWNyb19pbnB1dCEoYXJncyBhcyBzeW46OklkZW50KTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGxldCBtZXRob2QK</text>
+        <text encoding="base64">ICAgIGxldCBfaW5wdXQgPSBwYXJzZV9tYWNyb19pbnB1dCEoaW5wdXQgYXMgSXRlbUZuKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbWV0aG9kX25hbWVfc3RyID0gbWV0aG9kX25hbWUudG9fc3RyaW5nKCk7Cg==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGxldCBtZXRob2QK</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">bGV0IHNlcnZpY2VfbmFtZSA9IHBhcnNlX21hY3JvX2lucHV0IShhcmdzIGFzIHN5bjo6SWRlbnQpOwoKICAgIGZvcm1hdCEoInt9U2VydmVyIiwgJnNlcnZpY2VfbmFtZSk7</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGZvcm1hdCEoInt9U2VydmVyIiwgJnNlcnZpY2VfbmFtZSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbWV0aG9kX25hbWVfc3RyID0gbWV0aG9kX25hbWUudG9fc3RyaW5nKCk7Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJ7fSIsIGZvcm1hdCEoInt9U2VydmVyIiwgdHJhaXQxKSk7Cg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">bGV0IHNlcnZpY2VfbmFtZSA9IHBhcnNlX21hY3JvX2lucHV0IShhcmdzIGFzIHN5bjo6SWRlbnQpOwoKICAgIGZvcm1hdCEoInt9U2VydmVyIiwgJnNlcnZpY2VfbmFtZSk7</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">dXNlIHF1b3RlOjpUb1Rva2VuczsK</text>
+        <text encoding="base64">ICAgIGZvcm1hdCEoInt9U2VydmVyIiwgJnNlcnZpY2VfbmFtZSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
