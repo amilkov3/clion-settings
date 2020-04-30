@@ -212,16 +212,15 @@
         <mark key="^" line="156" column="18" />
         <mark key="." line="156" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1587620153163">
-        <mark key="'" line="623" column="37" />
-        <mark key="[" line="529" column="51" />
-        <mark key="]" line="529" column="53" />
-        <mark key="." line="529" column="52" />
-        <mark key="^" line="529" column="53" />
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1588226166981">
+        <mark key="'" line="275" column="0" />
+        <mark key="[" line="632" column="1" />
+        <mark key="]" line="632" column="1" />
+        <mark key="." line="632" column="1" />
+        <mark key="^" line="632" column="3" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="20" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="117" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs" />
       <jump line="224" column="26" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs" />
       <jump line="223" column="34" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs" />
@@ -321,15 +320,16 @@
       <jump line="621" column="37" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="168" column="13" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="165" column="4" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="275" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>Resp</text>
+        <text>*/</text>
       </register>
       <register name="-" type="4">
-        <text>Resp</text>
+        <text>*/</text>
       </register>
       <register name="/" type="4">
         <text>ret_type</text>
@@ -378,7 +378,7 @@
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
   </component>
   <component name="VimSettings">
