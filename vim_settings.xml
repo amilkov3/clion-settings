@@ -37,7 +37,6 @@
         <entry>iter_mut</entry>
         <entry>Status</entry>
         <entry>map</entry>
-        <entry>stream_resp</entry>
         <entry>StreamArgs::from</entry>
         <entry>pars!</entry>
         <entry>parse!</entry>
@@ -49,14 +48,17 @@
         <entry>ListenToServer</entry>
         <entry>A</entry>
         <entry>ret_type</entry>
+        <entry>sig.output</entry>
+        <entry>chain</entry>
+        <entry>stream_resp</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
         <entry>%s/:?//g</entry>
         <entry>%s/{}/{:?}/g</entry>
         <entry>bnext</entry>
-        <entry>bprevious</entry>
         <entry>nohl</entry>
+        <entry>bprevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -177,12 +179,11 @@
         <mark key="[" line="19" column="8" />
         <mark key="]" line="23" column="48" />
       </file>
-      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1587621252761">
-        <mark key="'" line="165" column="4" />
-        <mark key="[" line="165" column="27" />
-        <mark key="]" line="165" column="28" />
-        <mark key="^" line="165" column="28" />
-        <mark key="." line="165" column="27" />
+      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1588229374797">
+        <mark key="[" line="129" column="24" />
+        <mark key="]" line="129" column="16" />
+        <mark key="." line="129" column="15" />
+        <mark key="^" line="129" column="16" />
       </file>
       <file name="$USER_HOME$/rust/service/src/lib.rs" timestamp="1586830935530">
         <mark key="[" line="10" column="14" />
@@ -212,46 +213,15 @@
         <mark key="^" line="156" column="18" />
         <mark key="." line="156" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1588226166981">
-        <mark key="'" line="275" column="0" />
-        <mark key="[" line="632" column="1" />
-        <mark key="]" line="632" column="1" />
-        <mark key="." line="632" column="1" />
-        <mark key="^" line="632" column="3" />
+      <file name="$USER_HOME$/rust/service/macros/src/lib.rs" timestamp="1588229399154">
+        <mark key="'" line="314" column="51" />
+        <mark key="[" line="307" column="67" />
+        <mark key="]" line="307" column="69" />
+        <mark key="^" line="307" column="69" />
+        <mark key="." line="307" column="68" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="117" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs" />
-      <jump line="224" column="26" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs" />
-      <jump line="223" column="34" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs" />
-      <jump line="169" column="1" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="110" column="13" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="134" column="4" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="7" column="0" filename="$USER_HOME$/rust/service/src/log.rs" />
-      <jump line="1" column="0" filename="$USER_HOME$/rust/service/src/log.rs" />
-      <jump line="42" column="0" filename="$USER_HOME$/rust/service/src/log.rs" />
-      <jump line="111" column="6" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="160" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="123" column="8" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="118" column="8" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="91" column="8" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="372" column="26" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="410" column="32" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="521" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="520" column="67" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="322" column="23" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="415" column="48" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="511" column="52" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="544" column="25" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="26" column="4" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="373" column="30" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="326" column="36" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="400" column="13" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="90" column="23" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="404" column="15" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="384" column="28" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="402" column="43" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
-      <jump line="376" column="9" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
       <jump line="120" column="17" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="151" column="4" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="386" column="31" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
@@ -321,49 +291,79 @@
       <jump line="168" column="13" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="165" column="4" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="275" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="602" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="37" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="69" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="89" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="97" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="104" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="127" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="133" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="136" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="141" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="143" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="166" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="186" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="217" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="221" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="231" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="233" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="252" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="254" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="339" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="331" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="329" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="303" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="278" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="271" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="257" column="0" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="201" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="150" column="0" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="330" column="14" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="395" column="45" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
+      <jump line="312" column="51" filename="$USER_HOME$/rust/service/macros/src/lib.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>*/</text>
+        <text>trait_methods1</text>
       </register>
       <register name="-" type="4">
-        <text>*/</text>
+        <text>trait_methods1</text>
       </register>
       <register name="/" type="4">
-        <text>ret_type</text>
+        <text>stream_resp</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dHlwZSBDaGl0Q2hhdFN0cmVhbSA9IGR5biBTdHJlYW08SXRlbSA9IFJlc3VsdDxTdGF0dXMsIENoaXRDaGF0UmVzcG9uc2U+PiArIFNlbmQgKyBTeW5jICsgJ3N0YXRpYzs=</text>
+        <text>[trait_methods, vec![im]].concat();</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">I1thc3luY190cmFpdF0KaW1wbDxBPiBFeGVtcGxhckdycGNTZXJ2aWNlIGZvciBBCndoZXJlCiAgICBBOiBNeUV4YW1wbGVTZXJ2aWNlICsgU2VuZCArIFN5bmMgKyAnc3RhdGljLAp7CiAgICBhc3luYyBmbiBzYXlfaGlfdG9fZXhlbXBsYXIoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcmVxdWVzdDogdG9uaWM6OlJlcXVlc3Q8U2F5SGlUb0V4ZW1wbGFyUmVxdWVzdD4sCiAgICApIC0+IFJlc3VsdDx0b25pYzo6UmVzcG9uc2U8U2F5SGlUb0V4ZW1wbGFyUmVzcG9uc2U+LCB0b25pYzo6U3RhdHVzPiB7CiAgICAgICAgbGV0IG1tOiB0b25pYzo6bWV0YWRhdGE6Ok1ldGFkYXRhTWFwID0gcmVxdWVzdC5tZXRhZGF0YSgpLmNsb25lKCk7CiAgICAgICAgbGV0IHJlcTogU2F5SGlUb0V4ZW1wbGFyUmVxdWVzdCA9IHJlcXVlc3QuaW50b19pbm5lcigpOwogICAgICAgIGxldCByZXM6IFNheUhpVG9FeGVtcGxhclJlc3BvbnNlID0gc2VsZi5zYXlfaGlfdG9fZXhlbXBsYXIocmVxLCBtbSkuYXdhaXQ/OwogICAgICAgIE9rKHRvbmljOjpSZXNwb25zZTo6bmV3KHJlcykpCiAgICB9CiAgICB0eXBlIENoaXRDaGF0U3RyZWFtID0gQTo6TGlzdGVuVG9TZXJ2ZXJTdHJlYW0xOwogICAgYXN5bmMgZm4gY2hpdF9jaGF0KAogICAgICAgICZzZWxmLAogICAgICAgIHJlcXVlc3Q6IHRvbmljOjpSZXF1ZXN0PFN0cmVhbWluZzxDaGl0Q2hhdFJlcXVlc3Q+PiwKICAgICkgLT4gUmVzdWx0PHRvbmljOjpSZXNwb25zZTxBOjpMaXN0ZW5Ub1NlcnZlclN0cmVhbTE+LCB0b25pYzo6U3RhdHVzPiB7CiAgICAgICAgbGV0IG1tOiB0b25pYzo6bWV0YWRhdGE6Ok1ldGFkYXRhTWFwID0gcmVxdWVzdC5tZXRhZGF0YSgpLmNsb25lKCk7CiAgICAgICAgbGV0IHJlcTogU3RyZWFtaW5nPENoaXRDaGF0UmVxdWVzdD4gPSByZXF1ZXN0LmludG9faW5uZXIoKTsKICAgICAgICBsZXQgcmVzOiBBOjpMaXN0ZW5Ub1NlcnZlclN0cmVhbTEgPSBzZWxmLmNoaXRfY2hhdChyZXEsIG1tKS5hd2FpdD87CiAgICAgICAgbGV0IHJlczE6IFNlbGY6Okxpc3RlblRvU2VydmVyU3RyZWFtID0gcmVzCiAgICAgICAgICAgIC5tYXAofHh8IHgubWFwX2Vycih8X3wgU3RhdHVzOjpuZXcoQ29kZTo6SW52YWxpZEFyZ3VtZW50LCAibmFtZSBpcyBpbnZhbGlkIikpKQogICAgICAgICAgICAuaW50b19pbm5lcigpOwogICAgICAgIE9rKHRvbmljOjpSZXNwb25zZTo6bmV3KHJlczEpKQogICAgfQogICAgYXN5bmMgZm4gdGFsa19hdF9zZXJ2ZXIoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcmVxdWVzdDogdG9uaWM6OlJlcXVlc3Q8U3RyZWFtaW5nPENoaXRDaGF0UmVxdWVzdD4+LAogICAgKSAtPiBSZXN1bHQ8dG9uaWM6OlJlc3BvbnNlPENoaXRDaGF0UmVzcG9uc2U+LCB0b25pYzo6U3RhdHVzPiB7CiAgICAgICAgbGV0IG1tOiB0b25pYzo6bWV0YWRhdGE6Ok1ldGFkYXRhTWFwID0gcmVxdWVzdC5tZXRhZGF0YSgpLmNsb25lKCk7CiAgICAgICAgbGV0IHJlcTogU3RyZWFtaW5nPENoaXRDaGF0UmVxdWVzdD4gPSByZXF1ZXN0LmludG9faW5uZXIoKTsKICAgICAgICBsZXQgcmVzOiBDaGl0Q2hhdFJlc3BvbnNlID0gc2VsZi50YWxrX2F0X3NlcnZlcihyZXEsIG1tKS5hd2FpdD87CiAgICAgICAgT2sodG9uaWM6OlJlc3BvbnNlOjpuZXcocmVzKSkKICAgIH0KICAgIHR5cGUgTGlzdGVuVG9TZXJ2ZXJTdHJlYW0gPSBBOjpMaXN0ZW5Ub1NlcnZlclN0cmVhbTE7CiAgICBhc3luYyBmbiBsaXN0ZW5fdG9fc2VydmVyKAogICAgICAgICZzZWxmLAogICAgICAgIHJlcXVlc3Q6IHRvbmljOjpSZXF1ZXN0PENoaXRDaGF0UmVxdWVzdD4sCiAgICApIC0+IFJlc3VsdDx0b25pYzo6UmVzcG9uc2U8QTo6TGlzdGVuVG9TZXJ2ZXJTdHJlYW0xPiwgdG9uaWM6OlN0YXR1cz4gewogICAgICAgIGxldCBtbTogdG9uaWM6Om1ldGFkYXRhOjpNZXRhZGF0YU1hcCA9IHJlcXVlc3QubWV0YWRhdGEoKS5jbG9uZSgpOwogICAgICAgIGxldCByZXE6IENoaXRDaGF0UmVxdWVzdCA9IHJlcXVlc3QuaW50b19pbm5lcigpOwogICAgICAgIGxldCByZXM6IEE6Okxpc3RlblRvU2VydmVyU3RyZWFtMSA9IHNlbGYubGlzdGVuX3RvX3NlcnZlcihyZXEsIG1tKS5hd2FpdD87CiAgICAgICAgbGV0IHJlczEgPSByZXMKICAgICAgICAgICAgLm1hcCh8eHwgeC5tYXBfZXJyKHxffCBTdGF0dXM6Om5ldyhDb2RlOjpJbnZhbGlkQXJndW1lbnQsICJuYW1lIGlzIGludmFsaWQiKSkpCiAgICAgICAgICAgIC5pbnRvX2lubmVyKCk7CiAgICAgICAgT2sodG9uaWM6OlJlc3BvbnNlOjpuZXcocmVzMSkpCiAgICB9Cn0=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHR5cGUgTGlzdGVuVG9TZXJ2ZXJSZXNwOiBTdHJlYW08SXRlbSA9IFNlcnZpY2VSZXN1bHQ8Q2hpdENoYXRSZXNwb25zZT4+ICsgU2VuZCArIFN5bmMgKyAnc3RhdGljOwo=</text>
       </register>
-      <register name="3" type="4">
-        <text>let req_param = req_param.clone();
-    let req_type = *req_param.ty;</text>
-      </register>
-      <register name="4" type="4">
-        <text encoding="base64">bGV0IHJlcV9wYXJhbSA9IG1hdGNoICZtZXRob2Quc2lnLmlucHV0cy5pdGVyKCkuc2tpcCgxKS5uZXh0KCkgewogICAgICAgIFNvbWUoRm5Bcmc6OlR5cGVkKHR5KSkgPT4gdHksCiAgICAgICAgXyA9PiBwYW5pYyEoIlJwYyBtZXRob2QncyBmaXJzdCBhcmd1bWVudCBzaG91bGQgYmUgcHJvdG8gcmVxdWVzdCIpLAogICAgfTsKCiAgICBsZXQgcmVxX3BhcmFtID0gcmVxX3BhcmFtLmNsb25lKCk7CiAgICBsZXQgcmVxX3R5cGUgPSAqcmVxX3BhcmFtLnR5Ow==</text>
-      </register>
-      <register name="5" type="2">
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHR5cGUgQ2hpdENoYXRSZXNwOiBTdHJlYW08SXRlbSA9IFNlcnZpY2VSZXN1bHQ8Q2hpdENoYXRSZXNwb25zZT4+ICsgU2VuZCArIFN5bmMgKyAnc3RhdGljOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50bG4hKCJiYXIgezo/fSIsIHgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaW50b19pdGVyKCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoInt9IiwgZyk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50bG4hKCJ7Oj99IiwgYXR0cl9hcmdzKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJ7Oj99IiwgYW5ub3RhdGlvbnMpOwo=</text>
+      <register name="9" type="4">
+        <text encoding="base64">I1thc3luY190cmFpdF0KaW1wbDxBPiBFeGVtcGxhckdycGNTZXJ2aWNlIGZvciBBCndoZXJlCiAgICBBOiBNeUV4YW1wbGVTZXJ2aWNlICsgU2VuZCArIFN5bmMgKyAnc3RhdGljLAp7CiAgICBhc3luYyBmbiBzYXlfaGlfdG9fZXhlbXBsYXIoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcmVxdWVzdDogdG9uaWM6OlJlcXVlc3Q8U2F5SGlUb0V4ZW1wbGFyUmVxdWVzdD4sCiAgICApIC0+IFJlc3VsdDx0b25pYzo6UmVzcG9uc2U8U2F5SGlUb0V4ZW1wbGFyUmVzcG9uc2U+LCB0b25pYzo6U3RhdHVzPiB7CiAgICAgICAgbGV0IG1tOiB0b25pYzo6bWV0YWRhdGE6Ok1ldGFkYXRhTWFwID0gcmVxdWVzdC5tZXRhZGF0YSgpLmNsb25lKCk7CiAgICAgICAgbGV0IHJlcTogU2F5SGlUb0V4ZW1wbGFyUmVxdWVzdCA9IHJlcXVlc3QuaW50b19pbm5lcigpOwogICAgICAgIGxldCByZXM6IFNheUhpVG9FeGVtcGxhclJlc3BvbnNlID0gc2VsZi5zYXlfaGlfdG9fZXhlbXBsYXIocmVxLCBtbSkuYXdhaXQ/OwogICAgICAgIE9rKHRvbmljOjpSZXNwb25zZTo6bmV3KHJlcykpCiAgICB9CiAgICB0eXBlIENoaXRDaGF0U3RyZWFtID0KICAgICAgICBkeW4gU3RyZWFtPEl0ZW0gPSBSZXN1bHQ8U3RhdHVzLCBDaGl0Q2hhdFJlc3BvbnNlPj4gKyBTZW5kICsgU3luYyArICdzdGF0aWM7CiAgICBhc3luYyBmbiBjaGl0X2NoYXQoCiAgICAgICAgJnNlbGYsCiAgICAgICAgcmVxdWVzdDogdG9uaWM6OlJlcXVlc3Q8U3RyZWFtaW5nPENoaXRDaGF0UmVxdWVzdD4+LAogICAgKSAtPiBSZXN1bHQ8dG9uaWM6OlJlc3BvbnNlPEE6OkNoaXRDaGF0UmVzcD4sIHRvbmljOjpTdGF0dXM+IHsKICAgICAgICBsZXQgbW06IHRvbmljOjptZXRhZGF0YTo6TWV0YWRhdGFNYXAgPSByZXF1ZXN0Lm1ldGFkYXRhKCkuY2xvbmUoKTsKICAgICAgICBsZXQgcmVxOiBTdHJlYW1pbmc8Q2hpdENoYXRSZXF1ZXN0PiA9IHJlcXVlc3QuaW50b19pbm5lcigpOwogICAgICAgIGxldCByZXM6IEE6OkNoaXRDaGF0UmVzcCA9IHNlbGYuY2hpdF9jaGF0KHJlcSwgbW0pLmF3YWl0PzsKICAgICAgICBsZXQgcmVzMSA9IHJlcwogICAgICAgICAgICAubWFwKHx4fCB4Lm1hcF9lcnIofF98IFN0YXR1czo6bmV3KENvZGU6OkludmFsaWRBcmd1bWVudCwgIm5hbWUgaXMgaW52YWxpZCIpKSkKICAgICAgICAgICAgLmludG9faW5uZXIoKTsKICAgICAgICBPayh0b25pYzo6UmVzcG9uc2U6Om5ldyhyZXMxKSkKICAgIH0KICAgIGFzeW5jIGZuIHRhbGtfYXRfc2VydmVyKAogICAgICAgICZzZWxmLAogICAgICAgIHJlcXVlc3Q6IHRvbmljOjpSZXF1ZXN0PFN0cmVhbWluZzxDaGl0Q2hhdFJlcXVlc3Q+PiwKICAgICkgLT4gUmVzdWx0PHRvbmljOjpSZXNwb25zZTxDaGl0Q2hhdFJlc3BvbnNlPiwgdG9uaWM6OlN0YXR1cz4gewogICAgICAgIGxldCBtbTogdG9uaWM6Om1ldGFkYXRhOjpNZXRhZGF0YU1hcCA9IHJlcXVlc3QubWV0YWRhdGEoKS5jbG9uZSgpOwogICAgICAgIGxldCByZXE6IFN0cmVhbWluZzxDaGl0Q2hhdFJlcXVlc3Q+ID0gcmVxdWVzdC5pbnRvX2lubmVyKCk7CiAgICAgICAgbGV0IHJlczogQ2hpdENoYXRSZXNwb25zZSA9IHNlbGYudGFsa19hdF9zZXJ2ZXIocmVxLCBtbSkuYXdhaXQ/OwogICAgICAgIE9rKHRvbmljOjpSZXNwb25zZTo6bmV3KHJlcykpCiAgICB9CiAgICB0eXBlIExpc3RlblRvU2VydmVyU3RyZWFtID0KICAgICAgICBkeW4gU3RyZWFtPEl0ZW0gPSBSZXN1bHQ8U3RhdHVzLCBDaGl0Q2hhdFJlc3BvbnNlPj4gKyBTZW5kICsgU3luYyArICdzdGF0aWM7CiAgICBhc3luYyBmbiBsaXN0ZW5fdG9fc2VydmVyKAogICAgICAgICZzZWxmLAogICAgICAgIHJlcXVlc3Q6IHRvbmljOjpSZXF1ZXN0PENoaXRDaGF0UmVxdWVzdD4sCiAgICApIC0+IFJlc3VsdDx0b25pYzo6UmVzcG9uc2U8QTo6TGlzdGVuVG9TZXJ2ZXJSZXNwPiwgdG9uaWM6OlN0YXR1cz4gewogICAgICAgIGxldCBtbTogdG9uaWM6Om1ldGFkYXRhOjpNZXRhZGF0YU1hcCA9IHJlcXVlc3QubWV0YWRhdGEoKS5jbG9uZSgpOwogICAgICAgIGxldCByZXE6IENoaXRDaGF0UmVxdWVzdCA9IHJlcXVlc3QuaW50b19pbm5lcigpOwogICAgICAgIGxldCByZXM6IEE6Okxpc3RlblRvU2VydmVyUmVzcCA9IHNlbGYubGlzdGVuX3RvX3NlcnZlcihyZXEsIG1tKS5hd2FpdD87CiAgICAgICAgbGV0IHJlczEgPSByZXMKICAgICAgICAgICAgLm1hcCh8eHwgeC5tYXBfZXJyKHxffCBTdGF0dXM6Om5ldyhDb2RlOjpJbnZhbGlkQXJndW1lbnQsICJuYW1lIGlzIGludmFsaWQiKSkpCiAgICAgICAgICAgIC5pbnRvX2lubmVyKCk7CiAgICAgICAgT2sodG9uaWM6OlJlc3BvbnNlOjpuZXcocmVzMSkpCiAgICB9Cn0=</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
@@ -372,13 +372,13 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>ret_type</last-search>
+      <last-search>stream_resp</last-search>
       <last-offset />
-      <last-pattern>ret_type</last-pattern>
+      <last-pattern>stream_resp</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
   </component>
   <component name="VimSettings">
