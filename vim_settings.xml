@@ -154,11 +154,11 @@
         <mark key="." line="217" column="17" />
         <mark key="^" line="217" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588626993465">
-        <mark key="[" line="71" column="67" />
-        <mark key="]" line="71" column="68" />
-        <mark key="." line="71" column="67" />
-        <mark key="^" line="71" column="68" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588631346224">
+        <mark key="[" line="70" column="16" />
+        <mark key="]" line="70" column="17" />
+        <mark key="." line="70" column="16" />
+        <mark key="^" line="70" column="17" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/punctuated.rs" timestamp="1587410389720">
         <mark key="'" line="873" column="48" />
@@ -195,7 +195,7 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/request.rs" timestamp="1588619422029">
         <mark key="'" line="127" column="14" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588621740491">
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588631035429">
         <mark key="[" line="153" column="0" />
         <mark key="]" line="153" column="0" />
         <mark key="." line="153" column="0" />
@@ -344,10 +344,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>body</text>
+        <text>req</text>
       </register>
       <register name="-" type="4">
-        <text>body</text>
+        <text>req</text>
       </register>
       <register name="/" type="4">
         <text>Body</text>
