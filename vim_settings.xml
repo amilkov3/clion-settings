@@ -153,11 +153,11 @@
         <mark key="." line="217" column="17" />
         <mark key="^" line="217" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588626753164">
-        <mark key="[" line="67" column="54" />
-        <mark key="]" line="67" column="71" />
-        <mark key="." line="67" column="70" />
-        <mark key="^" line="67" column="71" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588626993465">
+        <mark key="[" line="71" column="67" />
+        <mark key="]" line="71" column="68" />
+        <mark key="." line="71" column="67" />
+        <mark key="^" line="71" column="68" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/punctuated.rs" timestamp="1587410389720">
         <mark key="'" line="873" column="48" />
@@ -185,11 +185,11 @@
         <mark key="^" line="82" column="57" />
         <mark key="." line="82" column="56" />
       </file>
-      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1588290221413">
-        <mark key="[" line="35" column="13" />
-        <mark key="]" line="36" column="13" />
-        <mark key="." line="36" column="12" />
-        <mark key="^" line="36" column="13" />
+      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1588626910592">
+        <mark key="[" line="37" column="5" />
+        <mark key="]" line="37" column="5" />
+        <mark key="." line="37" column="4" />
+        <mark key="^" line="37" column="5" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/request.rs" timestamp="1588619422029">
         <mark key="'" line="127" column="14" />
@@ -344,10 +344,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Q2hpdENoYXRSZXF1ZXN0LCA=</text>
+        <text>body</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Q2hpdENoYXRSZXF1ZXN0LCA=</text>
+        <text>body</text>
       </register>
       <register name="/" type="4">
         <text>Request</text>
