@@ -149,11 +149,11 @@
         <mark key="." line="287" column="0" />
         <mark key="^" line="286" column="12" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588622661994">
-        <mark key="[" line="69" column="18" />
-        <mark key="]" line="69" column="20" />
-        <mark key="." line="69" column="19" />
-        <mark key="^" line="69" column="20" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588622711122">
+        <mark key="[" line="184" column="14" />
+        <mark key="]" line="184" column="13" />
+        <mark key="." line="184" column="12" />
+        <mark key="^" line="184" column="13" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/syn-1.0.14/src/punctuated.rs" timestamp="1587410389720">
         <mark key="'" line="873" column="48" />
@@ -194,9 +194,9 @@
         <mark key="'" line="127" column="14" />
       </file>
       <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588621740491">
-        <mark key="[" line="154" column="0" />
-        <mark key="]" line="154" column="0" />
-        <mark key="." line="154" column="0" />
+        <mark key="[" line="153" column="0" />
+        <mark key="]" line="153" column="0" />
+        <mark key="." line="153" column="0" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs" timestamp="1587414742468">
         <mark key="a" line="116" column="15" />
@@ -342,11 +342,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI3oxCg==</text>
+      <register name="&quot;" type="4">
+        <text>mut</text>
       </register>
       <register name="-" type="4">
-        <text>req</text>
+        <text>mut</text>
       </register>
       <register name="/" type="4">
         <text>Streaming</text>
