@@ -79,7 +79,6 @@
         <entry>StreamExt</entry>
         <entry>Streaming</entry>
         <entry>hyper</entry>
-        <entry>impl Stream</entry>
         <entry>poll_next</entry>
         <entry>StdErr</entry>
         <entry>Error</entry>
@@ -87,6 +86,8 @@
         <entry>From</entry>
         <entry>Stream</entry>
         <entry>let req1</entry>
+        <entry>impl Stream</entry>
+        <entry encoding="base64">aW1wbDxUPiBTdHJlYW0=</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -153,7 +154,7 @@
         <mark key="." line="217" column="17" />
         <mark key="^" line="217" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588692171291">
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588693457795">
         <mark key="'" line="98" column="23" />
         <mark key="[" line="179" column="8" />
         <mark key="]" line="179" column="10" />
@@ -222,8 +223,8 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.4/src/body/body.rs" timestamp="1588640649545">
         <mark key="'" line="475" column="0" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" timestamp="1588645034749">
-        <mark key="'" line="143" column="0" />
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" timestamp="1588694715801">
+        <mark key="'" line="44" column="0" />
         <mark key="[" line="20" column="11" />
         <mark key="]" line="20" column="13" />
         <mark key="^" line="20" column="13" />
@@ -293,15 +294,11 @@
       <jump line="63" column="27" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/server/grpc.rs" />
       <jump line="76" column="30" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
       <jump line="35" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
-      <jump line="44" column="8" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
-      <jump line="90" column="8" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
       <jump line="93" column="22" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
       <jump line="95" column="54" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
       <jump line="116" column="23" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
       <jump line="120" column="22" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
       <jump line="121" column="47" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
-      <jump line="208" column="8" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
-      <jump line="20" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
       <jump line="32" column="29" filename="$USER_HOME$/rust/example/src/server.rs" />
       <jump line="475" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.4/src/body/body.rs" />
       <jump line="83" column="21" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
@@ -344,6 +341,10 @@
       <jump line="99" column="41" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/status.rs" />
       <jump line="143" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
       <jump line="98" column="23" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="20" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
+      <jump line="90" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
+      <jump line="208" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
+      <jump line="44" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -355,7 +356,7 @@
         <text>Decoder</text>
       </register>
       <register name="/" type="4">
-        <text>let req1</text>
+        <text encoding="base64">aW1wbDxUPiBTdHJlYW0=</text>
       </register>
       <register name="0" type="4">
         <text>let mut y = ProstCodec::default();</text>
@@ -395,9 +396,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>let req1</last-search>
+      <last-search encoding="base64">aW1wbDxUPiBTdHJlYW0=</last-search>
       <last-offset />
-      <last-pattern>let req1</last-pattern>
+      <last-pattern encoding="base64">aW1wbDxUPiBTdHJlYW0=</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
