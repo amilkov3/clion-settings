@@ -86,6 +86,7 @@
         <entry>Into</entry>
         <entry>From</entry>
         <entry>Stream</entry>
+        <entry>let req1</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -152,12 +153,12 @@
         <mark key="." line="217" column="17" />
         <mark key="^" line="217" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588648544208">
-        <mark key="'" line="33" column="29" />
-        <mark key="[" line="179" column="23" />
-        <mark key="]" line="179" column="32" />
-        <mark key="." line="179" column="31" />
-        <mark key="^" line="179" column="32" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588692171291">
+        <mark key="'" line="98" column="23" />
+        <mark key="[" line="179" column="8" />
+        <mark key="]" line="179" column="10" />
+        <mark key="." line="179" column="9" />
+        <mark key="^" line="179" column="10" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/status.rs" timestamp="1588643903522">
         <mark key="'" line="99" column="41" />
@@ -243,7 +244,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1799" column="2" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/header/map.rs" />
       <jump line="1802" column="25" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/header/map.rs" />
       <jump line="1815" column="47" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/header/map.rs" />
       <jump line="1817" column="18" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/header/map.rs" />
@@ -343,18 +343,19 @@
       <jump line="309" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/status.rs" />
       <jump line="99" column="41" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/status.rs" />
       <jump line="143" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" />
+      <jump line="98" column="23" filename="$USER_HOME$/rust/example/src/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>message()</text>
+        <text>Decoder</text>
       </register>
       <register name="-" type="4">
-        <text>message()</text>
+        <text>Decoder</text>
       </register>
       <register name="/" type="4">
-        <text>Stream</text>
+        <text>let req1</text>
       </register>
       <register name="0" type="4">
         <text>let mut y = ProstCodec::default();</text>
@@ -394,9 +395,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Stream</last-search>
+      <last-search>let req1</last-search>
       <last-offset />
-      <last-pattern>Stream</last-pattern>
+      <last-pattern>let req1</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
