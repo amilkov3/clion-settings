@@ -152,12 +152,12 @@
         <mark key="." line="217" column="17" />
         <mark key="^" line="217" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588645239213">
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1588648544208">
         <mark key="'" line="33" column="29" />
-        <mark key="[" line="96" column="15" />
-        <mark key="]" line="96" column="16" />
-        <mark key="." line="96" column="15" />
-        <mark key="^" line="96" column="16" />
+        <mark key="[" line="179" column="23" />
+        <mark key="]" line="179" column="32" />
+        <mark key="." line="179" column="31" />
+        <mark key="^" line="179" column="32" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/status.rs" timestamp="1588643903522">
         <mark key="'" line="99" column="41" />
@@ -347,11 +347,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgeCA9IFN0cmVhbWluZzo6PFQ+OjpuZXdfcmVxdWVzdChQcm9zdENvZGVjOjpkZWZhdWx0KCksICkK</text>
+      <register name="&quot;" type="4">
+        <text>message()</text>
       </register>
       <register name="-" type="4">
-        <text>from</text>
+        <text>message()</text>
       </register>
       <register name="/" type="4">
         <text>Stream</text>
