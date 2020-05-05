@@ -180,7 +180,7 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/request.rs" timestamp="1588619422029">
         <mark key="'" line="127" column="14" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588700152747">
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588700216436">
         <mark key="[" line="196" column="87" />
         <mark key="]" line="196" column="84" />
         <mark key="." line="196" column="83" />
