@@ -178,11 +178,11 @@
         <mark key="." line="110" column="19" />
         <mark key="^" line="110" column="20" />
       </file>
-      <file name="$USER_HOME$/rust/service/example/build.rs" timestamp="1588737787766">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="^" line="2" column="24" />
-        <mark key="." line="3" column="0" />
+      <file name="$USER_HOME$/rust/service/example/build.rs" timestamp="1588737972363">
+        <mark key="[" line="19" column="43" />
+        <mark key="]" line="19" column="52" />
+        <mark key="^" line="19" column="52" />
+        <mark key="." line="19" column="51" />
       </file>
       <file name="$USER_HOME$/rust/service/example/Cargo.toml" timestamp="1588737529760">
         <mark key="[" line="32" column="20" />
@@ -208,7 +208,7 @@
       <file name="$USER_HOME$/rust/service/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588736668614">
         <mark key="'" line="158" column="33" />
       </file>
-      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1588737858178">
+      <file name="$USER_HOME$/rust/service/example/src/server.rs" timestamp="1588737884216">
         <mark key="'" line="20" column="10" />
         <mark key="[" line="20" column="0" />
         <mark key="]" line="20" column="0" />
@@ -232,8 +232,11 @@
         <mark key="." line="385" column="20" />
         <mark key="^" line="441" column="89" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-body-0.3.1/src/lib.rs" timestamp="1588626634632">
-        <mark key="'" line="30" column="10" />
+      <file name="$USER_HOME$/rust/service/example/src/config.rs" timestamp="1588737930780">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="2" />
+        <mark key="^" line="0" column="2" />
+        <mark key="." line="0" column="1" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.4/src/body/body.rs" timestamp="1588640649545">
         <mark key="'" line="475" column="0" />
