@@ -7,12 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">Ym94IA==</entry>
-        <entry>from</entry>
-        <entry>meatada_decls</entry>
-        <entry>println</entry>
-        <entry>async</entry>
-        <entry>path</entry>
         <entry>struct TraitItem</entry>
         <entry>Future</entry>
         <entry>self_ty</entry>
@@ -70,7 +64,6 @@
         <entry>decoder</entry>
         <entry>ddefault</entry>
         <entry>Header</entry>
-        <entry>Request</entry>
         <entry encoding="base64">U3RyZWFtPA==</entry>
         <entry>Stream\</entry>
         <entry encoding="base64">U3RyZWFtXDw=</entry>
@@ -107,6 +100,13 @@
         <entry>allow_users</entry>
         <entry>TryFrom</entry>
         <entry>macros::service</entry>
+        <entry>Request</entry>
+        <entry>Media-Type</entry>
+        <entry>header</entry>
+        <entry>Media</entry>
+        <entry>media</entry>
+        <entry>Content-Type</entry>
+        <entry>content</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -220,17 +220,21 @@
         <mark key="^" line="20" column="13" />
         <mark key="." line="20" column="12" />
       </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/request.rs" timestamp="1588779175275">
+        <mark key="'" line="552" column="46" />
+      </file>
       <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1588739479189">
         <mark key="[" line="20" column="77" />
         <mark key="]" line="20" column="77" />
         <mark key="." line="20" column="77" />
         <mark key="^" line="20" column="73" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588713093300">
-        <mark key="[" line="196" column="87" />
-        <mark key="]" line="196" column="84" />
-        <mark key="." line="196" column="83" />
-        <mark key="^" line="196" column="84" />
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588779228703">
+        <mark key="'" line="27" column="18" />
+        <mark key="[" line="212" column="32" />
+        <mark key="]" line="212" column="59" />
+        <mark key="." line="212" column="58" />
+        <mark key="^" line="212" column="59" />
       </file>
       <file name="$USER_HOME$/rust/service/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588736668614">
         <mark key="'" line="158" column="33" />
@@ -267,9 +271,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="113" column="36" filename="$USER_HOME$/rust/service/example/src/proto/squareup.exemplargrpc.service.rs" />
-      <jump line="18" column="32" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="46" column="25" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="112" column="18" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="224" column="16" filename="$USER_HOME$/rust/tonic/tonic-build/src/server.rs" />
       <jump line="30" column="12" filename="$USER_HOME$/rust/service/example/src/proto/squareup.exemplargrpc.service.rs" />
@@ -367,18 +368,21 @@
       <jump line="26" column="8" filename="$USER_HOME$/rust/service/src/acls.rs" />
       <jump line="168" column="21" filename="$USER_HOME$/rust/service/src/acls.rs" />
       <jump line="21" column="10" filename="$USER_HOME$/rust/service/example/src/server.rs" />
+      <jump line="27" column="18" filename="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" />
+      <jump line="475" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/request.rs" />
+      <jump line="552" column="46" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/request.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsZXQgeCA9IHJlcS51Cg==</text>
+      <register name="&quot;" type="4">
+        <text>method()</text>
       </register>
       <register name="-" type="4">
-        <text>../.git/modules/sq-tonic/tonic/</text>
+        <text>method()</text>
       </register>
       <register name="/" type="4">
-        <text>media</text>
+        <text>content</text>
       </register>
       <register name="0" type="4">
         <text>metadata: MetadataMap,</text>
@@ -417,13 +421,13 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>media</last-search>
+      <last-search>content</last-search>
       <last-offset />
-      <last-pattern>media</last-pattern>
+      <last-pattern>content</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
   </component>
   <component name="VimSettings">
