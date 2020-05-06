@@ -193,11 +193,11 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/status.rs" timestamp="1588643903522">
         <mark key="'" line="99" column="41" />
       </file>
-      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1588713188519">
-        <mark key="[" line="32" column="20" />
-        <mark key="]" line="32" column="25" />
-        <mark key="." line="32" column="24" />
-        <mark key="^" line="32" column="25" />
+      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1588739479189">
+        <mark key="[" line="20" column="77" />
+        <mark key="]" line="20" column="77" />
+        <mark key="." line="20" column="77" />
+        <mark key="^" line="20" column="73" />
       </file>
       <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588713093300">
         <mark key="[" line="196" column="87" />
@@ -215,11 +215,11 @@
         <mark key="^" line="60" column="12" />
         <mark key="." line="20" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1588713864097">
-        <mark key="[" line="7" column="12" />
-        <mark key="]" line="7" column="11" />
-        <mark key="." line="7" column="10" />
-        <mark key="^" line="7" column="11" />
+      <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1588739023036">
+        <mark key="[" line="20" column="20" />
+        <mark key="]" line="20" column="24" />
+        <mark key="." line="20" column="23" />
+        <mark key="^" line="20" column="24" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.2.2/src/filters/body.rs" timestamp="1588640713459">
         <mark key="[" line="77" column="28" />
@@ -372,11 +372,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">dXNlIG1hY3Jvczo6c2VydmljZTsK</text>
+      <register name="&quot;" type="4">
+        <text>../.git/modules/sq-tonic/tonic/</text>
       </register>
       <register name="-" type="4">
-        <text>, BufRead, BufReader, SeekFrom};</text>
+        <text>../.git/modules/sq-tonic/tonic/</text>
       </register>
       <register name="/" type="4">
         <text>macros::service</text>
