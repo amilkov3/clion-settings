@@ -166,11 +166,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/rust/example/build.rs" timestamp="1588781305360">
-        <mark key="[" line="10" column="4" />
-        <mark key="]" line="10" column="6" />
-        <mark key="^" line="10" column="6" />
-        <mark key="." line="10" column="5" />
+      <file name="$USER_HOME$/rust/example/build.rs" timestamp="1588782062332">
+        <mark key="[" line="7" column="66" />
+        <mark key="]" line="7" column="69" />
+        <mark key="^" line="7" column="69" />
+        <mark key="." line="7" column="68" />
       </file>
       <file name="$USER_HOME$/rust/service/Cargo.toml" timestamp="1588737589747">
         <mark key="[" line="2" column="0" />
@@ -236,11 +236,10 @@
         <mark key="^" line="20" column="0" />
       </file>
       <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588780539942">
-        <mark key="'" line="27" column="18" />
-        <mark key="[" line="212" column="20" />
-        <mark key="]" line="212" column="22" />
-        <mark key="." line="212" column="21" />
-        <mark key="^" line="212" column="22" />
+        <mark key="[" line="0" column="20" />
+        <mark key="]" line="0" column="22" />
+        <mark key="." line="0" column="21" />
+        <mark key="^" line="0" column="22" />
       </file>
       <file name="$USER_HOME$/rust/service/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588736668614">
         <mark key="'" line="158" column="33" />
@@ -382,16 +381,16 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>&quot;proto/service.proto&quot;</text>
+        <text>serde::Serialize</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Y29tcGlsZV9wcm90b3MocHJvdG86IGltcGwgQXNSZWY8UGF0aD4pIC0+IGlvOjpSZXN1bHQ8KCk+IHs=</text>
+        <text>//</text>
       </register>
       <register name="/" type="4">
         <text>Config::</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;proto/service.proto&quot;</text>
+        <text>serde::Serialize</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">I21hY3JvcyA9IHtwYXRoID0gIi4uL21hY3JvcyJ9Cg==</text>
