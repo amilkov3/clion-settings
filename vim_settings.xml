@@ -191,11 +191,10 @@
         <mark key="." line="55" column="9" />
         <mark key="^" line="55" column="10" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/build.rs" timestamp="1588808746324">
-        <mark key="[" line="14" column="33" />
-        <mark key="]" line="14" column="40" />
-        <mark key="." line="14" column="39" />
-        <mark key="^" line="14" column="40" />
+      <file name="$USER_HOME$/tonic1/examples/build.rs" timestamp="1588827448481">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic-health/src/lib.rs" timestamp="1588807924124">
         <mark key="[" line="7" column="0" />
@@ -224,7 +223,7 @@
         <mark key="." line="20" column="23" />
         <mark key="^" line="20" column="24" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/prost.rs" timestamp="1588826583967">
+      <file name="$USER_HOME$/tonic1/tonic-build/src/prost.rs" timestamp="1588827403603">
         <mark key="'" line="9" column="10" />
         <mark key="[" line="136" column="78" />
         <mark key="]" line="136" column="78" />
@@ -370,7 +369,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmNvbXBpbGUK</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">ZWl0aGVyOjpFaXRoZXI8QSwgQj47</text>
@@ -382,33 +381,33 @@
         <text encoding="base64">ZWl0aGVyOjpFaXRoZXI8QSwgQj47</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLmNvbXBpbGUK</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">CnN0cnVjdCBGb288QT4oQSk7CgppbXBsIDxBOiBDb2RlYywgQjogQ29kZWM+Q29kZWMgZm9yIGVpdGhlcjo6RWl0aGVyPEEsIEI+IHsKICAgIHR5cGUgRW5jb2RlID0gQTo6RW5jb2RlOwogICAgdHlwZSBEZWNvZGUgPSBBOjpEZWNvZGU7CiAgICB0eXBlIEVuY29kZXIgPSBlaXRoZXI6OkVpdGhlcjxBLCBCPjsKICAgIHR5cGUgRGVjb2RlciA9IGVpdGhlcjo6RWl0aGVyPEEsIEI+OwoKICAgIGZuIGVuY29kZXIoJm11dCBzZWxmKSAtPiBTZWxmOjpFbmNvZGVyIHsKICAgICAgICBtYXRjaCBzZWxmIHsKICAgICAgICAgICAgZWl0aGVyOjpMZWZ0KGwpID0+IGwsCiAgICAgICAgICAgIGVpdGhlcjo6UmlnaHQocikgPT4gcgogICAgICAgIH0KICAgIH0KCiAgICBmbiBkZWNvZGVyKCZtdXQgc2VsZikgLT4gU2VsZjo6RGVjb2RlciB7CiAgICAgICAgdW5pbXBsZW1lbnRlZCEoKQogICAgfQp9</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">c3RydWN0IEZvbzw+Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>enum Foo{
 
 }</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICB1bmltcGxlbWVudGVkISgpCg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">dXNlIGVpdGhlcjo6Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ZXh0ZXJuIGNyYXRlIGVpdGhlcjsK</text>
+        <text encoding="base64">dXNlIGVpdGhlcjo6Cg==</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
