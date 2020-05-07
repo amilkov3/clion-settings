@@ -166,6 +166,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/tonic1/tonic/src/codec/decode.rs" timestamp="1588877132084" />
       <file name="$USER_HOME$/tonic1/tonic-health/Cargo.toml" timestamp="1588872434337">
         <mark key="[" line="23" column="0" />
         <mark key="]" line="23" column="48" />
@@ -220,18 +221,15 @@
         <mark key="^" line="9" column="16" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/target/debug/build/examples-592fcdc81e0554ec/out/helloworld.rs" timestamp="1588808856750">
-        <mark key="'" line="99" column="26" />
-      </file>
       <file name="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" timestamp="1588832537562" />
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/either-1.5.3/src/lib.rs" timestamp="1588834307540">
         <mark key="'" line="769" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1588874848152">
-        <mark key="[" line="78" column="0" />
-        <mark key="]" line="78" column="0" />
-        <mark key="." line="78" column="0" />
-        <mark key="^" line="78" column="42" />
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1588877366681">
+        <mark key="[" line="76" column="66" />
+        <mark key="]" line="76" column="70" />
+        <mark key="." line="76" column="69" />
+        <mark key="^" line="76" column="70" />
       </file>
       <file name="$USER_HOME$/tonic1/examples/Cargo.toml" timestamp="1588812323472">
         <mark key="'" line="20" column="6" />
@@ -363,44 +361,49 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      <register name="&quot;" type="4">
+        <text>Right</text>
       </register>
       <register name="-" type="4">
-        <text>helloworld</text>
+        <text>Right</text>
       </register>
       <register name="/" type="4">
         <text>Serde</text>
       </register>
       <register name="0" type="4">
-        <text>serde = {version = &quot;1.0&quot;, features = [&quot;derive&quot;]}</text>
+        <text>Either::Right(
+                            tonic
+                                .call(req)
+                                .map_ok(|res| res.map(EitherBody::Right))
+                                .map_err(Error::from),
+                        )</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICApLAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoImhlbGxvIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgRWl0aGVyOjpSaWdodCgK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI2pzb25fY2FzZV9ibG9jawo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIC8vaGVsbG93b3JsZC5HcmVldGVyL1NheUhlbGxvMQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoImhlbGxvIik7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgI2pzb25fY2FzZV9ibG9jawo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vaGVsbG93b3JsZC5HcmVldGVyL1NheUhlbGxvMQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">c3RydWN0IEZvbzxBPihBKTsKICAgIGZuIGZvbyhyZXE6IGh5cGVyOjpSZXF1ZXN0PGh5cGVyOjpCb2R5PikgLT4gRm9vPGltcGwgdG9uaWM6OmNvZGVjOjpDb2RlYz4gewogICAgICAgIGlmIHJlcS5oZWFkZXJzKCkuZ2V0KCJDb250ZW50LVR5cGUiKS51bndyYXAoKS50b19zdHIoKS51bndyYXAoKSA9PSAiYXBwbGljYXRpb24vanNvbiIgewogICAgICAgICAgICBGb28odG9uaWM6OmNvZGVjOjpTZXJkZUNvZGVjOjo8XywgU3RyaW5nPjo6ZGVmYXVsdCgpKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIEZvbyh0b25pYzo6Y29kZWM6OlByb3N0Q29kZWM6OjxfLCBTdHJpbmc+OjpkZWZhdWx0KCkpCiAgICAgICAgfQogICAgfQ==</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
