@@ -205,11 +205,11 @@
       <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1588812826598">
         <mark key="'" line="313" column="38" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1588812860647">
-        <mark key="[" line="82" column="76" />
-        <mark key="]" line="82" column="78" />
-        <mark key="." line="82" column="77" />
-        <mark key="^" line="82" column="78" />
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1588825215705">
+        <mark key="[" line="80" column="87" />
+        <mark key="]" line="80" column="87" />
+        <mark key="." line="80" column="86" />
+        <mark key="^" line="80" column="87" />
       </file>
       <file name="$USER_HOME$/tonic1/examples/Cargo.toml" timestamp="1588812323472">
         <mark key="'" line="20" column="6" />
@@ -244,11 +244,11 @@
         <mark key="^" line="7" column="69" />
         <mark key="." line="7" column="68" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/codec/mod.rs" timestamp="1588814383661">
+      <file name="$USER_HOME$/tonic1/tonic/src/codec/mod.rs" timestamp="1588825152917">
         <mark key="'" line="72" column="1" />
-        <mark key="[" line="71" column="15" />
-        <mark key="]" line="71" column="15" />
-        <mark key="." line="71" column="14" />
+        <mark key="[" line="70" column="0" />
+        <mark key="]" line="70" column="0" />
+        <mark key="." line="70" column="0" />
         <mark key="^" line="71" column="15" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.52/src/de.rs" timestamp="1588804747330">
@@ -384,31 +384,31 @@
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text encoding="base64">CnN0cnVjdCBGb288QT4oQSk7CgppbXBsIDxBOiBDb2RlYywgQjogQ29kZWM+Q29kZWMgZm9yIGVpdGhlcjo6RWl0aGVyPEEsIEI+IHsKICAgIHR5cGUgRW5jb2RlID0gQTo6RW5jb2RlOwogICAgdHlwZSBEZWNvZGUgPSBBOjpEZWNvZGU7CiAgICB0eXBlIEVuY29kZXIgPSBlaXRoZXI6OkVpdGhlcjxBLCBCPjsKICAgIHR5cGUgRGVjb2RlciA9IGVpdGhlcjo6RWl0aGVyPEEsIEI+OwoKICAgIGZuIGVuY29kZXIoJm11dCBzZWxmKSAtPiBTZWxmOjpFbmNvZGVyIHsKICAgICAgICBtYXRjaCBzZWxmIHsKICAgICAgICAgICAgZWl0aGVyOjpMZWZ0KGwpID0+IGwsCiAgICAgICAgICAgIGVpdGhlcjo6UmlnaHQocikgPT4gcgogICAgICAgIH0KICAgIH0KCiAgICBmbiBkZWNvZGVyKCZtdXQgc2VsZikgLT4gU2VsZjo6RGVjb2RlciB7CiAgICAgICAgdW5pbXBsZW1lbnRlZCEoKQogICAgfQp9</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">c3RydWN0IEZvbzw+Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>enum Foo{
 
 }</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICB1bmltcGxlbWVudGVkISgpCg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">dXNlIGVpdGhlcjo6Cg==</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">ZXh0ZXJuIGNyYXRlIGVpdGhlcjsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">dXNlIGVpdGhlcjo6Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB2ZXJzaW9uCg==</text>
+        <text encoding="base64">ZXh0ZXJuIGNyYXRlIGVpdGhlcjsK</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
