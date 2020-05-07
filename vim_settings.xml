@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>A</entry>
-        <entry>ret_type</entry>
         <entry>sig.output</entry>
         <entry>chain</entry>
         <entry>stream_resp</entry>
@@ -61,7 +59,6 @@
         <entry>method_ident</entry>
         <entry>mm</entry>
         <entry>let mm</entry>
-        <entry>Streaming</entry>
         <entry>methods</entry>
         <entry>Response</entry>
         <entry>use</entry>
@@ -95,7 +92,6 @@
         <entry>codec =</entry>
         <entry>headers()</entry>
         <entry>let codec =</entry>
-        <entry>client_streaming</entry>
         <entry>tonic_build::compile</entry>
         <entry>compile</entry>
         <entry>compile_protos</entry>
@@ -107,6 +103,10 @@
         <entry>impl</entry>
         <entry>get</entry>
         <entry>Serde</entry>
+        <entry>client_streaming</entry>
+        <entry>unary</entry>
+        <entry encoding="base64">dW5hcnk8</entry>
+        <entry>Streaming</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -221,15 +221,18 @@
         <mark key="^" line="9" column="16" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" timestamp="1588832537562" />
+      <file name="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" timestamp="1588878498173">
+        <mark key="'" line="162" column="37" />
+      </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/either-1.5.3/src/lib.rs" timestamp="1588834307540">
         <mark key="'" line="769" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1588877366681">
-        <mark key="[" line="76" column="66" />
-        <mark key="]" line="76" column="70" />
-        <mark key="." line="76" column="69" />
-        <mark key="^" line="76" column="70" />
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1588878953357">
+        <mark key="'" line="88" column="39" />
+        <mark key="[" line="48" column="47" />
+        <mark key="]" line="49" column="28" />
+        <mark key="." line="49" column="27" />
+        <mark key="^" line="49" column="28" />
       </file>
       <file name="$USER_HOME$/tonic1/examples/Cargo.toml" timestamp="1588812323472">
         <mark key="'" line="20" column="6" />
@@ -257,14 +260,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="440" column="16" filename="$USER_HOME$/rust/tonic/tonic-build/src/server.rs" />
-      <jump line="448" column="8" filename="$USER_HOME$/rust/tonic/tonic-build/src/server.rs" />
-      <jump line="277" column="16" filename="$USER_HOME$/rust/tonic/tonic-build/src/server.rs" />
-      <jump line="285" column="8" filename="$USER_HOME$/rust/tonic/tonic-build/src/server.rs" />
-      <jump line="150" column="2" filename="$USER_HOME$/rust/service/example/src/server.rs" />
-      <jump line="18" column="0" filename="$USER_HOME$/rust/service/src/acls.rs" />
-      <jump line="56" column="40" filename="$USER_HOME$/rust/service/src/acls.rs" />
-      <jump line="26" column="8" filename="$USER_HOME$/rust/service/src/acls.rs" />
       <jump line="168" column="21" filename="$USER_HOME$/rust/service/src/acls.rs" />
       <jump line="21" column="10" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="27" column="18" filename="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" />
@@ -357,18 +352,26 @@
       <jump line="885" column="58" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/header/map.rs" />
       <jump line="71" column="3" filename="$USER_HOME$/tonic1/tonic/src/codec/mod.rs" />
       <jump line="69" column="40" filename="$USER_HOME$/tonic1/target/debug/build/examples-849e1a6b26902cd8/out/helloworld.rs" />
+      <jump line="145" column="43" filename="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" />
+      <jump line="126" column="43" filename="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" />
+      <jump line="153" column="25" filename="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" />
+      <jump line="25" column="12" filename="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" />
+      <jump line="58" column="24" filename="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" />
+      <jump line="59" column="17" filename="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" />
+      <jump line="162" column="37" filename="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" />
+      <jump line="88" column="39" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>Right</text>
+        <text>blah</text>
       </register>
       <register name="-" type="4">
-        <text>Right</text>
+        <text>blah</text>
       </register>
       <register name="/" type="4">
-        <text>Serde</text>
+        <text>Streaming</text>
       </register>
       <register name="0" type="4">
         <text>Either::Right(
@@ -412,9 +415,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Serde</last-search>
+      <last-search>Streaming</last-search>
       <last-offset />
-      <last-pattern>Serde</last-pattern>
+      <last-pattern>Streaming</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
