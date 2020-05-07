@@ -227,12 +227,12 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/either-1.5.3/src/lib.rs" timestamp="1588834307540">
         <mark key="'" line="769" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1588878953357">
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1588883260306">
         <mark key="'" line="88" column="39" />
-        <mark key="[" line="48" column="47" />
-        <mark key="]" line="49" column="28" />
-        <mark key="." line="49" column="27" />
-        <mark key="^" line="49" column="28" />
+        <mark key="[" line="65" column="61" />
+        <mark key="]" line="65" column="68" />
+        <mark key="." line="65" column="67" />
+        <mark key="^" line="65" column="68" />
       </file>
       <file name="$USER_HOME$/tonic1/examples/Cargo.toml" timestamp="1588812323472">
         <mark key="'" line="20" column="6" />
@@ -365,10 +365,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>blah</text>
+        <text>stream</text>
       </register>
       <register name="-" type="4">
-        <text>blah</text>
+        <text>stream</text>
       </register>
       <register name="/" type="4">
         <text>Streaming</text>
@@ -382,31 +382,31 @@
                         )</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICApLAo=</text>
+        <text encoding="base64">ICAgICAgICByZXF1ZXN0LmludG9faW5uZXIoKQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgRWl0aGVyOjpSaWdodCgK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICApLAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgRWl0aGVyOjpSaWdodCgK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoImhlbGxvIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI2pzb25fY2FzZV9ibG9jawo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoImhlbGxvIik7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIC8vaGVsbG93b3JsZC5HcmVldGVyL1NheUhlbGxvMQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgI2pzb25fY2FzZV9ibG9jawo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vaGVsbG93b3JsZC5HcmVldGVyL1NheUhlbGxvMQo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
