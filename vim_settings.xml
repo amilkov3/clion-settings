@@ -173,13 +173,6 @@
         <mark key="^" line="23" column="0" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/codec/serde.rs" timestamp="1588811340882">
-        <mark key="'" line="36" column="32" />
-        <mark key="[" line="55" column="8" />
-        <mark key="]" line="55" column="10" />
-        <mark key="." line="55" column="9" />
-        <mark key="^" line="55" column="10" />
-      </file>
       <file name="$USER_HOME$/tonic1/examples/build.rs" timestamp="1588872281672">
         <mark key="[" line="1" column="8" />
         <mark key="]" line="16" column="13" />
@@ -202,6 +195,13 @@
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/header/map.rs" timestamp="1588834803720">
         <mark key="'" line="885" column="58" />
+      </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" timestamp="1588883752661">
+        <mark key="'" line="44" column="0" />
+        <mark key="[" line="184" column="58" />
+        <mark key="]" line="184" column="58" />
+        <mark key="^" line="184" column="58" />
+        <mark key="." line="184" column="57" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic-build/src/lib.rs" timestamp="1588831120023">
         <mark key="[" line="135" column="0" />
