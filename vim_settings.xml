@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>sig.output</entry>
-        <entry>chain</entry>
-        <entry>stream_resp</entry>
         <entry>cannot find</entry>
         <entry>input</entry>
         <entry>input1</entry>
@@ -107,6 +104,9 @@
         <entry>unary</entry>
         <entry encoding="base64">dW5hcnk8</entry>
         <entry>Streaming</entry>
+        <entry>bytes</entry>
+        <entry>let mut</entry>
+        <entry>.get</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -172,11 +172,11 @@
         <mark key="^" line="9" column="16" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/codec/decode.rs" timestamp="1590171631073">
-        <mark key="[" line="83" column="58" />
-        <mark key="]" line="164" column="15" />
-        <mark key="^" line="164" column="15" />
-        <mark key="." line="164" column="14" />
+      <file name="$USER_HOME$/tonic1/tonic/src/codec/decode.rs" timestamp="1590172404846">
+        <mark key="[" line="51" column="65" />
+        <mark key="]" line="51" column="84" />
+        <mark key="^" line="51" column="84" />
+        <mark key="." line="51" column="83" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic-health/Cargo.toml" timestamp="1588872434337">
         <mark key="[" line="23" column="0" />
@@ -192,6 +192,10 @@
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/header/map.rs" timestamp="1588834803720">
         <mark key="'" line="885" column="58" />
+      </file>
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1590172594026">
+        <mark key="[" line="88" column="4" />
+        <mark key="]" line="88" column="29" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" timestamp="1588878498173">
         <mark key="'" line="162" column="37" />
@@ -239,12 +243,12 @@
       <file name="/LLDB" timestamp="1588873224702">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590171415210">
-        <mark key="'" line="109" column="1" />
-        <mark key="[" line="154" column="1" />
-        <mark key="]" line="154" column="3" />
-        <mark key="." line="154" column="2" />
-        <mark key="^" line="154" column="3" />
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590172851245">
+        <mark key="'" line="91" column="32" />
+        <mark key="[" line="157" column="1" />
+        <mark key="]" line="157" column="1" />
+        <mark key="." line="157" column="1" />
+        <mark key="^" line="94" column="34" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/Cargo.toml" timestamp="1588872428040">
         <mark key="[" line="62" column="0" />
@@ -255,23 +259,15 @@
       <file name="$USER_HOME$/tonic1/target/debug/build/examples-849e1a6b26902cd8/out/helloworld.rs" timestamp="1588872826014">
         <mark key="'" line="69" column="40" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/Cargo.toml" timestamp="1588812323472">
+      <file name="$USER_HOME$/tonic1/examples/Cargo.toml" timestamp="1590172497861">
         <mark key="'" line="20" column="6" />
-        <mark key="[" line="138" column="16" />
-        <mark key="]" line="139" column="16" />
-        <mark key="^" line="139" column="16" />
-        <mark key="." line="139" column="15" />
-      </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/prost.rs" timestamp="1588829010238">
-        <mark key="'" line="186" column="19" />
-        <mark key="[" line="121" column="5" />
-        <mark key="]" line="121" column="7" />
-        <mark key="^" line="121" column="7" />
-        <mark key="." line="121" column="6" />
+        <mark key="[" line="140" column="9" />
+        <mark key="]" line="140" column="10" />
+        <mark key="^" line="140" column="10" />
+        <mark key="." line="140" column="9" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="21" column="10" filename="$USER_HOME$/rust/service/example/src/server.rs" />
       <jump line="27" column="18" filename="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" />
       <jump line="475" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/request.rs" />
       <jump line="552" column="46" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/request.rs" />
@@ -371,51 +367,52 @@
       <jump line="162" column="37" filename="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" />
       <jump line="88" column="39" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
       <jump line="109" column="1" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="91" column="32" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">cHViKGNyYXRlKSBmbiBuZXdfd2l0aF9zdGF0ZTxCLCBEPg==</text>
+        <text>*/</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">cHViKGNyYXRlKSBmbiBuZXdfd2l0aF9zdGF0ZTxCLCBEPg==</text>
+        <text>*/</text>
       </register>
       <register name="/" type="4">
-        <text>Streaming</text>
+        <text>let mut</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHViKGNyYXRlKSBmbiBuZXdfZW1wdHk8QiwgRD4oZGVjb2RlcjogRCwgYm9keTogQikgLT4gU2VsZgogICAgd2hlcmUKICAgICAgICBCOiBCb2R5ICsgU2VuZCArIFN5bmMgKyAnc3RhdGljLAogICAgICAgIEI6OkVycm9yOiBJbnRvPGNyYXRlOjpFcnJvcj4sCiAgICAgICAgRDogRGVjb2RlcjxJdGVtID0gVCwgRXJyb3IgPSBTdGF0dXM+ICsgU2VuZCArIFN5bmMgKyAnc3RhdGljLAogICAgewogICAgICAgIFNlbGY6Om5ldyhkZWNvZGVyLCBib2R5LCBEaXJlY3Rpb246OkVtcHR5UmVzcG9uc2UpCiAgICB9CiAgICA=</text>
+        <text>warp::reply::html(&quot;hello&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">dXNlIGJ5dGVzCg==</text>
+        <text encoding="base64">LyoK</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">dXNlIGJ5dGVzCg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYmltCg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>tonic
                                 .call(req)
                                 .map_ok(|res| res.map(EitherBody::Left))
                                 .map_err(Error::from)</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICByZXF1ZXN0LmludG9faW5uZXIoKQo=</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICApLAo=</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgRWl0aGVyOjpSaWdodCgK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbiEoImhlbGxvIik7Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI2pzb25fY2FzZV9ibG9jawo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
@@ -424,13 +421,13 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Streaming</last-search>
+      <last-search>let mut</last-search>
       <last-offset />
-      <last-pattern>Streaming</last-pattern>
+      <last-pattern>let mut</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
   </component>
   <component name="VimSettings">
