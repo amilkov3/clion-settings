@@ -246,12 +246,12 @@
       <file name="/LLDB" timestamp="1588873224702">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590174457186">
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590241236087">
         <mark key="'" line="160" column="28" />
-        <mark key="[" line="124" column="37" />
-        <mark key="]" line="124" column="38" />
-        <mark key="." line="124" column="37" />
-        <mark key="^" line="124" column="38" />
+        <mark key="[" line="80" column="46" />
+        <mark key="]" line="80" column="46" />
+        <mark key="." line="80" column="45" />
+        <mark key="^" line="80" column="46" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/Cargo.toml" timestamp="1588872428040">
         <mark key="[" line="62" column="0" />
@@ -375,8 +375,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>data</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi4wLnNwbGl0X3RvCg==</text>
       </register>
       <register name="-" type="4">
         <text>data</text>
@@ -388,31 +388,31 @@
         <text>Poll::Ready(Ok(None))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB1bmltcGxlbWVudGVkISgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi4wLnNwbGl0X3RvCg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">ICAgICAgICB1bmltcGxlbWVudGVkISgpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzdHJlYW0uCg==</text>
+        <text encoding="base64">ICAgICAgICB1bmltcGxlbWVudGVkISgpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB9OwogICAgICAgIHdhcnA6OnJlcGx5OjpodG1sKCJoZWxsbyIpCg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBzdHJlYW0uCg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICB9OwogICAgICAgIHdhcnA6OnJlcGx5OjpodG1sKCJoZWxsbyIpCg==</text>
+      </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBzdHJlYW0uCg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">CiA=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgeCA9IGdyZWV0ZXIucwo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0b25pYwo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgeCA9IGdyZWV0ZXIucwo=</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
