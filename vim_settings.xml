@@ -206,12 +206,12 @@
       <file name="/LLDB" timestamp="1588873224702">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590346227702">
-        <mark key="'" line="165" column="37" />
-        <mark key="[" line="118" column="50" />
-        <mark key="]" line="118" column="66" />
-        <mark key="^" line="118" column="66" />
-        <mark key="." line="118" column="65" />
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590356872709">
+        <mark key="'" line="214" column="37" />
+        <mark key="[" line="178" column="12" />
+        <mark key="]" line="178" column="14" />
+        <mark key="." line="178" column="13" />
+        <mark key="^" line="178" column="14" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.2.2/src/reply.rs" timestamp="1590343508591">
         <mark key="[" line="101" column="0" />
@@ -371,44 +371,44 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6ZXJyb3I6OkVycm9yOwo=</text>
+      <register name="&quot;" type="4">
+        <text>future::ok</text>
       </register>
       <register name="-" type="4">
-        <text>codec.decoder()</text>
+        <text>future::ok</text>
       </register>
       <register name="/" type="4">
         <text>Error</text>
       </register>
       <register name="0" type="4">
-        <text>let mut b = BytesMut::from(body.bytes());</text>
+        <text>let greeter = MyGreeter::default();</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6ZXJyb3I6OkVycm9yOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgfSkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmdXR1cmU6Om9rKCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">dHlwZSBFcnJvciA9IEJveDxkeW4gc3RkOjplcnJvcjo6RXJyb3IgKyBTZW5kICsgU3luYyArICdzdGF0aWM+Owo=</text>
+        <text encoding="base64">ICAgICAgICBwcm90bygmcmVzcC51bndyYXAoKS5pbnRvX2lubmVyKCkpLmludG9fcmVzcG9uc2UoKQo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">dXNlIHN0ZDo6ZXJyb3I6OkVycm9yOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgd2FycDo6cmVwbHk6Ompzb24gd2l0aF9zdGF0dXMoU3RhdHVzQ29kZTo6T0spCg==</text>
+        <text encoding="base64">dHlwZSBFcnJvciA9IEJveDxkeW4gc3RkOjplcnJvcjo6RXJyb3IgKyBTZW5kICsgU3luYyArICdzdGF0aWM+Owo=</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">bGV0IHN0cmVhbSA9IFByb3N0RGVjb2Rlcjo6PEhlbGxvUmVxdWVzdD46OmRlZmF1bHQoKS5kZWNvZGUoCiAgICAgICAgICAgICAgICAmbXV0IERlY29kZUJ1Zjo6bmV3KCAmbXV0IGIsIGJvZHkubGVuKCkpCiAgICAgICAgICAgICkudW53cmFwKCkudW53cmFwKCk7CiAgICAgICAgICAgIGxldCByZXNwID0gZ3JlZXRlci5zYXlfaGVsbG8oUmVxdWVzdDo6bmV3KHN0cmVhbSkpOw==</text>
+      <register name="7" type="2">
+        <text encoding="base64">dXNlIHN0ZDo6ZXJyb3I6OkVycm9yOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2FycDo6cmVwbHk6Ompzb24gd2l0aF9zdGF0dXMoU3RhdHVzQ29kZTo6T0spCg==</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
