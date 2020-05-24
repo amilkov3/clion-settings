@@ -32,7 +32,6 @@
         <entry>hyper</entry>
         <entry>poll_next</entry>
         <entry>StdErr</entry>
-        <entry>Error</entry>
         <entry>Into</entry>
         <entry>From</entry>
         <entry>Stream</entry>
@@ -107,6 +106,7 @@
         <entry encoding="base64">Qnl0ZXMg</entry>
         <entry encoding="base64">Qnl0ZXNNdXQg</entry>
         <entry>u8</entry>
+        <entry>Error</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -185,11 +185,11 @@
         <mark key="[" line="88" column="4" />
         <mark key="]" line="88" column="29" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/codec/buffer.rs" timestamp="1590244601105">
-        <mark key="[" line="17" column="4" />
-        <mark key="]" line="17" column="8" />
-        <mark key="." line="17" column="7" />
-        <mark key="^" line="17" column="8" />
+      <file name="$USER_HOME$/tonic1/tonic/src/codec/buffer.rs" timestamp="1590345226685">
+        <mark key="[" line="48" column="4" />
+        <mark key="]" line="48" column="8" />
+        <mark key="." line="48" column="7" />
+        <mark key="^" line="48" column="8" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" timestamp="1588878498173">
         <mark key="'" line="162" column="37" />
@@ -206,11 +206,12 @@
       <file name="/LLDB" timestamp="1588873224702">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590344358418">
-        <mark key="[" line="69" column="12" />
-        <mark key="]" line="69" column="19" />
-        <mark key="." line="69" column="18" />
-        <mark key="^" line="69" column="19" />
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590346179191">
+        <mark key="'" line="165" column="37" />
+        <mark key="[" line="110" column="61" />
+        <mark key="]" line="110" column="62" />
+        <mark key="^" line="110" column="62" />
+        <mark key="." line="110" column="61" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.2.2/src/reply.rs" timestamp="1590343508591">
         <mark key="[" line="101" column="0" />
@@ -238,12 +239,12 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.2.2/src/filters/body.rs" timestamp="1590244325387">
         <mark key="'" line="105" column="7" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/codec/mod.rs" timestamp="1590245605990">
-        <mark key="'" line="72" column="3" />
-        <mark key="[" line="18" column="32" />
-        <mark key="]" line="19" column="34" />
-        <mark key="." line="19" column="33" />
-        <mark key="^" line="19" column="34" />
+      <file name="$USER_HOME$/tonic1/tonic/src/codec/mod.rs" timestamp="1590345438281">
+        <mark key="'" line="73" column="3" />
+        <mark key="[" line="19" column="34" />
+        <mark key="]" line="20" column="34" />
+        <mark key="." line="20" column="33" />
+        <mark key="^" line="20" column="34" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/decode.rs" timestamp="1588883752661">
         <mark key="'" line="44" column="0" />
@@ -266,16 +267,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2212" column="46" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.52/src/de.rs" />
-      <jump line="2224" column="68" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.52/src/de.rs" />
-      <jump line="2238" column="17" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.52/src/de.rs" />
-      <jump line="2250" column="21" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.52/src/de.rs" />
-      <jump line="313" column="38" filename="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" />
-      <jump line="64" column="1900" filename="$USER_HOME$/tonic1/target/debug/build/examples-592fcdc81e0554ec/out/routeguide.rs" />
-      <jump line="340" column="21" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="394" column="12" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="448" column="12" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="286" column="12" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="92" column="55" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="135" column="35" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="228" column="42" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
@@ -366,50 +357,58 @@
       <jump line="293" column="30" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes.rs" />
       <jump line="295" column="28" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes.rs" />
       <jump line="454" column="49" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes.rs" />
+      <jump line="80" column="12" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="95" column="50" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="135" column="37" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="141" column="37" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="162" column="19" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="163" column="19" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="200" column="29" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="191" column="52" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="179" column="46" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="166" column="37" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>description</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">dXNlIHN0ZDo6ZXJyb3I6OkVycm9yOwo=</text>
       </register>
       <register name="-" type="4">
-        <text>description</text>
+        <text>codec.decoder()</text>
       </register>
       <register name="/" type="4">
-        <text>u8</text>
+        <text>Error</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHViIGZuIGpzb248VD4odmFsOiAmVCkgLT4gSnNvbgp3aGVyZQogICAgVDogU2VyaWFsaXplLAp7CiAgICBKc29uIHsKICAgICAgICBpbm5lcjogc2VyZGVfanNvbjo6dG9fdmVjKHZhbCkubWFwX2Vycih8ZXJyfCB7CiAgICAgICAgICAgIGxvZzo6ZXJyb3IhKCJyZXBseTo6anNvbiBlcnJvcjoge30iLCBlcnIpOwogICAgICAgIH0pLAogICAgfQp9CgovLy8gQSBKU09OIGZvcm1hdHRlZCByZXBseS4KI1thbGxvdyhtaXNzaW5nX2RlYnVnX2ltcGxlbWVudGF0aW9ucyldCnB1YiBzdHJ1Y3QgSnNvbiB7CiAgICBpbm5lcjogUmVzdWx0PFZlYzx1OD4sICgpPiwKfQoKaW1wbCBSZXBseSBmb3IgSnNvbiB7CiAgICAjW2lubGluZV0KICAgIGZuIGludG9fcmVzcG9uc2Uoc2VsZikgLT4gUmVzcG9uc2UgewogICAgICAgIG1hdGNoIHNlbGYuaW5uZXIgewogICAgICAgICAgICBPayhib2R5KSA9PiB7CiAgICAgICAgICAgICAgICBsZXQgbXV0IHJlcyA9IFJlc3BvbnNlOjpuZXcoYm9keS5pbnRvKCkpOwogICAgICAgICAgICAgICAgcmVzLmhlYWRlcnNfbXV0KCkKICAgICAgICAgICAgICAgICAgICAuaW5zZXJ0KENPTlRFTlRfVFlQRSwgSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCJhcHBsaWNhdGlvbi9qc29uIikpOwogICAgICAgICAgICAgICAgcmVzCiAgICAgICAgICAgIH0KICAgICAgICAgICAgRXJyKCgpKSA9PiBTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IuaW50b19yZXNwb25zZSgpLAogICAgICAgIH0KICAgIH0KfQ==</text>
+        <text>let mut b = BytesMut::from(body.bytes());</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">dXNlIHN0ZDo6ZXJyb3I6OkVycm9yOwo=</text>
       </register>
-      <register name="2" type="4">
-        <text>serde_json::to_vec(val).map_err(|err| {
-            log::error!(&quot;reply::json error: {}&quot;, err);
-        })</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIGIK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">dXNlIHNlcmRlOjpTZXJpYWxpemU7Cg==</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">d2FycDo6cGF0aCgiaGVsbG8iKQogICAgICAgICAgICAuYW5kKHdhcnA6OmJvZHk6OmJ5dGVzKCkpCiAgICAgICAgICAgIC5hbmQod2FycDo6aGVhZGVyOjpoZWFkZXJzX2Nsb25lZCgpKQogICAgICAgICAgICAubWFwKHxib2R5OiBieXRlczo6Qnl0ZXMsIGg6IEhlYWRlck1hcHwgewogICAgICAgICAgICAgICAgbGV0IG11dCBiID0gQnl0ZXNNdXQ6OmZyb20oYm9keS5ieXRlcygpKTsKICAgICAgICAgICAgICAgIGxldCBzdHJlYW0gPSBQcm9zdERlY29kZXI6OjxIZWxsb1JlcXVlc3Q+OjpkZWZhdWx0KCkuZGVjb2RlKAogICAgICAgICAgICAgICAgICAgICZtdXQgRGVjb2RlQnVmOjpuZXcoICZtdXQgYiwgYm9keS5sZW4oKSkKICAgICAgICAgICAgICAgICkudW53cmFwKCkudW53cmFwKCk7CiAgICAgICAgICAgICAgICBsZXQgcmVzcCA9IGdyZWV0ZXIuY2xvbmUoKS5zYXlfaGVsbG8oUmVxdWVzdDo6bmV3KHN0cmVhbSkpOwogICAgICAgICAgICAgICAgd2FycDo6cmVwbHk6Omh0bWwoImhlbGxvIikKICAgICAgICAgICAgfSk=</text>
-      </register>
-      <register name="6" type="2">
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="3" type="2">
+        <text encoding="base64">dHlwZSBFcnJvciA9IEJveDxkeW4gc3RkOjplcnJvcjo6RXJyb3IgKyBTZW5kICsgU3luYyArICdzdGF0aWM+Owo=</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Zm4gZm9vKGJvZHk6IGJ5dGVzOjpCeXRlcywgaDogSGVhZGVyTWFwKSAtPiBpbXBsIHdhcnA6OlJlcGx5IHsKICAgICAgICAvKmxldCBzdHJlYW0gPSBpZiBoLmdldCgiQ29udGVudC1UeXBlIikudW53cmFwKCkudG9fc3RyKCkudW53cmFwKCkgPT0gImFwcGxpY2F0aW9uL2pzb24iIHsKICAgICAgICAgICAgICAgICAgICAgICAgIFJlcXVlc3Q6Om5ldyhTdHJlYW1pbmc6OjxIZWxsb1JlcXVlc3Q+OjpuZXdfcmVxdWVzdF9ib2R5KCBTZXJkZUNvZGVjOjpkZWZhdWx0KCksIGJvZHkgICAgICAsIGJvZHkubGVuKCkpKQogICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgUmVxdWVzdDo6bmV3KFN0cmVhbWluZzo6PEhlbGxvUmVxdWVzdD46Om5ld19yZXF1ZXN0X2JvZHkoUHJvc3RDb2RlYzo6ZGVmYXVsdCgpLCBib2R5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9keS5sZW4oKSkpCiAgICAgICAgICAgICAgICAgICAgIH07Ki8KCiAgICAgICAgbGV0IG11dCBiID0gQnl0ZXNNdXQ6OmZyb20oYm9keS5ieXRlcygpKTsKICAgICAgICBsZXQgc3RyZWFtID0gUHJvc3REZWNvZGVyOjo8SGVsbG9SZXF1ZXN0Pjo6ZGVmYXVsdCgpLmRlY29kZSgKICAgICAgICAgICAgJm11dCBEZWNvZGVCdWY6Om5ldyggJm11dCBiLCBib2R5LmxlbigpKQogICAgICAgICkudW53cmFwKCkudW53cmFwKCk7CiAgICAgICAgbGV0IHJlc3AgPSBncmVldGVyLnNheV9oZWxsbyhSZXF1ZXN0OjpuZXcoc3RyZWFtKSk7CiAgICAgICAgd2FycDo6cmVwbHk6Omh0bWwoImhlbGxvIikKICAgIH0=</text>
+      <register name="4" type="2">
+        <text encoding="base64">dXNlIHN0ZDo6ZXJyb3I6OkVycm9yOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgd2FycDo6cmVwbHk6Ompzb24gd2l0aF9zdGF0dXMoU3RhdHVzQ29kZTo6T0spCg==</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">bGV0IHN0cmVhbSA9IFByb3N0RGVjb2Rlcjo6PEhlbGxvUmVxdWVzdD46OmRlZmF1bHQoKS5kZWNvZGUoCiAgICAgICAgICAgICAgICAmbXV0IERlY29kZUJ1Zjo6bmV3KCAmbXV0IGIsIGJvZHkubGVuKCkpCiAgICAgICAgICAgICkudW53cmFwKCkudW53cmFwKCk7CiAgICAgICAgICAgIGxldCByZXNwID0gZ3JlZXRlci5zYXlfaGVsbG8oUmVxdWVzdDo6bmV3KHN0cmVhbSkpOw==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvbwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
@@ -418,9 +417,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>u8</last-search>
+      <last-search>Error</last-search>
       <last-offset />
-      <last-pattern>u8</last-pattern>
+      <last-pattern>Error</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
