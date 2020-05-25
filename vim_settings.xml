@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>method_name</entry>
-        <entry>method_name_str</entry>
         <entry>call_site</entry>
         <entry>map</entry>
         <entry>buf</entry>
@@ -68,7 +66,6 @@
         <entry>Bytes</entry>
         <entry>DecodeBuf</entry>
         <entry>let fut =</entry>
-        <entry>codec_name</entry>
         <entry>serde</entry>
         <entry>Sync</entry>
         <entry>SerdeEncoder</entry>
@@ -107,6 +104,9 @@
         <entry>Serve</entry>
         <entry>call</entry>
         <entry>Body</entry>
+        <entry>services</entry>
+        <entry>json_method</entry>
+        <entry>codec_name</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -194,18 +194,17 @@
       <file name="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/helloworld.rs" timestamp="1590397513778">
         <mark key="'" line="155" column="60" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590399736984">
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590401637775">
         <mark key="'" line="32" column="53" />
-        <mark key="[" line="213" column="0" />
-        <mark key="]" line="213" column="0" />
-        <mark key="." line="213" column="0" />
+        <mark key="[" line="215" column="0" />
+        <mark key="]" line="215" column="0" />
+        <mark key="." line="215" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590357075448">
-        <mark key="'" line="189" column="28" />
-        <mark key="[" line="83" column="73" />
-        <mark key="]" line="83" column="79" />
-        <mark key="." line="83" column="78" />
-        <mark key="^" line="83" column="79" />
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590401225532">
+        <mark key="[" line="97" column="4" />
+        <mark key="]" line="97" column="82" />
+        <mark key="." line="97" column="59" />
+        <mark key="^" line="97" column="60" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.2.2/src/reply.rs" timestamp="1590343508591">
         <mark key="[" line="101" column="0" />
@@ -230,11 +229,11 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" timestamp="1590244914085">
         <mark key="'" line="957" column="37" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1588873659894">
-        <mark key="'" line="271" column="58" />
-        <mark key="[" line="234" column="0" />
-        <mark key="]" line="234" column="0" />
-        <mark key="." line="234" column="0" />
+      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1590401336910">
+        <mark key="[" line="328" column="0" />
+        <mark key="]" line="328" column="0" />
+        <mark key="^" line="324" column="60" />
+        <mark key="." line="328" column="0" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.2.2/src/filters/body.rs" timestamp="1590244325387">
         <mark key="'" line="105" column="7" />
@@ -266,10 +265,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="149" column="34" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-util-0.3.4/src/future/either.rs" />
-      <jump line="168" column="4" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-util-0.3.4/src/future/either.rs" />
-      <jump line="208" column="4" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-util-0.3.4/src/future/either.rs" />
-      <jump line="258" column="4" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-util-0.3.4/src/future/either.rs" />
       <jump line="277" column="4" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-util-0.3.4/src/future/either.rs" />
       <jump line="17" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-util-0.3.4/src/future/either.rs" />
       <jump line="29" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-util-0.3.4/src/future/either.rs" />
@@ -366,48 +361,52 @@
       <jump line="277" column="15" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
       <jump line="280" column="55" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
       <jump line="418" column="46" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
+      <jump line="225" column="16" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="218" column="10" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="259" column="6" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="97" column="44" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVxLmJvCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXEuaW50b19ib2R5KCkuCg==</text>
       </register>
       <register name="-" type="4">
-        <text>into_vec</text>
+        <text>*/</text>
       </register>
       <register name="/" type="4">
-        <text>Body</text>
+        <text>codec_name</text>
       </register>
       <register name="0" type="4">
-        <text>let greeter = MyGreeter::default();</text>
+        <text encoding="base64">U29tZSgmSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCJhcHBsaWNhdGlvbi9qc29uIikp</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVxLmJvCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXEuaW50b19ib2R5KCkuCg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVxLmJvZHkK</text>
+      <register name="2" type="4">
+        <text encoding="base64">bGV0IHggPSByZXEuaGVhZGVycygpLmdldChodHRwOjpoZWFkZXI6OkNPTlRFTlRfVFlQRSkKICAgICAgICAgICAgICAgICAgICBpZiB4ID09IFNvbWUoJiJoZWxsbyIpIHsKCiAgICAgICAgICAgICAgICAgICAgfQ==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIC8vZm4gY29kZWNfcGF0aCgmc2VsZikgLT4gU3RyaW5nCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6Y29sbGVjdGlvbnM6Okhhc2hNYXA7Cg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">bGV0IHggPSByZXEuaGVhZGVycygpLmdldChodHRwOjpoZWFkZXI6OkNPTlRFTlRfVFlQRSkKICAgICAgICAgICAgICAgICAgICBpZiB4ID09IFNvbWUoJiJoZWxsbyIpIHsKCiAgICAgICAgICAgICAgICAgICAgfQ==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">CiAgICAvKmZuIGNvZGVjX3BhdGgoJnNlbGYpIC0+IFN0cmluZyB7CiAgICAgICAgdW5pbXBsZW1lbnRlZCEoKQogICAgfSov</text>
+        <text encoding="base64">aWYgID09IFNvbWUoJkhlYWRlclZhbHVlOjpmcm9tX3N0YXRpYygiYXBwbGljYXRpb24vanNvbiIpKSB7CiAgICAgICAgCiAgICAgICAgfSBlbHNl</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfSkK</text>
+        <text encoding="base64">ICAgICAgICBsZXQgY190eXBlID0gaC5nZXQoQ09OVEVOVF9UWVBFKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmdXR1cmU6Om9rKCkK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcm90bygmcmVzcC51bndyYXAoKS5pbnRvX2lubmVyKCkpLmludG9fcmVzcG9uc2UoKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
@@ -416,9 +415,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Body</last-search>
+      <last-search>codec_name</last-search>
       <last-offset />
-      <last-pattern>Body</last-pattern>
+      <last-pattern>codec_name</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
