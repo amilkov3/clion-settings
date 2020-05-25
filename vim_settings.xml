@@ -194,11 +194,12 @@
       <file name="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/helloworld.rs" timestamp="1590397513778">
         <mark key="'" line="155" column="60" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590401637775">
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590402646239">
         <mark key="'" line="32" column="53" />
-        <mark key="[" line="215" column="0" />
-        <mark key="]" line="215" column="0" />
-        <mark key="." line="215" column="0" />
+        <mark key="[" line="215" column="36" />
+        <mark key="]" line="215" column="35" />
+        <mark key="." line="215" column="34" />
+        <mark key="^" line="215" column="35" />
       </file>
       <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590401225532">
         <mark key="[" line="97" column="4" />
