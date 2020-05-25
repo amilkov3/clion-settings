@@ -169,9 +169,10 @@
       <file name="$USER_HOME$/tonic1/tonic/src/codec/decode.rs" timestamp="1590243087630">
         <mark key="^" line="51" column="84" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1590399075261">
-        <mark key="[" line="88" column="4" />
-        <mark key="]" line="88" column="29" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1590403363529">
+        <mark key="[" line="100" column="12" />
+        <mark key="]" line="100" column="12" />
+        <mark key="." line="100" column="12" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/src/codec/buffer.rs" timestamp="1590345226685">
         <mark key="[" line="48" column="4" />
@@ -370,11 +371,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXEuaW50b19ib2R5KCkuCg==</text>
+      <register name="&quot;" type="4">
+        <text>v</text>
       </register>
       <register name="-" type="4">
-        <text>*/</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>codec_name</text>
