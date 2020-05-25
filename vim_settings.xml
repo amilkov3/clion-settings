@@ -195,16 +195,16 @@
       <file name="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/helloworld.rs" timestamp="1590397513778">
         <mark key="'" line="155" column="60" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590404828123">
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590405844083">
         <mark key="'" line="32" column="53" />
-        <mark key="[" line="217" column="21" />
-        <mark key="]" line="218" column="24" />
-        <mark key="." line="218" column="23" />
-        <mark key="^" line="218" column="24" />
+        <mark key="[" line="218" column="69" />
+        <mark key="]" line="218" column="70" />
+        <mark key="." line="218" column="69" />
+        <mark key="^" line="218" column="70" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590401225532">
-        <mark key="[" line="97" column="4" />
-        <mark key="]" line="97" column="82" />
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590405719620">
+        <mark key="[" line="100" column="8" />
+        <mark key="]" line="100" column="59" />
         <mark key="." line="97" column="59" />
         <mark key="^" line="97" column="60" />
       </file>
@@ -231,9 +231,9 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" timestamp="1590244914085">
         <mark key="'" line="957" column="37" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1590401336910">
-        <mark key="[" line="328" column="0" />
-        <mark key="]" line="328" column="0" />
+      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1590405617849">
+        <mark key="[" line="321" column="11" />
+        <mark key="]" line="326" column="11" />
         <mark key="^" line="324" column="60" />
         <mark key="." line="328" column="0" />
       </file>
@@ -371,44 +371,44 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>bytes()</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeC5ieXRlcygpCg==</text>
       </register>
       <register name="-" type="4">
-        <text>bytes()</text>
+        <text>case</text>
       </register>
       <register name="/" type="4">
         <text>codec_name</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">U29tZSgmSGVhZGVyVmFsdWU6OmZyb21fc3RhdGljKCJhcHBsaWNhdGlvbi9qc29uIikp</text>
+        <text>let resp = greeter.say_hello(Request::new(x)).await;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXEuaW50b19ib2R5KCkuCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeC5ieXRlcygpCg==</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">bGV0IHggPSByZXEuaGVhZGVycygpLmdldChodHRwOjpoZWFkZXI6OkNPTlRFTlRfVFlQRSkKICAgICAgICAgICAgICAgICAgICBpZiB4ID09IFNvbWUoJiJoZWxsbyIpIHsKCiAgICAgICAgICAgICAgICAgICAgfQ==</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXEuaW50b19ib2R5KCkuCg==</text>
       </register>
       <register name="4" type="4">
         <text encoding="base64">bGV0IHggPSByZXEuaGVhZGVycygpLmdldChodHRwOjpoZWFkZXI6OkNPTlRFTlRfVFlQRSkKICAgICAgICAgICAgICAgICAgICBpZiB4ID09IFNvbWUoJiJoZWxsbyIpIHsKCiAgICAgICAgICAgICAgICAgICAgfQ==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">aWYgID09IFNvbWUoJkhlYWRlclZhbHVlOjpmcm9tX3N0YXRpYygiYXBwbGljYXRpb24vanNvbiIpKSB7CiAgICAgICAgCiAgICAgICAgfSBlbHNl</text>
+        <text encoding="base64">bGV0IHggPSByZXEuaGVhZGVycygpLmdldChodHRwOjpoZWFkZXI6OkNPTlRFTlRfVFlQRSkKICAgICAgICAgICAgICAgICAgICBpZiB4ID09IFNvbWUoJiJoZWxsbyIpIHsKCiAgICAgICAgICAgICAgICAgICAgfQ==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgY190eXBlID0gaC5nZXQoQ09OVEVOVF9UWVBFKQo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
+      <register name="8" type="4">
+        <text encoding="base64">aWYgID09IFNvbWUoJkhlYWRlclZhbHVlOjpmcm9tX3N0YXRpYygiYXBwbGljYXRpb24vanNvbiIpKSB7CiAgICAgICAgCiAgICAgICAgfSBlbHNl</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgY190eXBlID0gaC5nZXQoQ09OVEVOVF9UWVBFKQo=</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
