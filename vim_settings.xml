@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Send +</entry>
         <entry>Unexpected Default</entry>
         <entry>Unexpected ReturnType</entry>
         <entry>argOpt</entry>
@@ -107,6 +106,7 @@
         <entry encoding="base64">Qnl0ZXNNdXQg</entry>
         <entry>u8</entry>
         <entry>Error</entry>
+        <entry>.map</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -206,12 +206,12 @@
       <file name="/LLDB" timestamp="1588873224702">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590356872709">
-        <mark key="'" line="214" column="37" />
-        <mark key="[" line="178" column="12" />
-        <mark key="]" line="178" column="14" />
-        <mark key="." line="178" column="13" />
-        <mark key="^" line="178" column="14" />
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590357075448">
+        <mark key="'" line="189" column="28" />
+        <mark key="[" line="83" column="73" />
+        <mark key="]" line="83" column="79" />
+        <mark key="." line="83" column="78" />
+        <mark key="^" line="83" column="79" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.2.2/src/reply.rs" timestamp="1590343508591">
         <mark key="[" line="101" column="0" />
@@ -267,10 +267,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="92" column="55" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="135" column="35" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="228" column="42" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="235" column="25" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="7" column="49" filename="$USER_HOME$/tonic1/examples/build.rs" />
       <jump line="85" column="0" filename="$USER_HOME$/tonic1/tonic-build/src/prost.rs" />
       <jump line="174" column="4" filename="$USER_HOME$/tonic1/tonic-build/src/prost.rs" />
@@ -367,18 +363,22 @@
       <jump line="191" column="52" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
       <jump line="179" column="46" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
       <jump line="166" column="37" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="182" column="45" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="183" column="28" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="188" column="45" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="189" column="28" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>future::ok</text>
+        <text>into_vec</text>
       </register>
       <register name="-" type="4">
-        <text>future::ok</text>
+        <text>into_vec</text>
       </register>
       <register name="/" type="4">
-        <text>Error</text>
+        <text>.map</text>
       </register>
       <register name="0" type="4">
         <text>let greeter = MyGreeter::default();</text>
@@ -417,9 +417,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Error</last-search>
+      <last-search>.map</last-search>
       <last-offset />
-      <last-pattern>Error</last-pattern>
+      <last-pattern>.map</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
