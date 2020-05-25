@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">U3RyZWFtXDw=</entry>
-        <entry>StreamExt</entry>
         <entry>hyper</entry>
         <entry>poll_next</entry>
         <entry>StdErr</entry>
@@ -107,6 +105,8 @@
         <entry>HttpBody</entry>
         <entry>Byts</entry>
         <entry encoding="base64">Qnl0ZXMg</entry>
+        <entry>Send</entry>
+        <entry>HealthServer</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -218,16 +218,22 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" timestamp="1590447452356">
         <mark key="'" line="1473" column="78" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1590447596799">
-        <mark key="'" line="334" column="39" />
-        <mark key="[" line="335" column="73" />
-        <mark key="]" line="335" column="74" />
-        <mark key="." line="335" column="73" />
-        <mark key="^" line="335" column="74" />
+      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1590450485249">
+        <mark key="'" line="57" column="34" />
+        <mark key="[" line="333" column="7" />
+        <mark key="]" line="333" column="9" />
+        <mark key="." line="333" column="8" />
+        <mark key="^" line="333" column="9" />
       </file>
       <file name="$USER_HOME$/tonic1/interop/Cargo.toml" timestamp="1590437842984">
         <mark key="[" line="24" column="0" />
         <mark key="]" line="24" column="19" />
+      </file>
+      <file name="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" timestamp="1590450515372">
+        <mark key="'" line="107" column="93" />
+        <mark key="[" line="266" column="24" />
+        <mark key="]" line="266" column="43" />
+        <mark key="." line="156" column="0" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/encode.rs" timestamp="1590432002697">
         <mark key="[" line="15" column="3" />
@@ -258,13 +264,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="12" filename="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" />
-      <jump line="58" column="24" filename="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" />
-      <jump line="59" column="17" filename="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" />
-      <jump line="162" column="37" filename="$USER_HOME$/tonic1/tonic/src/server/grpc.rs" />
-      <jump line="88" column="39" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
-      <jump line="109" column="1" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
-      <jump line="91" column="32" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
       <jump line="134" column="28" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
       <jump line="1033" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" />
       <jump line="105" column="7" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.2.2/src/filters/body.rs" />
@@ -324,7 +323,6 @@
       <jump line="259" column="6" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="97" column="44" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
       <jump line="269" column="0" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="57" column="23" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="151" column="39" filename="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" />
       <jump line="9" column="34" filename="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" />
       <jump line="12" column="15" filename="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" />
@@ -358,48 +356,56 @@
       <jump line="1042" column="30" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" />
       <jump line="1438" column="29" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" />
       <jump line="1473" column="78" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" />
+      <jump line="69" column="33" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="58" column="47" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="119" column="34" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="159" column="87" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="175" column="87" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="57" column="34" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="30" column="27" filename="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" />
+      <jump line="107" column="93" filename="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>to_bytes();</text>
+        <text>let inner = inner.0;</text>
       </register>
       <register name="-" type="4">
-        <text>to_bytes();</text>
+        <text>'static,</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">Qnl0ZXMg</text>
+        <text>HealthServer</text>
       </register>
       <register name="0" type="4">
-        <text>futures_util::pin_mut!(body);</text>
+        <text>let inner = inner.0;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYm9keS50b19ieXRlcygpLmZyZWUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBpbm5lciA9IHNlbGYuaW5uZXIuMC5jbG9uZSgpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGIgPSBib2R5LnRvX2J5dGVzKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IGlubmVyID0gc2VsZi5pbm5lci5jbG9uZSgpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYm9keS4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYm9keS50b19ieXRlcygpLmZyZWUK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGIgPSBib2R5LnRvX2J5dGVzKCk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYm9keS4K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8QiBhcyBIdHRwQm9keT46OkRhdGE6IFNlbmQsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVyZSA8QiBhcyBodHRwX2JvZHk6OkJvZHk+OjpEYXRhOiBzdGQ6Om1hcmtlcjo6U2VuZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8QiBhcyBIdHRwQm9keT46OkRhdGE6IFNlbmQsCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZ1dHVyZXNfdXRpbDo6cGluX211dCEoYm9keSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
@@ -408,9 +414,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">Qnl0ZXMg</last-search>
+      <last-search>HealthServer</last-search>
       <last-offset />
-      <last-pattern encoding="base64">Qnl0ZXMg</last-pattern>
+      <last-pattern>HealthServer</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
