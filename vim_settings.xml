@@ -39,7 +39,6 @@
         <entry>pub use</entry>
         <entry>foo</entry>
         <entry>method_path</entry>
-        <entry>Body</entry>
         <entry>HyperBody</entry>
         <entry>let inner = self.0.clone();</entry>
         <entry>Generated trait</entry>
@@ -107,6 +106,7 @@
         <entry>say_hello</entry>
         <entry>Serve</entry>
         <entry>call</entry>
+        <entry>Body</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -194,7 +194,7 @@
       <file name="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/helloworld.rs" timestamp="1590397513778">
         <mark key="'" line="155" column="60" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590399114521">
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590399736984">
         <mark key="'" line="32" column="53" />
         <mark key="[" line="213" column="0" />
         <mark key="]" line="213" column="0" />
@@ -211,8 +211,8 @@
         <mark key="[" line="101" column="0" />
         <mark key="]" line="131" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" timestamp="1590398516196">
-        <mark key="'" line="389" column="27" />
+      <file name="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" timestamp="1590399568267">
+        <mark key="'" line="418" column="46" />
       </file>
       <file name="$USER_HOME$/tonic1/examples/Cargo.toml" timestamp="1590172497861">
         <mark key="'" line="20" column="6" />
@@ -266,13 +266,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="259" column="29" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="42" column="23" filename="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" />
-      <jump line="32" column="53" filename="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" />
-      <jump line="482" column="15" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="272" column="58" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="92" column="1" filename="$USER_HOME$/tonic1/tonic/src/codec/mod.rs" />
-      <jump line="70" column="1" filename="$USER_HOME$/tonic1/tonic/src/codec/mod.rs" />
       <jump line="149" column="34" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-util-0.3.4/src/future/either.rs" />
       <jump line="168" column="4" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-util-0.3.4/src/future/either.rs" />
       <jump line="208" column="4" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-util-0.3.4/src/future/either.rs" />
@@ -366,48 +359,55 @@
       <jump line="325" column="27" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
       <jump line="356" column="27" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
       <jump line="389" column="27" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
+      <jump line="421" column="12" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
+      <jump line="90" column="54" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
+      <jump line="91" column="36" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
+      <jump line="93" column="32" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
+      <jump line="277" column="15" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
+      <jump line="280" column="55" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
+      <jump line="418" column="46" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVxLmJvZHkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVxLmJvCg==</text>
       </register>
       <register name="-" type="4">
         <text>into_vec</text>
       </register>
       <register name="/" type="4">
-        <text>call</text>
+        <text>Body</text>
       </register>
       <register name="0" type="4">
         <text>let greeter = MyGreeter::default();</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVxLmJvZHkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVxLmJvCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIC8vZm4gY29kZWNfcGF0aCgmc2VsZikgLT4gU3RyaW5nCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVxLmJvZHkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6Y29sbGVjdGlvbnM6Okhhc2hNYXA7Cg==</text>
+        <text encoding="base64">ICAgIC8vZm4gY29kZWNfcGF0aCgmc2VsZikgLT4gU3RyaW5nCg==</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">dXNlIHN0ZDo6Y29sbGVjdGlvbnM6Okhhc2hNYXA7Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">CiAgICAvKmZuIGNvZGVjX3BhdGgoJnNlbGYpIC0+IFN0cmluZyB7CiAgICAgICAgdW5pbXBsZW1lbnRlZCEoKQogICAgfSov</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgfSkK</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmdXR1cmU6Om9rKCkK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcm90bygmcmVzcC51bndyYXAoKS5pbnRvX2lubmVyKCkpLmludG9fcmVzcG9uc2UoKQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6ZXJyb3I6OkVycm9yOwo=</text>
+        <text encoding="base64">ICAgICAgICBwcm90bygmcmVzcC51bndyYXAoKS5pbnRvX2lubmVyKCkpLmludG9fcmVzcG9uc2UoKQo=</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
@@ -416,9 +416,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>call</last-search>
+      <last-search>Body</last-search>
       <last-offset />
-      <last-pattern>call</last-pattern>
+      <last-pattern>Body</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
