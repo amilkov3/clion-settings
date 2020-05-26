@@ -217,12 +217,12 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" timestamp="1590447452356">
         <mark key="'" line="1473" column="78" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1590452856895">
+      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1590469431266">
         <mark key="'" line="360" column="34" />
-        <mark key="[" line="361" column="45" />
-        <mark key="]" line="361" column="46" />
-        <mark key="." line="361" column="45" />
-        <mark key="^" line="361" column="46" />
+        <mark key="[" line="353" column="96" />
+        <mark key="]" line="353" column="97" />
+        <mark key="." line="353" column="96" />
+        <mark key="^" line="353" column="97" />
       </file>
       <file name="$USER_HOME$/tonic1/interop/Cargo.toml" timestamp="1590437842984">
         <mark key="[" line="24" column="0" />
@@ -361,65 +361,44 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>Either::Left(
-                        warp.call(req)
-                            .map_ok(|res| res.map(EitherBody::Left))
-                            .map_err(Error::from),
-                    )</text>
+        <text encoding="base64">bGV0IHJlc3AxID0g</text>
       </register>
       <register name="-" type="4">
-        <text>HTTP_2</text>
+        <text encoding="base64">bGV0IHJlc3AxID0g</text>
       </register>
       <register name="/" type="4">
         <text>len</text>
       </register>
       <register name="0" type="4">
-        <text>Either::Right(
-                        tonic
-                            .call(req)
-                            .map_ok(|res| res.map(EitherBody::Right))
-                            .map_err(Error::from),
-                    )</text>
+        <text encoding="base64">T2socikgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldCBib2R5ID0gZW5jb2RlX3NlcnZlcihlbmNvZGVyLCByLmludG9faW5uZXIoKSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgT2soaHR0cDo6UmVzcG9uc2U6Om5ldyh0b25pYzo6Ym9keTo6Qm94Qm9keTo6bmV3KGJvZHkpKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIEVycihzdGF0dXMpID0+IE9rKGh0dHA6OlJlc3BvbnNlOjpuZXcodG9uaWM6OmJvZHk6OkJveEJvZHk6OmVtcHR5KCkpKQ==</text>
       </register>
-      <register name="1" type="4">
-        <text>Either::Left(
-                        warp.call(req)
-                            .map_ok(|res| res.map(EitherBody::Left))
-                            .map_err(Error::from),
-                    )</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbGV0IHJlcV9sZW4gPSByZXFfYnVmLmxlbigpOwo=</text>
       </register>
-      <register name="2" type="4">
-        <text>Either::Right(
-                        tonic
-                            .call(req)
-                            .map_ok(|res| res.map(EitherBody::Right))
-                            .map_err(Error::from),
-                    )</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbGV0IHJlcV9sZW4gPSByZXFfYnVmLmxlbigpOwo=</text>
       </register>
-      <register name="3" type="4">
-        <text>Either::Left(
-                        warp.call(req)
-                            .map_ok(|res| res.map(EitherBody::Left))
-                            .map_err(Error::from),
-                    )</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBCb3g6OnBpbih6KQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">XyA9PiBFaXRoZXI6OlJpZ2h0KAogICAgICAgICAgICAgICAgICAgICAgICB0b25pYwogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNhbGwocmVxKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLm1hcF9vayh8cmVzfCByZXMubWFwKEVpdGhlckJvZHk6OlJpZ2h0KSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5tYXBfZXJyKEVycm9yOjpmcm9tKSwKICAgICAgICAgICAgICAgICAgICApLA==</text>
+        <text>//http::Response::new(tonic::body::BoxBody::new(body))
+                            //.map(tonic::Response::new)</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcmVxLmJvZHkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="7" type="4">
+        <text encoding="base64">LyooKmlubmVyKS4jbWV0aG9kX2lkZW50KHRvbmljOjpSZXF1ZXN0OjpuZXcoeCkpLmF3YWl0Lm1hcCh8eHwgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldCByZXNwID0geC5pbnRvX2lubmVyKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0IG11dCBlbmNvZGVyID0gUHJvc3RFbmNvZGVyOjpkZWZhdWx0KCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy9lbmNvZGVyLmVuY29kZShyZXNwLCAmbXV0IHRvbmljOjpjb2RlYzo6RW5jb2RlQnVmOjpuZXcoJm11dCByZXNwX2J1ZikpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldCBib2R5ID0gZW5jb2RlX3NlcnZlcihlbmNvZGVyLCAgcmVzcC5pbnRvX3N0cmVhbSgpKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBodHRwOjpSZXNwb25zZTo6bmV3KHRvbmljOjpib2R5OjpCb3hCb2R5OjpuZXcoYm9keSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KSov</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IGlubmVyID0gc2VsZi5pbm5lci5jbG9uZSgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vKCppbm5lcikuI21ldGhvZF9pZGVudCh0b25pYzo6UmVxdWVzdDo6bmV3KHgpKS5hd2FpdC5tYXAodG9uaWM6OlJlc3BvbnNlOjpuZXcpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgIGxldCBpbm5lciA9IHNlbGYuaW5uZXIuMDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vZnV0dXJlc191dGlsOjpwaW5fbXV0IShib2R5KTsK</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
