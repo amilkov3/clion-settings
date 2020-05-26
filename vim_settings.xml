@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>hyper</entry>
-        <entry>poll_next</entry>
-        <entry>StdErr</entry>
-        <entry>Into</entry>
         <entry>From</entry>
         <entry>Stream</entry>
         <entry>let req1</entry>
@@ -107,6 +103,10 @@
         <entry encoding="base64">Qnl0ZXMg</entry>
         <entry>Send</entry>
         <entry>HealthServer</entry>
+        <entry>rq_buf</entry>
+        <entry>req_buf</entry>
+        <entry>headers</entry>
+        <entry>len</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -190,50 +190,43 @@
         <mark key="[" line="8" column="0" />
         <mark key="]" line="8" column="32" />
       </file>
-      <file name="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/helloworld.rs" timestamp="1590397513778">
-        <mark key="'" line="155" column="60" />
-      </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/body.rs" timestamp="1590431706777" />
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590447419371">
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590452772840">
         <mark key="'" line="32" column="53" />
-        <mark key="[" line="219" column="0" />
-        <mark key="]" line="219" column="0" />
-        <mark key="." line="219" column="0" />
-        <mark key="^" line="219" column="44" />
+        <mark key="[" line="224" column="104" />
+        <mark key="]" line="224" column="111" />
+        <mark key="." line="224" column="110" />
+        <mark key="^" line="224" column="111" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590431631897">
-        <mark key="[" line="107" column="61" />
-        <mark key="]" line="107" column="95" />
-        <mark key="." line="97" column="0" />
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590453544903">
+        <mark key="[" line="187" column="24" />
+        <mark key="]" line="187" column="25" />
+        <mark key="." line="187" column="24" />
+        <mark key="^" line="187" column="25" />
       </file>
       <file name="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" timestamp="1590399568267">
         <mark key="'" line="418" column="46" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/prost.rs" timestamp="1590397730370">
-        <mark key="'" line="181" column="19" />
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/tonic1/examples/Cargo.toml" timestamp="1590452955626">
+        <mark key="'" line="20" column="6" />
+        <mark key="[" line="140" column="14" />
+        <mark key="]" line="141" column="20" />
+        <mark key="^" line="141" column="20" />
+        <mark key="." line="141" column="19" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" timestamp="1590447452356">
         <mark key="'" line="1473" column="78" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1590450712472">
-        <mark key="'" line="57" column="34" />
-        <mark key="[" line="332" column="24" />
-        <mark key="]" line="332" column="24" />
-        <mark key="." line="332" column="23" />
-        <mark key="^" line="332" column="24" />
+      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1590452856895">
+        <mark key="'" line="360" column="34" />
+        <mark key="[" line="361" column="45" />
+        <mark key="]" line="361" column="46" />
+        <mark key="." line="361" column="45" />
+        <mark key="^" line="361" column="46" />
       </file>
       <file name="$USER_HOME$/tonic1/interop/Cargo.toml" timestamp="1590437842984">
         <mark key="[" line="24" column="0" />
         <mark key="]" line="24" column="19" />
-      </file>
-      <file name="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" timestamp="1590450515372">
-        <mark key="'" line="107" column="93" />
-        <mark key="[" line="268" column="24" />
-        <mark key="]" line="268" column="43" />
-        <mark key="." line="156" column="0" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/codec/encode.rs" timestamp="1590432002697">
         <mark key="[" line="15" column="3" />
@@ -253,21 +246,16 @@
         <mark key="." line="15" column="3" />
         <mark key="^" line="20" column="31" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/lib.rs" timestamp="1590397738576">
-        <mark key="[" line="135" column="0" />
-        <mark key="]" line="135" column="0" />
-        <mark key="." line="135" column="0" />
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/request.rs" timestamp="1590452503732">
+        <mark key="'" line="709" column="20" />
       </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/async-stream-0.2.1/Cargo.toml.orig" timestamp="1590452946072" />
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tonic-0.1.1/src/server/grpc.rs" timestamp="1590431948385">
         <mark key="[" line="208" column="16" />
         <mark key="]" line="208" column="82" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="134" column="28" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
-      <jump line="1033" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" />
-      <jump line="105" column="7" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.2.2/src/filters/body.rs" />
-      <jump line="83" column="40" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
       <jump line="48" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" />
       <jump line="68" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes.rs" />
       <jump line="69" column="16" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes.rs" />
@@ -364,48 +352,74 @@
       <jump line="57" column="34" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="30" column="27" filename="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" />
       <jump line="107" column="93" filename="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" />
+      <jump line="365" column="27" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="613" column="6" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/request.rs" />
+      <jump line="709" column="20" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/request.rs" />
+      <jump line="360" column="34" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>self</text>
+        <text>Either::Left(
+                        warp.call(req)
+                            .map_ok(|res| res.map(EitherBody::Left))
+                            .map_err(Error::from),
+                    )</text>
       </register>
       <register name="-" type="4">
-        <text>self</text>
+        <text>HTTP_2</text>
       </register>
       <register name="/" type="4">
-        <text>HealthServer</text>
+        <text>len</text>
       </register>
       <register name="0" type="4">
-        <text>let inner = self.inner.clone();</text>
+        <text>Either::Right(
+                        tonic
+                            .call(req)
+                            .map_ok(|res| res.map(EitherBody::Right))
+                            .map_err(Error::from),
+                    )</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="1" type="4">
+        <text>Either::Left(
+                        warp.call(req)
+                            .map_ok(|res| res.map(EitherBody::Left))
+                            .map_err(Error::from),
+                    )</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IGlubmVyID0gc2VsZi5pbm5lci5jbG9uZSgpOwo=</text>
+      <register name="2" type="4">
+        <text>Either::Right(
+                        tonic
+                            .call(req)
+                            .map_ok(|res| res.map(EitherBody::Right))
+                            .map_err(Error::from),
+                    )</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgIGxldCBpbm5lciA9IHNlbGYuaW5uZXIuMDsK</text>
+      <register name="3" type="4">
+        <text>Either::Left(
+                        warp.call(req)
+                            .map_ok(|res| res.map(EitherBody::Left))
+                            .map_err(Error::from),
+                    )</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBpbm5lciA9IHNlbGYuaW5uZXIuMC5jbG9uZSgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IGlubmVyID0gc2VsZi5pbm5lci5jbG9uZSgpOwo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">XyA9PiBFaXRoZXI6OlJpZ2h0KAogICAgICAgICAgICAgICAgICAgICAgICB0b25pYwogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNhbGwocmVxKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLm1hcF9vayh8cmVzfCByZXMubWFwKEVpdGhlckJvZHk6OlJpZ2h0KSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5tYXBfZXJyKEVycm9yOjpmcm9tKSwKICAgICAgICAgICAgICAgICAgICApLA==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYm9keS50b19ieXRlcygpLmZyZWUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcmVxLmJvZHkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGIgPSBib2R5LnRvX2J5dGVzKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYm9keS4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IGlubmVyID0gc2VsZi5pbm5lci5jbG9uZSgpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYgo=</text>
+        <text encoding="base64">ICAgICAgIGxldCBpbm5lciA9IHNlbGYuaW5uZXIuMDsK</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
@@ -414,9 +428,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>HealthServer</last-search>
+      <last-search>len</last-search>
       <last-offset />
-      <last-pattern>HealthServer</last-pattern>
+      <last-pattern>len</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
