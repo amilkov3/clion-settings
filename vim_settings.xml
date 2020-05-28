@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>foo</entry>
         <entry>method_path</entry>
         <entry>HyperBody</entry>
         <entry>let inner = self.0.clone();</entry>
@@ -107,6 +106,7 @@
         <entry>mm</entry>
         <entry>let metadata</entry>
         <entry>request.metadata</entry>
+        <entry>print</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -375,7 +375,7 @@
         <text>Metadat</text>
       </register>
       <register name="/" type="4">
-        <text>request.metadata</text>
+        <text>print</text>
       </register>
       <register name="0" type="4">
         <text>futures-util = &quot;0.3&quot;</text>
@@ -415,9 +415,9 @@ use warp::hyper::Body as HyperBody;</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>request.metadata</last-search>
+      <last-search>print</last-search>
       <last-offset />
-      <last-pattern>request.metadata</last-pattern>
+      <last-pattern>print</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
