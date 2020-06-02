@@ -266,12 +266,12 @@
         <mark key="." line="14" column="18" />
         <mark key="^" line="14" column="19" />
       </file>
-      <file name="$USER_HOME$/fin/src/main.rs" timestamp="1591072985682">
+      <file name="$USER_HOME$/fin/src/main.rs" timestamp="1591074654465">
         <mark key="'" line="81" column="40" />
-        <mark key="[" line="13" column="20" />
-        <mark key="]" line="13" column="21" />
-        <mark key="." line="13" column="20" />
-        <mark key="^" line="13" column="21" />
+        <mark key="[" line="22" column="25" />
+        <mark key="]" line="22" column="25" />
+        <mark key="." line="22" column="24" />
+        <mark key="^" line="22" column="25" />
       </file>
       <file name="$USER_HOME$/tonic1/examples/Cargo.toml" timestamp="1590474963323">
         <mark key="'" line="20" column="6" />
