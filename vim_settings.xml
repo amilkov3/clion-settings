@@ -274,12 +274,12 @@
         <mark key="." line="14" column="18" />
         <mark key="^" line="14" column="19" />
       </file>
-      <file name="$USER_HOME$/fin/src/main.rs" timestamp="1591078132220">
+      <file name="$USER_HOME$/fin/src/main.rs" timestamp="1591139720321">
         <mark key="'" line="34" column="0" />
         <mark key="[" line="69" column="63" />
-        <mark key="]" line="69" column="62" />
-        <mark key="." line="69" column="61" />
-        <mark key="^" line="69" column="62" />
+        <mark key="]" line="113" column="92" />
+        <mark key="." line="113" column="91" />
+        <mark key="^" line="113" column="92" />
       </file>
     </filemarks>
     <jumps>
