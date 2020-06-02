@@ -170,11 +170,21 @@
       <file name="$USER_HOME$/tonic1/tonic/src/request.rs" timestamp="1590442251894">
         <mark key="'" line="45" column="49" />
       </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" timestamp="1590447452356">
+        <mark key="'" line="1473" column="78" />
+      </file>
       <file name="$USER_HOME$/tonic1/tonic-health/Cargo.toml" timestamp="1590474130072">
         <mark key="[" line="25" column="0" />
         <mark key="]" line="25" column="12" />
         <mark key="^" line="25" column="0" />
         <mark key="." line="25" column="0" />
+      </file>
+      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1590583560263">
+        <mark key="'" line="279" column="57" />
+        <mark key="[" line="360" column="26" />
+        <mark key="]" line="360" column="30" />
+        <mark key="." line="360" column="29" />
+        <mark key="^" line="360" column="30" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.4/src/body/aggregate.rs" timestamp="1590442652269">
         <mark key="[" line="15" column="4" />
@@ -199,6 +209,11 @@
         <mark key="." line="49" column="4" />
         <mark key="^" line="49" column="4" />
       </file>
+      <file name="$USER_HOME$/tonic1/tonic/src/codec/encode.rs" timestamp="1590472466090">
+        <mark key="[" line="29" column="0" />
+        <mark key="]" line="29" column="37" />
+        <mark key="." line="29" column="0" />
+      </file>
       <file name="$USER_HOME$/tonic1/tonic/src/codec/serde.rs" timestamp="1590472406698">
         <mark key="[" line="6" column="11" />
         <mark key="]" line="6" column="11" />
@@ -209,6 +224,15 @@
         <mark key="'" line="170" column="0" />
         <mark key="[" line="196" column="0" />
         <mark key="]" line="217" column="0" />
+      </file>
+      <file name="$USER_HOME$/MEGA/fin/fin/conf/foo.yaml" timestamp="1591064459095">
+        <mark key="[" line="2" column="2" />
+        <mark key="]" line="2" column="2" />
+        <mark key="^" line="2" column="2" />
+        <mark key="." line="2" column="1" />
+      </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/request.rs" timestamp="1590452503732">
+        <mark key="'" line="709" column="20" />
       </file>
       <file name="$USER_HOME$/tonic1/examples/src/health/server.rs" timestamp="1590474042554">
         <mark key="[" line="19" column="8" />
@@ -221,6 +245,12 @@
         <mark key="]" line="41" column="20" />
         <mark key="^" line="41" column="0" />
         <mark key="." line="41" column="0" />
+      </file>
+      <file name="$USER_HOME$/MEGA/fin/fin/src/main.rs" timestamp="1591064904361">
+        <mark key="[" line="17" column="42" />
+        <mark key="]" line="17" column="42" />
+        <mark key="^" line="17" column="42" />
+        <mark key="." line="17" column="41" />
       </file>
       <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590474469091">
         <mark key="'" line="32" column="53" />
@@ -243,25 +273,6 @@
         <mark key="^" line="141" column="20" />
         <mark key="." line="141" column="19" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" timestamp="1590447452356">
-        <mark key="'" line="1473" column="78" />
-      </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1590583560263">
-        <mark key="'" line="279" column="57" />
-        <mark key="[" line="360" column="26" />
-        <mark key="]" line="360" column="30" />
-        <mark key="." line="360" column="29" />
-        <mark key="^" line="360" column="30" />
-      </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/codec/encode.rs" timestamp="1590472466090">
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="29" column="37" />
-        <mark key="." line="29" column="0" />
-      </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/request.rs" timestamp="1590452503732">
-        <mark key="'" line="709" column="20" />
-      </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/async-stream-0.2.1/Cargo.toml.orig" timestamp="1590452946072" />
     </filemarks>
     <jumps>
       <jump line="189" column="28" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
@@ -368,11 +379,13 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>struct RiskFreeRateConf {
+    medium: i32
+}</text>
       </register>
       <register name="-" type="4">
-        <text>Metadat</text>
+        <text>Int</text>
       </register>
       <register name="/" type="4">
         <text>print</text>
@@ -380,33 +393,34 @@
       <register name="0" type="4">
         <text>futures-util = &quot;0.3&quot;</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+      <register name="1" type="4">
+        <text>struct RiskFreeRateConf {
+    medium: i32
+}</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGVuY29kZXIgPSB0b25pYzo6Y29kZWM6OlByb3N0RW5jb2Rlcjo6ZGVmYXVsdCgpOwo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGVuY29kZXIgPSB0b25pYzo6Y29kZWM6OlNlcmRlRW5jb2Rlcjo6ZGVmYXVsdCgpOwo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">dXNlIHdhcnA6OkZpbHRlcjsK</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>use warp::http::Request;
-use warp::hyper::Body as HyperBody;</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGVuY29kZXIgPSB0b25pYzo6Y29kZWM6OlByb3N0RW5jb2Rlcjo6ZGVmYXVsdCgpOwo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">dXNlIGh0dHA6OkhlYWRlck1hcDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGVuY29kZXIgPSB0b25pYzo6Y29kZWM6OlNlcmRlRW5jb2Rlcjo6ZGVmYXVsdCgpOwo=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">CiAgICBzdHJ1Y3QgQnl0ZXMxKEJ5dGVzKTsKICAgIGltcGwgQm9keSBmb3IgQnl0ZXMxIHsKICAgICAgICB0eXBlIERhdGEgPSBCeXRlczsKICAgICAgICB0eXBlIEVycm9yID0gU3RyaW5nOwoKICAgICAgICBmbiBwb2xsX2RhdGEoc2VsZjogUGluPCZtdXQgU2VsZj4sIGN4OiAmbXV0IENvbnRleHQ8J18+KSAtPiBQb2xsPE9wdGlvbjxSZXN1bHQ8U2VsZjo6RGF0YSwgU2VsZjo6RXJyb3I+Pj4gewogICAgICAgICAgICB1bmltcGxlbWVudGVkISgpCiAgICAgICAgfQoKICAgICAgICBmbiBwb2xsX3RyYWlsZXJzKHNlbGY6IFBpbjwmbXV0IFNlbGY+LCBjeDogJm11dCBDb250ZXh0PCdfPikgLT4gUG9sbDxSZXN1bHQ8T3B0aW9uPEhlYWRlck1hcDxIZWFkZXJWYWx1ZT4+LCBTZWxmOjpFcnJvcj4+IHsKICAgICAgICAgICAgdW5pbXBsZW1lbnRlZCEoKQogICAgICAgIH0KICAgIH0KCiAgICAjW2Rlcml2ZShEZWJ1ZywgQ2xvbmUsIERlZmF1bHQpXQogICAgc3RydWN0IE15RGVjb2RlcjsKICAgIGltcGwgRGVjb2RlciBmb3IgTXlEZWNvZGVyIHsKICAgICAgICB0eXBlIEl0ZW0gPSBCeXRlczsKICAgICAgICB0eXBlIEVycm9yID0gU3RhdHVzOwoKICAgICAgICBmbiBkZWNvZGUoJm11dCBzZWxmLCBidWY6ICZtdXQgRGVjb2RlQnVmPCdfPikgLT4gUmVzdWx0PE9wdGlvbjxTZWxmOjpJdGVtPiwgU2VsZjo6RXJyb3I+IHsKICAgICAgICAgICAgdW5pbXBsZW1lbnRlZCEoKQogICAgICAgIH0KICAgIH0KCiAgICBmbiBmb28oYm9keTogQnl0ZXMxICwgaGVhZGVyczogSGVhZGVyTWFwKSAtPiBpbXBsIHdhcnA6OlJlcGx5CnsKICAgIC8qbGV0IGJvZHkxID0gYm9keQogICAgICAgIC5tYXAofGV8IGUubWFwX2Vycih8ZXwgU3RhdHVzOjphYm9ydGVkKCJoZWxsbyIudG9fc3RyaW5nKCkpKSkKICAgICAgICAuaW50b19pbm5lcigpOyovCiAgICBsZXQgeCA9IFN0cmVhbWluZzo6bmV3X3JlcXVlc3QoTXlEZWNvZGVyOjpkZWZhdWx0KCksIGJvZHkpOwogICAgd2FycDo6cmVwbHk6Omh0bWwoImhlbGxvIikKfQoKLy9pbXBsIFN0cmVhbTxJdGVtID0gUmVzdWx0PENoaXRDaGF0UmVxdWVzdCwgd2FycDo6RXJyb3I+PgpsZXQgcHJvbW90ZSA9IHdhcnA6OnBvc3QoKQogICAgLmFuZCh3YXJwOjpwYXRoKCJoZWxsbyIpKQogICAgLmFuZCh3YXJwOjpib2R5OjpieXRlcygpKQogICAgLmFuZCh3YXJwOjpoZWFkZXI6OmhlYWRlcnNfY2xvbmVkKCkpCiAgICAubWFwKHxiLCBofCBmb28oQnl0ZXMxKGIpLCBoKSk7Cgo=</text>
+      <register name="9" type="2">
+        <text encoding="base64">dXNlIHdhcnA6OkZpbHRlcjsK</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
@@ -421,7 +435,7 @@ use warp::hyper::Body as HyperBody;</text>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
   </component>
   <component name="VimSettings">
