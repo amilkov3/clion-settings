@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>method_path</entry>
-        <entry>HyperBody</entry>
         <entry>let inner = self.0.clone();</entry>
         <entry>Generated trait</entry>
         <entry>method_ident</entry>
@@ -107,15 +105,17 @@
         <entry>let metadata</entry>
         <entry>request.metadata</entry>
         <entry>print</entry>
+        <entry>spawn</entry>
+        <entry>spawn_blocking</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
         <entry>%s/{}/{:?}/g</entry>
-        <entry>bprevious</entry>
         <entry>nohl</entry>
         <entry>vsplit</entry>
         <entry>GhcModType</entry>
         <entry>bnext</entry>
+        <entry>bprevious</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -167,9 +167,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" timestamp="1590447452356">
-        <mark key="'" line="1473" column="78" />
-      </file>
       <file name="$USER_HOME$/tonic1/tonic-health/Cargo.toml" timestamp="1590474130072">
         <mark key="[" line="25" column="0" />
         <mark key="]" line="25" column="12" />
@@ -182,10 +179,6 @@
         <mark key="]" line="360" column="30" />
         <mark key="." line="360" column="29" />
         <mark key="^" line="360" column="30" />
-      </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.4/src/body/aggregate.rs" timestamp="1590442652269">
-        <mark key="[" line="15" column="4" />
-        <mark key="]" line="15" column="32" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic-health/src/server.rs" timestamp="1590474205210">
         <mark key="[" line="165" column="50" />
@@ -222,6 +215,9 @@
         <mark key="[" line="196" column="0" />
         <mark key="]" line="217" column="0" />
       </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" timestamp="1591070027725">
+        <mark key="'" line="211" column="43" />
+      </file>
       <file name="$USER_HOME$/MEGA/fin/fin/conf/foo.yaml" timestamp="1591066210147">
         <mark key="[" line="2" column="2" />
         <mark key="]" line="2" column="1" />
@@ -243,12 +239,12 @@
         <mark key="^" line="41" column="0" />
         <mark key="." line="41" column="0" />
       </file>
-      <file name="$USER_HOME$/MEGA/fin/fin/src/main.rs" timestamp="1591067269181">
-        <mark key="'" line="31" column="3" />
-        <mark key="[" line="32" column="0" />
-        <mark key="]" line="32" column="0" />
-        <mark key="^" line="32" column="0" />
-        <mark key="." line="32" column="0" />
+      <file name="$USER_HOME$/MEGA/fin/fin/src/main.rs" timestamp="1591069239008">
+        <mark key="'" line="39" column="0" />
+        <mark key="[" line="7" column="69" />
+        <mark key="]" line="7" column="79" />
+        <mark key="^" line="7" column="79" />
+        <mark key="." line="7" column="78" />
       </file>
       <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590474469091">
         <mark key="'" line="32" column="53" />
@@ -264,10 +260,18 @@
         <mark key="." line="38" column="49" />
         <mark key="^" line="38" column="50" />
       </file>
-      <file name="$USER_HOME$/MEGA/fin/fin/Cargo.toml" timestamp="1591066555139">
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="13" column="0" />
-        <mark key="." line="13" column="0" />
+      <file name="$USER_HOME$/MEGA/fin/fin/Cargo.toml" timestamp="1591068193688">
+        <mark key="[" line="13" column="18" />
+        <mark key="]" line="14" column="19" />
+        <mark key="." line="14" column="18" />
+        <mark key="^" line="14" column="19" />
+      </file>
+      <file name="$USER_HOME$/fin/src/main.rs" timestamp="1591072985682">
+        <mark key="'" line="81" column="40" />
+        <mark key="[" line="13" column="20" />
+        <mark key="]" line="13" column="21" />
+        <mark key="." line="13" column="20" />
+        <mark key="^" line="13" column="21" />
       </file>
       <file name="$USER_HOME$/tonic1/examples/Cargo.toml" timestamp="1590474963323">
         <mark key="'" line="20" column="6" />
@@ -278,22 +282,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="115" column="4" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/helloworld.rs" />
-      <jump line="155" column="60" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/helloworld.rs" />
-      <jump line="281" column="26" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="320" column="55" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="424" column="44" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="392" column="19" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="286" column="11" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="295" column="27" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="325" column="27" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="356" column="27" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="389" column="27" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="421" column="12" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="90" column="54" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="91" column="36" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="93" column="32" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
-      <jump line="277" column="15" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
       <jump line="280" column="55" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
       <jump line="418" column="46" filename="$USER_HOME$/tonic1/target/debug/build/examples-2a8afe82f2ce69a4/out/routeguide.rs" />
       <jump line="225" column="16" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
@@ -378,50 +366,65 @@
       <jump line="279" column="57" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="102" column="26" filename="$USER_HOME$/rust/example/src/server.rs" />
       <jump line="30" column="3" filename="$USER_HOME$/MEGA/fin/fin/src/main.rs" />
+      <jump line="40" column="0" filename="$USER_HOME$/MEGA/fin/fin/src/main.rs" />
+      <jump line="48" column="7" filename="$USER_HOME$/fin/src/main.rs" />
+      <jump line="0" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
+      <jump line="50" column="66" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
+      <jump line="122" column="34" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
+      <jump line="124" column="9" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
+      <jump line="126" column="15" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
+      <jump line="136" column="10" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
+      <jump line="142" column="36" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
+      <jump line="148" column="21" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
+      <jump line="162" column="44" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
+      <jump line="164" column="5" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
+      <jump line="211" column="43" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
+      <jump line="5" column="13" filename="$USER_HOME$/fin/src/main.rs" />
+      <jump line="50" column="8" filename="$USER_HOME$/fin/src/main.rs" />
+      <jump line="76" column="40" filename="$USER_HOME$/fin/src/main.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>rows: usize</text>
       </register>
       <register name="-" type="4">
-        <text>MyResult</text>
+        <text>LONGTERMRATES</text>
       </register>
       <register name="/" type="4">
-        <text>print</text>
+        <text>spawn_blocking</text>
       </register>
       <register name="0" type="4">
-        <text>futures-util = &quot;0.3&quot;</text>
+        <text>rows: usize</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="3" type="4">
+        <text encoding="base64">CiAgICAgICAgICAgIGxldCAoXywgcmVzKSA9IHJlc3BvbnNlLmZpcnN0X211dCgpLnVud3JhcCgpOwogICAgICAgICAgICAqcmVz</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBib2R5LmFuZF90aGVuKHxieXRlc3wgKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">c2VyZGVfanNvbiA9ICIxLjAiCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">bGV0IHF1ZXJ5ID0gewogICAgICAgICAgICBsZXQgbXV0IGRxID0gRGF0YVF1ZXJ5OjpuZXcoIlVTVFJFQVNVUlkiLCAiTE9OR1RFUk1SQVRFUyIpOwogICAgICAgICAgICBkcS5vcmRlcihPcmRlcjo6YXNjKQogICAgICAgICAgICAgICAgLnJvd3MoMSkKICAgICAgICAgICAgICAgIC5jb2x1bW5faW5kZXgoMSk7CiAgICAgICAgICAgIGRxCiAgICAgICAgfTsKCiAgICAgICAgbGV0IGpvaW4gPSB0YXNrOjpzcGF3bl9ibG9ja2luZyhtb3ZlfHx7CiAgICAgICAgICAgIGxldCBtdXQgcmVzcG9uc2U6IFZlYzwoU3RyaW5nLCBmNjQpPiA9IHF1ZXJ5LnNlbmQoKS51bndyYXAoKTsKCiAgICAgICAgICAgIC8vIFByaW50IHRoZSBkYXRlIGFuZCBjbG9zaW5nIHByaWNlIGZvciBBcHBsZSdzIHN0b2NrIGZvciB0aGUgbW9udGggb2YgRmVicnVhcnkgMjAxNi4KICAgICAgICAgICAgZm9yIGRhdGEgaW4gJnJlc3BvbnNlIHsKICAgICAgICAgICAgICAgIHByaW50bG4hKCJ7fSAtIHt9IiwgZGF0YS4wLCBkYXRhLjEpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBsZXQgKF8sIHJlcykgPSByZXNwb25zZS5maXJzdF9tdXQoKS51bndyYXAoKTsKICAgICAgICAgICAgKnJlcwogICAgICAgIH0pOwogICAgICAgIGpvaW4uYXdhaXQudW53cmFwKCk=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="8" type="4">
+        <text>_mut().unwrap();
+            res</text>
       </register>
-      <register name="9" type="4">
-        <text>struct Resp {
-        
-    }</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>vsplit</text>
@@ -430,13 +433,13 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>print</last-search>
+      <last-search>spawn_blocking</last-search>
       <last-offset />
-      <last-pattern>print</last-pattern>
+      <last-pattern>spawn_blocking</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
   </component>
   <component name="VimSettings">
