@@ -185,12 +185,12 @@
         <mark key="." line="165" column="48" />
         <mark key="^" line="165" column="49" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1593964114346">
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1594003095846">
         <mark key="'" line="102" column="26" />
-        <mark key="[" line="95" column="75" />
-        <mark key="]" line="95" column="75" />
-        <mark key="." line="95" column="74" />
-        <mark key="^" line="95" column="75" />
+        <mark key="[" line="104" column="56" />
+        <mark key="]" line="104" column="56" />
+        <mark key="." line="104" column="55" />
+        <mark key="^" line="104" column="56" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/src/codec/buffer.rs" timestamp="1590472475186">
         <mark key="[" line="49" column="4" />
