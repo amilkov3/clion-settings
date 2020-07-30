@@ -210,11 +210,11 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/calamine-0.16.1/src/lib.rs" timestamp="1591077768372">
         <mark key="'" line="157" column="10" />
       </file>
-      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1590474969608">
-        <mark key="[" line="41" column="0" />
-        <mark key="]" line="41" column="20" />
-        <mark key="^" line="41" column="0" />
-        <mark key="." line="41" column="0" />
+      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1596082517929">
+        <mark key="[" line="20" column="101" />
+        <mark key="]" line="20" column="109" />
+        <mark key="^" line="20" column="109" />
+        <mark key="." line="20" column="108" />
       </file>
       <file name="$USER_HOME$/MEGA/fin/fin/src/main.rs" timestamp="1591069239008">
         <mark key="'" line="39" column="0" />
@@ -377,10 +377,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>http::StatusCode::UNAUTHORIZED</text>
+        <text>wip1</text>
       </register>
       <register name="-" type="4">
-        <text>http::StatusCode::UNAUTHORIZED</text>
+        <text>wip1</text>
       </register>
       <register name="/" type="4">
         <text>StatusCode::</text>
