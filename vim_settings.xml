@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>cleint_streaming</entry>
-        <entry>Bytes</entry>
-        <entry>DecodeBuf</entry>
-        <entry>let fut =</entry>
         <entry>serde</entry>
         <entry>Sync</entry>
         <entry>SerdeEncoder</entry>
@@ -107,6 +103,10 @@
         <entry>format!</entry>
         <entry>to_http</entry>
         <entry>StatusCode::</entry>
+        <entry>::future</entry>
+        <entry>tower</entry>
+        <entry>make</entry>
+        <entry>hyper</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -167,101 +167,63 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1596080864706">
-        <mark key="'" line="370" column="57" />
-        <mark key="[" line="348" column="42" />
-        <mark key="]" line="348" column="66" />
-        <mark key="." line="348" column="65" />
-        <mark key="^" line="348" column="66" />
-      </file>
-      <file name="$USER_HOME$/tonic1/tonic-health/src/server.rs" timestamp="1590474205210">
-        <mark key="[" line="165" column="50" />
-        <mark key="]" line="165" column="49" />
-        <mark key="." line="165" column="48" />
-        <mark key="^" line="165" column="49" />
-      </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1594003095846">
-        <mark key="'" line="102" column="26" />
-        <mark key="[" line="104" column="56" />
-        <mark key="]" line="104" column="56" />
-        <mark key="." line="104" column="55" />
-        <mark key="^" line="104" column="56" />
-      </file>
       <file name="$USER_HOME$/tonic1/tonic/src/codec/serde.rs" timestamp="1596080419497">
         <mark key="'" line="68" column="7" />
         <mark key="[" line="60" column="0" />
         <mark key="]" line="60" column="0" />
         <mark key="." line="60" column="0" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" timestamp="1591070027725">
-        <mark key="'" line="211" column="43" />
+      <file name="$USER_HOME$/rust/example/proto/service.proto" timestamp="1596084393148">
+        <mark key="[" line="6" column="8" />
+        <mark key="]" line="6" column="29" />
       </file>
-      <file name="$USER_HOME$/MEGA/fin/fin/conf/foo.yaml" timestamp="1591066210147">
-        <mark key="[" line="2" column="2" />
-        <mark key="]" line="2" column="1" />
-        <mark key="^" line="2" column="1" />
-        <mark key="." line="2" column="0" />
+      <file name="$USER_HOME$/rust/example/README.md" timestamp="1596087480352">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="." line="24" column="0" />
+        <mark key="^" line="23" column="190" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/src/status.rs" timestamp="1596080919700">
         <mark key="'" line="74" column="34" />
         <mark key="[" line="494" column="8" />
         <mark key="]" line="496" column="58" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/calamine-0.16.1/src/lib.rs" timestamp="1591077768372">
-        <mark key="'" line="157" column="10" />
+      <file name="$USER_HOME$/rust/example/src/config.rs" timestamp="1596087818599">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="30" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1596082517929">
-        <mark key="[" line="20" column="101" />
-        <mark key="]" line="20" column="109" />
-        <mark key="^" line="20" column="109" />
-        <mark key="." line="20" column="108" />
+      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1596088174584">
+        <mark key="[" line="34" column="0" />
+        <mark key="]" line="34" column="0" />
+        <mark key="^" line="33" column="100" />
+        <mark key="." line="34" column="0" />
       </file>
-      <file name="$USER_HOME$/MEGA/fin/fin/src/main.rs" timestamp="1591069239008">
-        <mark key="'" line="39" column="0" />
-        <mark key="[" line="7" column="69" />
-        <mark key="]" line="7" column="79" />
-        <mark key="^" line="7" column="79" />
-        <mark key="." line="7" column="78" />
+      <file name="/config.rs" timestamp="1596087816659">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="29" />
       </file>
-      <file name="$USER_HOME$/fin/Cargo.toml" timestamp="1591077120828">
-        <mark key="[" line="14" column="19" />
-        <mark key="]" line="15" column="19" />
-        <mark key="^" line="15" column="19" />
-        <mark key="." line="15" column="18" />
-      </file>
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1590474469091">
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1596086194783">
         <mark key="'" line="32" column="53" />
         <mark key="[" line="216" column="0" />
         <mark key="]" line="216" column="0" />
         <mark key="." line="216" column="0" />
         <mark key="^" line="224" column="111" />
       </file>
-      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1590474329727">
-        <mark key="'" line="1" column="0" />
-        <mark key="[" line="38" column="51" />
-        <mark key="]" line="38" column="50" />
+      <file name="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" timestamp="1596087204088">
+        <mark key="'" line="55" column="15" />
+        <mark key="[" line="5" column="37" />
+        <mark key="]" line="5" column="47" />
         <mark key="." line="38" column="49" />
         <mark key="^" line="38" column="50" />
       </file>
-      <file name="$USER_HOME$/MEGA/fin/fin/Cargo.toml" timestamp="1591068193688">
-        <mark key="[" line="13" column="18" />
-        <mark key="]" line="14" column="19" />
-        <mark key="." line="14" column="18" />
-        <mark key="^" line="14" column="19" />
-      </file>
-      <file name="$USER_HOME$/fin/src/main.rs" timestamp="1591145194923">
-        <mark key="'" line="34" column="0" />
-        <mark key="[" line="69" column="63" />
-        <mark key="]" line="113" column="92" />
-        <mark key="." line="113" column="91" />
-        <mark key="^" line="113" column="92" />
-      </file>
-      <file name="$USER_HOME$/tonic1/examples/Cargo.toml" timestamp="1590474963323">
-        <mark key="'" line="20" column="6" />
-        <mark key="[" line="141" column="0" />
-        <mark key="]" line="141" column="19" />
-        <mark key="^" line="141" column="20" />
-        <mark key="." line="141" column="19" />
+      <file name="$USER_HOME$/tonic1/examples/Cargo.toml" timestamp="1596086634478">
+        <mark key="'" line="118" column="0" />
+        <mark key="[" line="131" column="0" />
+        <mark key="]" line="131" column="13" />
+        <mark key="^" line="140" column="20" />
+        <mark key="." line="139" column="0" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" timestamp="1596078397036">
         <mark key="'" line="72" column="8" />
@@ -270,13 +232,31 @@
         <mark key="'" line="18" column="26" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/src/transport/server/mod.rs" timestamp="1596077641196" />
+      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1596080864706">
+        <mark key="'" line="370" column="57" />
+        <mark key="[" line="348" column="42" />
+        <mark key="]" line="348" column="66" />
+        <mark key="." line="348" column="65" />
+        <mark key="^" line="348" column="66" />
+      </file>
+      <file name="$USER_HOME$/tonic1/examples/src/helloworld/server.rs" timestamp="1596083222597">
+        <mark key="[" line="16" column="30" />
+        <mark key="]" line="17" column="18" />
+        <mark key="." line="17" column="17" />
+        <mark key="^" line="17" column="18" />
+      </file>
+      <file name="$USER_HOME$/rust/example/build.rs" timestamp="1596087792854">
+        <mark key="[" line="22" column="19" />
+        <mark key="]" line="22" column="31" />
+        <mark key="." line="22" column="19" />
+      </file>
+      <file name="$USER_HOME$/tonic1/tonic/Cargo.toml" timestamp="1596083348361">
+        <mark key="[" line="64" column="0" />
+        <mark key="]" line="64" column="0" />
+        <mark key="." line="64" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="220" column="41" filename="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" />
-      <jump line="170" column="31" filename="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" />
-      <jump line="171" column="57" filename="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" />
-      <jump line="172" column="57" filename="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" />
-      <jump line="333" column="22" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="334" column="39" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="166" column="50" filename="$USER_HOME$/tonic1/target/debug/build/tonic-health-f2972bea6200a524/out/grpc.health.v1.rs" />
       <jump line="69" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.5.4/src/bytes_mut.rs" />
@@ -372,55 +352,53 @@
       <jump line="370" column="57" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="18" column="26" filename="$USER_HOME$/tonic1/target/debug/build/examples-849e1a6b26902cd8/out/grpc.examples.echo.rs" />
       <jump line="74" column="34" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
+      <jump line="15" column="18" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="123" column="8" filename="$USER_HOME$/tonic1/examples/Cargo.toml" />
+      <jump line="10" column="9" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="55" column="15" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
+      <jump line="118" column="0" filename="$USER_HOME$/tonic1/examples/Cargo.toml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>wip1</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">I3RvbmljID0ge3ZlcnNpb24gPSAiXjAuMSIgLCBmZWF0dXJlcyA9IFsidGxzIiwgInRscy1yb290cyJdfQo=</text>
       </register>
       <register name="-" type="4">
-        <text>wip1</text>
+        <text>x</text>
       </register>
       <register name="/" type="4">
-        <text>StatusCode::</text>
+        <text>hyper</text>
       </register>
       <register name="0" type="4">
-        <text>http::StatusCode::INTERNAL_SERVER_ERROR</text>
+        <text>features = [&quot;tls&quot;, &quot;tls-roots&quot;]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">I3RvbmljID0ge3ZlcnNpb24gPSAiXjAuMSIgLCBmZWF0dXJlcyA9IFsidGxzIiwgInRscy1yb290cyJdfQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">I3RvbmljID0ge3ZlcnNpb24gPSAiXjAuMSIgLCBmZWF0dXJlcyA9IFsidGxzIiwgInRscy1yb290cyJdfQo=</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">YXN5bmMgZm4gZm9vKCkgLT4gU3RyaW5nIHsKICAgIGxldCB5ID0gImhlbGxvIi50b19zdHJpbmcoKTsKICAgICh8fCBhc3luYyBtb3ZlIHsKICAgICAgbGV0IHggPSB5LmNsb25lKCk7CiAgICAgIHgKICAgIH0pKCkuYXdhaXQKfQ==</text>
+      <register name="3" type="2">
+        <text encoding="base64">I3RvbmljLWJ1aWxkID0ge3BhdGggPSAiLi4vc3EtdG9uaWMvdG9uaWMtYnVpbGQifQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">I3RvbmljID0ge3ZlcnNpb24gPSAiXjAuMSIgLCBmZWF0dXJlcyA9IFsidGxzIiwgInRscy1yb290cyJdfQo=</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">bGV0IHJlcTogI3JlcXVlc3QgPSBkZWNvZGVyLmRlY29kZSgmbXV0IHRvbmljOjpjb2RlYzo6RGVjb2RlQnVmOjpuZXcoICZtdXQgcmVxX2J1ZiwgcmVxX2xlbikpLnVud3JhcCgpLnVud3JhcCgpOwogICAgICAgICAgICAgICAgICAgICAgICBtYXRjaCAoKmlubmVyKS4jbWV0aG9kX2lkZW50KHJlcSwgaGVhZGVycykuYXdhaXQubWFwKHxyfAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9uaWM6OlJlc3BvbnNlOjpuZXcoc3RyZWFtOjpvbmNlKGZ1dHVyZTo6b2socikpKQogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIE9rKHIpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXQgZW5jb2RlciA9IHRvbmljOjpjb2RlYzo6UHJvc3RFbmNvZGVyOjpkZWZhdWx0KCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGJvZHkgPSB0b25pYzo6Y29kZWM6OmVuY29kZV9zZXJ2ZXIoZW5jb2Rlciwgci5pbnRvX2lubmVyKCkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE9rKGh0dHA6OlJlc3BvbnNlOjpuZXcodG9uaWM6OmJvZHk6OkJveEJvZHk6Om5ldyhib2R5KSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBFcnIoc3RhdHVzKSA9PiBPayhodHRwOjpSZXNwb25zZTo6YnVpbGRlcigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnN0YXR1cyh0b19odHRwX2NvZGUoc3RhdHVzLmNvZGUoKSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmJvZHkodG9uaWM6OmJvZHk6OkJveEJvZHk6Om5ldyhTdHJSZXNwKHN0YXR1cy5tZXNzYWdlKCkudG9fc3RyaW5nKCkpKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfQ==</text>
+      <register name="5" type="2">
+        <text encoding="base64">IywgZmVhdHVyZXMgPSBbImgyIiwgInN0cmVhbSJdfQo=</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">bGV0IG11dCBkZWNvZGVyID0gdG9uaWM6OmNvZGVjOjpQcm9zdERlY29kZXI6OmRlZmF1bHQoKTsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0IHJlcTogI3JlcXVlc3QgPSBkZWNvZGVyLmRlY29kZSgmbXV0IHRvbmljOjpjb2RlYzo6RGVjb2RlQnVmOjpuZXcoICZtdXQgcmVxX2J1ZiwgcmVxX2xlbikpLnVud3JhcCgpLnVud3JhcCgpOwogICAgICAgICAgICAgICAgICAgICAgICBtYXRjaCAoKmlubmVyKS4jbWV0aG9kX2lkZW50KHJlcSwgaGVhZGVycykuYXdhaXQubWFwKHxyfAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9uaWM6OlJlc3BvbnNlOjpuZXcoc3RyZWFtOjpvbmNlKGZ1dHVyZTo6b2socikpKQogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIE9rKHIpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXQgZW5jb2RlciA9IHRvbmljOjpjb2RlYzo6UHJvc3RFbmNvZGVyOjpkZWZhdWx0KCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGJvZHkgPSB0b25pYzo6Y29kZWM6OmVuY29kZV9zZXJ2ZXIoZW5jb2Rlciwgci5pbnRvX2lubmVyKCkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE9rKGh0dHA6OlJlc3BvbnNlOjpuZXcodG9uaWM6OmJvZHk6OkJveEJvZHk6Om5ldyhib2R5KSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBFcnIoc3RhdHVzKSA9PiBPayhodHRwOjpSZXNwb25zZTo6YnVpbGRlcigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnN0YXR1cyh0b19odHRwX2NvZGUoc3RhdHVzLmNvZGUoKSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmJvZHkodG9uaWM6OmJvZHk6OkJveEJvZHk6Om5ldyhTdHJSZXNwKHN0YXR1cy5tZXNzYWdlKCkudG9fc3RyaW5nKCkpKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfQ==</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIC8vdG9uaWNfYnVpbGQ6OmNvbXBpbGVfcHJvdG9zKCJwcm90by9zZXJ2aWNlLnByb3RvIikudW53cmFwKCk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCg==</text>
+        <text encoding="base64">Y3VybCAtaSAtdiBsb2NhbGhvc3Q6MTAwMDAvc2VydmljZXMvc3F1YXJldXAuZXhlbXBsYXJncnBjLnNlcnZpY2UuR3JlZXRlci9TYXlIaVRvRXhlbXBsYXIgLUggIkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vcHJvdG8iIC0tZGF0YS1iaW5hcnkgQGJpbmFyeS5kYXRhCg==</text>
       </register>
-      <register name="8" type="4">
-        <text>Ok(http::Response::builder()
-                                    .status(to_http_code(status.code()))
-                                    .body(tonic::body::BoxBody::new(StrResp(status.message().to_string())))
-                                    .unwrap()</text>
+      <register name="8" type="2">
+        <text encoding="base64">Y3VybCAtaSAtdiBsb2NhbGhvc3Q6MTAwMDAvc2VydmljZXMvc3F1YXJldXAuZXhlbXBsYXJncnBjLnNlcnZpY2UuR3JlZXRlci9TYXlIaVRvRXhlbXBsYXIgLUggIkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbiIgLS1kYXRhICd7Im1lc3NhZ2UiOiJ4eXoifScK</text>
       </register>
-      <register name="9" type="4">
-        <text>.map_or_else(|status| Ok(http::Response::builder()
-                                .status(to_http_code(status.code()))
-                                .body(tonic::body::BoxBody::new(StrResp(status.message().to_string())))
-                                .unwrap()
-                            ), |x| Ok(x))?</text>
+      <register name="9" type="2">
+        <text encoding="base64">Y3VybCAtLWh0dHAyLXByaW9yLWtub3dsZWRnZSAtaSAtdiBsb2NhbGhvc3Q6MTAwMDAvc2VydmljZXMvc3F1YXJldXAuZXhlbXBsYXJncnBjLnNlcnZpY2UuRXhlbXBsYXJHcnBjU2VydmljZS9TYXlIaVRvRXhlbXBsYXIgLUggIkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbiIgLS1kYXRhICd7Im1lc3NhZ2UiOiJ4eXoifScK</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
@@ -429,9 +407,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>StatusCode::</last-search>
+      <last-search>hyper</last-search>
       <last-offset />
-      <last-pattern>StatusCode::</last-pattern>
+      <last-pattern>hyper</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
