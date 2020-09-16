@@ -167,12 +167,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1600290066702">
+      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1600290388813">
         <mark key="'" line="386" column="40" />
-        <mark key="[" line="352" column="35" />
-        <mark key="]" line="352" column="36" />
-        <mark key="." line="352" column="35" />
-        <mark key="^" line="352" column="36" />
+        <mark key="[" line="356" column="83" />
+        <mark key="]" line="356" column="82" />
+        <mark key="." line="356" column="81" />
+        <mark key="^" line="356" column="82" />
       </file>
       <file name="$USER_HOME$/tonic1/examples/src/helloworld/server.rs" timestamp="1596083222597">
         <mark key="[" line="16" column="30" />
@@ -364,8 +364,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>::Code::Unimplemented</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIF8gPT4gaHR0cDo6U3RhdHVzQ29kZTo6Tk9UX0lNUExFTUVOVEVECg==</text>
       </register>
       <register name="-" type="4">
         <text>::Code::Unimplemented</text>
@@ -377,32 +377,31 @@
         <text encoding="base64">dG9uaWM6OkNvZGU6OlVuaW1wbGVtZW50ZWQgPT4gaHR0cDo6U3RhdHVzQ29kZTo6Tk9UX0lNUExFTUVOVEVELA==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">LAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIF8gPT4gaHR0cDo6U3RhdHVzQ29kZTo6Tk9UX0lNUExFTUVOVEVECg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZyb21fdTE2KDQ5OSkudW53cmFwKCksCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIF8gPT4gaHR0cDo6U3RhdHVzQ29kZTo6Tk9UX0lNUExFTUVOVEVECg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">LAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRvbmljOjpDb2RlOjpVbmltcGxlbWVudGVkIHwgdG9uaWM6OkNvZGU6Ok5vdEZvdW5kID0+IGh0dHA6OlN0YXR1c0NvZGU6Ok5PVF9GT1VORCwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZyb21fdTE2KDQ5OSkudW53cmFwKCksCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRvbmljOjpDb2RlOjpJbnRlcm5hbCA9PiBodHRwOjpTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRvbmljOjpDb2RlOjpVbmltcGxlbWVudGVkIHwgdG9uaWM6OkNvZGU6Ok5vdEZvdW5kID0+IGh0dHA6OlN0YXR1c0NvZGU6Ok5PVF9GT1VORCwK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgciA9IAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRvbmljOjpDb2RlOjpJbnRlcm5hbCA9PiBodHRwOjpTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>//let w = BufWriter::with_capacity()
-        //new(buf.bytes_mut());</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgciA9IAo=</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
