@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>get</entry>
         <entry>Serde</entry>
         <entry>client_streaming</entry>
         <entry>unary</entry>
@@ -107,6 +106,7 @@
         <entry>Canceled</entry>
         <entry>Cancel</entry>
         <entry>Unknown</entry>
+        <entry>cargo</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -214,11 +214,11 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1596088174584">
-        <mark key="[" line="34" column="0" />
-        <mark key="]" line="34" column="0" />
-        <mark key="^" line="33" column="100" />
-        <mark key="." line="34" column="0" />
+      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1600292776609">
+        <mark key="[" line="34" column="60" />
+        <mark key="]" line="34" column="59" />
+        <mark key="^" line="34" column="59" />
+        <mark key="." line="34" column="58" />
       </file>
       <file name="/config.rs" timestamp="1596087816659">
         <mark key="[" line="0" column="0" />
@@ -258,9 +258,11 @@
       <file name="$USER_HOME$/tonic1/target/debug/build/examples-849e1a6b26902cd8/out/grpc.examples.echo.rs" timestamp="1596080438601">
         <mark key="'" line="18" column="26" />
       </file>
+      <file name="$USER_HOME$/rust/kochiku.yml" timestamp="1600293234975">
+        <mark key="'" line="43" column="30" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="535" column="50" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="279" column="57" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="102" column="26" filename="$USER_HOME$/rust/example/src/server.rs" />
       <jump line="30" column="3" filename="$USER_HOME$/MEGA/fin/fin/src/main.rs" />
@@ -360,18 +362,19 @@
       <jump line="85" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
       <jump line="87" column="22" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
       <jump line="348" column="36" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="43" column="30" filename="$USER_HOME$/rust/kochiku.yml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>http::StatusCode::INTERNAL_SERVER_ERROR</text>
+        <text>ssh://git@git.sqcorp.co/rust/sq-tonic.git</text>
       </register>
       <register name="-" type="4">
-        <text>::Code::Unimplemented</text>
+        <text>ssh://git@git.sqcorp.co/rust/sq-tonic.git</text>
       </register>
       <register name="/" type="4">
-        <text>Unknown</text>
+        <text>cargo</text>
       </register>
       <register name="0" type="4">
         <text>http::StatusCode::INTERNAL_SERVER_ERROR</text>
@@ -410,9 +413,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Unknown</last-search>
+      <last-search>cargo</last-search>
       <last-offset />
-      <last-pattern>Unknown</last-pattern>
+      <last-pattern>cargo</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
