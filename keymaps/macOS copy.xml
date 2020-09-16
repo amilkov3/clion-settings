@@ -24,6 +24,9 @@
   <action id="DatabaseView.PropertiesAction" />
   <action id="EditorCutLineEnd" />
   <action id="EditorMatchBrace" />
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
   <action id="FileChooser.NewFolder" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift meta f" />
@@ -43,6 +46,9 @@
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
+  <action id="List-selectNextColumn">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
   <action id="Move" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="ctrl m" />
@@ -51,6 +57,10 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="NewScratchFile" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt tab" />
+    <keyboard-shortcut first-keystroke="ctrl f" second-keystroke="l" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl right" />
@@ -59,6 +69,10 @@
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="meta p" />
     <keyboard-shortcut first-keystroke="meta i" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="shift alt tab" />
+    <keyboard-shortcut first-keystroke="ctrl f" second-keystroke="j" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
@@ -79,6 +93,10 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="Table-selectNextColumn">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="TodoViewGroupByShowModules" />
   <action id="Vcs.Log.GoToRef">
     <keyboard-shortcut first-keystroke="meta f" />
