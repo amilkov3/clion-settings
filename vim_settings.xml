@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>impl</entry>
         <entry>get</entry>
         <entry>Serde</entry>
         <entry>client_streaming</entry>
@@ -107,6 +106,7 @@
         <entry>Failed</entry>
         <entry>Canceled</entry>
         <entry>Cancel</entry>
+        <entry>Unknown</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -167,12 +167,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1600290388813">
-        <mark key="'" line="386" column="40" />
-        <mark key="[" line="356" column="83" />
-        <mark key="]" line="356" column="82" />
-        <mark key="." line="356" column="81" />
-        <mark key="^" line="356" column="82" />
+      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1600292013458">
+        <mark key="'" line="348" column="36" />
+        <mark key="[" line="356" column="82" />
+        <mark key="]" line="356" column="83" />
+        <mark key="." line="356" column="82" />
+        <mark key="^" line="356" column="83" />
       </file>
       <file name="$USER_HOME$/tonic1/examples/src/helloworld/server.rs" timestamp="1596083222597">
         <mark key="[" line="16" column="30" />
@@ -198,10 +198,10 @@
         <mark key="]" line="6" column="29" />
       </file>
       <file name="$USER_HOME$/rust/example/README.md" timestamp="1596087480352">
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="0" />
-        <mark key="." line="24" column="0" />
-        <mark key="^" line="23" column="190" />
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="0" />
+        <mark key="." line="31" column="0" />
+        <mark key="^" line="30" column="190" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/src/status.rs" timestamp="1600290062304">
         <mark key="'" line="87" column="22" />
@@ -260,7 +260,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="479" column="57" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="535" column="50" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="279" column="57" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="102" column="26" filename="$USER_HOME$/rust/example/src/server.rs" />
@@ -360,21 +359,22 @@
       <jump line="82" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
       <jump line="85" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
       <jump line="87" column="22" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
+      <jump line="348" column="36" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIF8gPT4gaHR0cDo6U3RhdHVzQ29kZTo6Tk9UX0lNUExFTUVOVEVECg==</text>
+      <register name="&quot;" type="4">
+        <text>http::StatusCode::INTERNAL_SERVER_ERROR</text>
       </register>
       <register name="-" type="4">
         <text>::Code::Unimplemented</text>
       </register>
       <register name="/" type="4">
-        <text>Cancel</text>
+        <text>Unknown</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dG9uaWM6OkNvZGU6OlVuaW1wbGVtZW50ZWQgPT4gaHR0cDo6U3RhdHVzQ29kZTo6Tk9UX0lNUExFTUVOVEVELA==</text>
+        <text>http::StatusCode::INTERNAL_SERVER_ERROR</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIF8gPT4gaHR0cDo6U3RhdHVzQ29kZTo6Tk9UX0lNUExFTUVOVEVECg==</text>
@@ -410,9 +410,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Cancel</last-search>
+      <last-search>Unknown</last-search>
       <last-offset />
-      <last-pattern>Cancel</last-pattern>
+      <last-pattern>Unknown</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
