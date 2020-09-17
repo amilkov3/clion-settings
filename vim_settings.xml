@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Serde</entry>
-        <entry>client_streaming</entry>
-        <entry>unary</entry>
-        <entry encoding="base64">dW5hcnk8</entry>
         <entry>Streaming</entry>
         <entry>bytes</entry>
         <entry>let mut</entry>
@@ -107,6 +103,10 @@
         <entry>Cancel</entry>
         <entry>Unknown</entry>
         <entry>cargo</entry>
+        <entry>forever</entry>
+        <entry>Http</entry>
+        <entry>bind</entry>
+        <entry>run_until</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -167,6 +167,9 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" timestamp="1600352712809">
+        <mark key="'" line="108" column="22" />
+      </file>
       <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1600292013458">
         <mark key="'" line="348" column="36" />
         <mark key="[" line="356" column="82" />
@@ -186,11 +189,11 @@
         <mark key="." line="11" column="23" />
         <mark key="^" line="11" column="24" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600350709740">
-        <mark key="[" line="32" column="35" />
-        <mark key="]" line="32" column="43" />
-        <mark key="^" line="32" column="43" />
-        <mark key="." line="32" column="42" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600355143486">
+        <mark key="[" line="94" column="11" />
+        <mark key="]" line="95" column="12" />
+        <mark key="." line="95" column="11" />
+        <mark key="^" line="95" column="12" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/src/codec/serde.rs" timestamp="1600286435803">
         <mark key="'" line="65" column="7" />
@@ -220,6 +223,9 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/signal-hook-0.1.16/src/iterator.rs" timestamp="1600351940948">
+        <mark key="'" line="152" column="11" />
+      </file>
       <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1600350592424">
         <mark key="[" line="45" column="7" />
         <mark key="]" line="45" column="7" />
@@ -244,6 +250,9 @@
         <mark key="." line="38" column="49" />
         <mark key="^" line="38" column="50" />
       </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/conn.rs" timestamp="1600352791593">
+        <mark key="'" line="3" column="50" />
+      </file>
       <file name="$USER_HOME$/tonic1/tonic/Cargo.toml" timestamp="1596083348361">
         <mark key="[" line="64" column="0" />
         <mark key="]" line="64" column="0" />
@@ -261,22 +270,11 @@
         <mark key="[" line="477" column="10" />
         <mark key="]" line="477" column="24" />
       </file>
-      <file name="$USER_HOME$/tonic1/target/debug/build/examples-849e1a6b26902cd8/out/grpc.examples.echo.rs" timestamp="1596080438601">
-        <mark key="'" line="18" column="26" />
-      </file>
       <file name="$USER_HOME$/rust/kochiku.yml" timestamp="1600293234975">
         <mark key="'" line="43" column="30" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="279" column="57" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="102" column="26" filename="$USER_HOME$/rust/example/src/server.rs" />
-      <jump line="30" column="3" filename="$USER_HOME$/MEGA/fin/fin/src/main.rs" />
-      <jump line="40" column="0" filename="$USER_HOME$/MEGA/fin/fin/src/main.rs" />
-      <jump line="48" column="7" filename="$USER_HOME$/fin/src/main.rs" />
-      <jump line="0" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
-      <jump line="50" column="66" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
-      <jump line="122" column="34" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
       <jump line="124" column="9" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
       <jump line="126" column="15" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
       <jump line="136" column="10" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.21/src/task/mod.rs" />
@@ -369,48 +367,56 @@
       <jump line="87" column="22" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
       <jump line="348" column="36" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="43" column="30" filename="$USER_HOME$/rust/kochiku.yml" />
+      <jump line="152" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/signal-hook-0.1.16/src/iterator.rs" />
+      <jump line="89" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" />
+      <jump line="98" column="14" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" />
+      <jump line="108" column="22" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" />
+      <jump line="217" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/conn.rs" />
+      <jump line="107" column="13" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/conn.rs" />
+      <jump line="975" column="16" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/conn.rs" />
+      <jump line="3" column="50" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/conn.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>SIGINT</text>
+        <text>await</text>
       </register>
       <register name="-" type="4">
-        <text>SIGINT</text>
+        <text>await</text>
       </register>
       <register name="/" type="4">
-        <text>cargo</text>
+        <text>run_until</text>
       </register>
       <register name="0" type="4">
-        <text>http::StatusCode::INTERNAL_SERVER_ERROR</text>
+        <text encoding="base64">bWFrZV9zZXJ2aWNlX2ZuKG1vdmUgfF98IHsKICAgICAgICAgICAgbGV0IG11dCB0b25pYyA9IHRvbmljLmNsb25lKCk7CiAgICAgICAgICAgIGZ1dHVyZTo6b2s6OjxfLCBJbmZhbGxpYmxlPih0b3dlcjo6c2VydmljZV9mbigKICAgICAgICAgICAgICAgIG1vdmUgfHJlcTogaHlwZXI6OlJlcXVlc3Q8aHlwZXI6OkJvZHk+fAogICAgICAgICAgICAgICAgICAgIHRvbmljCiAgICAgICAgICAgICAgICAgICAgICAgIC5jYWxsKHJlcSkKICAgICAgICAgICAgICAgICAgICAgICAgLy8ubWFwX29rKHx4fCB4KQogICAgICAgICAgICAgICAgICAgICAgICAubWFwX2VycihFcnJvcjo6ZnJvbSksCgogICAgICAgICAgICApKQogICAgICAgIH0p</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIF8gPT4gaHR0cDo6U3RhdHVzQ29kZTo6Tk9UX0lNUExFTUVOVEVECg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgT2soKCkpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIF8gPT4gaHR0cDo6U3RhdHVzQ29kZTo6Tk9UX0lNUExFTUVOVEVECg==</text>
+        <text encoding="base64">Ly91c2UgZnV0dXJlc191dGlsOjpzdHJlYW06OlN0cmVhbUV4dDsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">LAo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZyb21fdTE2KDQ5OSkudW53cmFwKCksCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRvbmljOjpDb2RlOjpVbmltcGxlbWVudGVkIHwgdG9uaWM6OkNvZGU6Ok5vdEZvdW5kID0+IGh0dHA6OlN0YXR1c0NvZGU6Ok5PVF9GT1VORCwK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRvbmljOjpDb2RlOjpJbnRlcm5hbCA9PiBodHRwOjpTdGF0dXNDb2RlOjpJTlRFUk5BTF9TRVJWRVJfRVJST1IsCg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGxldCAodHgsIHJ4KSA9IHRva2lvOjpzeW5jOjpvbmVzaG90OjpjaGFubmVsOjo8KCk+KCk7Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIFNlcnZlcgo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAuCg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgciA9IAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
@@ -419,9 +425,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>cargo</last-search>
+      <last-search>run_until</last-search>
       <last-offset />
-      <last-pattern>cargo</last-pattern>
+      <last-pattern>run_until</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
