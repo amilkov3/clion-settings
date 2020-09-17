@@ -172,11 +172,11 @@
         <mark key="[" line="187" column="8" />
         <mark key="]" line="189" column="8" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600366071498">
-        <mark key="[" line="77" column="4" />
-        <mark key="]" line="77" column="6" />
-        <mark key="." line="77" column="5" />
-        <mark key="^" line="77" column="6" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600367713186">
+        <mark key="[" line="96" column="0" />
+        <mark key="]" line="96" column="0" />
+        <mark key="." line="96" column="0" />
+        <mark key="^" line="94" column="26" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.22/src/sync/mpsc/chan.rs" timestamp="1600362487939">
         <mark key="'" line="275" column="18" />
@@ -205,11 +205,11 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1600350592424">
-        <mark key="[" line="45" column="7" />
-        <mark key="]" line="45" column="7" />
-        <mark key="^" line="45" column="7" />
-        <mark key="." line="45" column="6" />
+      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1600367114418">
+        <mark key="[" line="32" column="65" />
+        <mark key="]" line="32" column="74" />
+        <mark key="^" line="32" column="74" />
+        <mark key="." line="32" column="73" />
       </file>
       <file name="/config.rs" timestamp="1596087816659">
         <mark key="[" line="0" column="0" />
@@ -364,58 +364,53 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>move</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>move</text>
+        <text>tokio::signal::</text>
       </register>
       <register name="/" type="4">
         <text>async move</text>
       </register>
       <register name="0" type="4">
-        <text>if let Err(e) = graceful.await {
-    ///     eprintln!(&quot;server error: {}&quot;, e);
-    /// }</text>
+        <text>.with_graceful_shutdown(async move {
+        let sig = rx.recv().await;
+        println!(&quot;Received signal {:?}&quot;, sig);
+        /*while let Some(sig) =  {
+        }*/
+    })</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnRsbiEoIlJlY2VpdmVkIHNpZ25hbCB7Oj99Iiwgc2lnKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmV4cGVjdCgiRmFpbGVkIHRvIGluc3RhbGwgQ1RSTCtDIHNpZ25hbCBoYW5kbGVyIik7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">dXNlIHRva2lvOjpzaQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxldCBnID0gc2VydmVyOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>.with_graceful_shutdown(async {
-        while let Some(sig) = rx.recv().await {
-            println!(&quot;Received signal {:?}&quot;, sig);
-        }
-    })</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnRsbiEoIlJlY2VpdmVkIHNpZ25hbCB7Oj99Iiwgc2lnKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">dXNlIGRpZXNlbDo6UXVlcnlEc2w7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>.with_graceful_shutdown(async {
-        while let Some(sig) = rx.recv().await {
-            println!(&quot;Received signal {:?}&quot;, sig);
-        }
-    })</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGxldCBnID0gc2VydmVyOwo=</text>
       </register>
       <register name="8" type="4">
         <text>.with_graceful_shutdown(async {
         while let Some(sig) = rx.recv().await {
             println!(&quot;Received signal {:?}&quot;, sig);
-        }</text>
+        }
+    })</text>
       </register>
-      <register name="9" type="8">
-        <text>///
-///</text>
+      <register name="9" type="2">
+        <text encoding="base64">dXNlIGRpZXNlbDo6UXVlcnlEc2w7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
