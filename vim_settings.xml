@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">Qnl0ZXNNdXQg</entry>
-        <entry>u8</entry>
-        <entry>.map</entry>
         <entry>say_hello</entry>
         <entry>Serve</entry>
         <entry>call</entry>
@@ -73,7 +70,6 @@
         <entry>format!</entry>
         <entry>StatusCode::</entry>
         <entry>::future</entry>
-        <entry>tower</entry>
         <entry>make</entry>
         <entry>OK</entry>
         <entry>400</entry>
@@ -107,6 +103,10 @@
         <entry>Clone</entry>
         <entry>Error</entry>
         <entry>future</entry>
+        <entry>Result</entry>
+        <entry>signal</entry>
+        <entry>tower</entry>
+        <entry>Service</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -167,44 +167,43 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" timestamp="1600364276610">
-        <mark key="'" line="108" column="22" />
-        <mark key="[" line="187" column="8" />
-        <mark key="]" line="189" column="8" />
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" timestamp="1600381054610">
+        <mark key="'" line="205" column="36" />
+        <mark key="[" line="443" column="8" />
+        <mark key="]" line="443" column="55" />
+        <mark key="^" line="207" column="56" />
+        <mark key="." line="207" column="55" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600379220074">
-        <mark key="'" line="33" column="4" />
-        <mark key="[" line="54" column="4" />
-        <mark key="]" line="54" column="67" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600381228558">
+        <mark key="'" line="19" column="16" />
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="36" column="18" />
         <mark key="." line="95" column="104" />
         <mark key="^" line="95" column="105" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.22/src/sync/mpsc/chan.rs" timestamp="1600362487939">
         <mark key="'" line="275" column="18" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/codec/serde.rs" timestamp="1600286435803">
-        <mark key="'" line="65" column="7" />
-        <mark key="[" line="68" column="41" />
-        <mark key="]" line="68" column="41" />
-        <mark key="." line="68" column="40" />
-        <mark key="^" line="68" column="41" />
+      <file name="$USER_HOME$/.cargo/git/checkouts/sq-tonic-230a3091631f41a8/fb8d452/tonic/src/codegen.rs" timestamp="1600380871387">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="70" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/src/status.rs" timestamp="1600290062304">
         <mark key="'" line="87" column="22" />
         <mark key="[" line="78" column="4" />
         <mark key="]" line="78" column="21" />
       </file>
-      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1600379229668">
+      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1600381182737">
         <mark key="'" line="39" column="0" />
-        <mark key="[" line="37" column="0" />
-        <mark key="]" line="37" column="15" />
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="12" />
         <mark key="^" line="46" column="8" />
         <mark key="." line="46" column="7" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1600378544499">
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1600380868607">
         <mark key="'" line="32" column="53" />
         <mark key="[" line="202" column="8" />
-        <mark key="]" line="202" column="51" />
+        <mark key="]" line="204" column="49" />
         <mark key="." line="216" column="0" />
         <mark key="^" line="224" column="111" />
       </file>
@@ -217,11 +216,11 @@
         <mark key="^" line="72" column="77" />
         <mark key="." line="72" column="76" />
       </file>
-      <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1600378453981">
-        <mark key="[" line="10" column="14" />
-        <mark key="]" line="11" column="14" />
-        <mark key="^" line="11" column="14" />
-        <mark key="." line="11" column="13" />
+      <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1600380086782">
+        <mark key="[" line="11" column="14" />
+        <mark key="]" line="11" column="15" />
+        <mark key="^" line="11" column="15" />
+        <mark key="." line="11" column="14" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/conn.rs" timestamp="1600352791593">
         <mark key="'" line="3" column="50" />
@@ -234,11 +233,11 @@
       <file name="$USER_HOME$/rust/kochiku.yml" timestamp="1600293234975">
         <mark key="'" line="43" column="30" />
       </file>
-      <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1600379233122">
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="16" />
-        <mark key="^" line="20" column="0" />
-        <mark key="." line="20" column="0" />
+      <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1600381186052">
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="13" />
+        <mark key="^" line="31" column="0" />
+        <mark key="." line="31" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1600363317757">
         <mark key="[" line="0" column="0" />
@@ -256,31 +255,14 @@
       <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1600363781717">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600379208106">
-        <mark key="[" line="13" column="16" />
-        <mark key="]" line="13" column="17" />
-        <mark key="." line="13" column="16" />
-        <mark key="^" line="13" column="17" />
+      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600382170652">
+        <mark key="[" line="18" column="12" />
+        <mark key="]" line="18" column="10" />
+        <mark key="^" line="18" column="10" />
+        <mark key="." line="18" column="9" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="493" column="14" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="494" column="14" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="495" column="14" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="496" column="14" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="497" column="14" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="498" column="16" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="499" column="16" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="500" column="16" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="479" column="23" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="20" column="22" filename="$USER_HOME$/tonic1/target/debug/build/examples-849e1a6b26902cd8/out/grpc.examples.echo.rs" />
-      <jump line="72" column="8" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
-      <jump line="370" column="57" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="18" column="26" filename="$USER_HOME$/tonic1/target/debug/build/examples-849e1a6b26902cd8/out/grpc.examples.echo.rs" />
-      <jump line="74" column="34" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="15" column="18" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
-      <jump line="123" column="8" filename="$USER_HOME$/tonic1/examples/Cargo.toml" />
-      <jump line="10" column="9" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
       <jump line="55" column="15" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
       <jump line="118" column="0" filename="$USER_HOME$/tonic1/examples/Cargo.toml" />
       <jump line="38" column="25" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
@@ -364,55 +346,65 @@
       <jump line="88" column="12" filename="$USER_HOME$/rust/example/src/server.rs" />
       <jump line="33" column="4" filename="$USER_HOME$/rust/example/src/server.rs" />
       <jump line="39" column="0" filename="$USER_HOME$/rust/example/Cargo.toml" />
+      <jump line="205" column="36" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" />
+      <jump line="77" column="9" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="81" column="12" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="62" column="31" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="61" column="19" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="56" column="8" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="41" column="26" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="22" column="10" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="32" column="15" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="36" column="11" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="52" column="53" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="116" column="14" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="121" column="12" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="122" column="39" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="129" column="15" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="137" column="36" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="19" column="16" filename="$USER_HOME$/rust/example/src/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>futures = &quot;^0.3&quot;</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIC8vRjogRnV0dXJlPE91dHB1dD0oKT4sCg==</text>
       </register>
       <register name="-" type="4">
-        <text>tonic</text>
+        <text encoding="base64">OiBoeXBlcjo6UmVxdWVzdDxoeXBlcjo6Qm9keT4=</text>
       </register>
       <register name="/" type="4">
-        <text>future</text>
+        <text>Service</text>
       </register>
       <register name="0" type="4">
-        <text>futures = &quot;^0.3&quot;</text>
+        <text>tower = &quot;0.3&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIC8vRjogRnV0dXJlPE91dHB1dD0oKT4sCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">c3RydWN0IFNlcnZlcjsK</text>
+        <text encoding="base64">ICAgICAgICAgIC8vUjogQm9keSArIFNlbmQgKyBTeW5jICsgVW5waW4gKyAnc3RhdGljLAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy8K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wbCBTZXJ2ZXIgewo=</text>
+        <text encoding="base64">dXNlIHRvd2VyOjpTZXJ2aWNlOwo=</text>
       </register>
-      <register name="5" type="4">
-        <text>{
-    
-}</text>
+      <register name="5" type="2">
+        <text encoding="base64">cHViIHR5cGUgU3RkRXJyb3IgPSBCb3g8ZHluIHN0ZDo6ZXJyb3I6OkVycm9yICsgU2VuZCArIFN5bmMgKyAnc3RhdGljPjsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ly91c2UgZnV0dXJlczo6ZnV0dXJlOjpsYXp5Owo=</text>
+        <text encoding="base64">dXNlIGh0dAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAubWFwKHxffCBwcmludGxuISgiU2h1dHRpbmcgZG93bi4uLiIpKTsK</text>
+        <text encoding="base64">dXNlIGh0dHBfYm9keTo6Qm9keTsKdXNlIGh0dAo=</text>
       </register>
-      <register name="8" type="4">
-        <text>{
-        
-    }</text>
+      <register name="8" type="2">
+        <text encoding="base64">dXNlIGh5cGVyOjpSZXN1bHQK</text>
       </register>
-      <register name="9" type="4">
-        <text>signal(SignalKind::terminate())
-            .expect(&quot;bind SIGTERM&quot;)
-            .into_future()
-            .map(|_| println!(&quot;Shutting down...&quot;))</text>
+      <register name="9" type="2">
+        <text encoding="base64">dXNlIGh5cGVyOjpzZXJ2aWNlOjoK</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
@@ -421,9 +413,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>future</last-search>
+      <last-search>Service</last-search>
       <last-offset />
-      <last-pattern>future</last-pattern>
+      <last-pattern>Service</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
