@@ -186,6 +186,12 @@
         <mark key="." line="11" column="23" />
         <mark key="^" line="11" column="24" />
       </file>
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600350709740">
+        <mark key="[" line="32" column="35" />
+        <mark key="]" line="32" column="43" />
+        <mark key="^" line="32" column="43" />
+        <mark key="." line="32" column="42" />
+      </file>
       <file name="$USER_HOME$/tonic1/tonic/src/codec/serde.rs" timestamp="1600286435803">
         <mark key="'" line="65" column="7" />
         <mark key="[" line="68" column="41" />
@@ -214,11 +220,11 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1600292776609">
-        <mark key="[" line="34" column="60" />
-        <mark key="]" line="34" column="59" />
-        <mark key="^" line="34" column="59" />
-        <mark key="." line="34" column="58" />
+      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1600350592424">
+        <mark key="[" line="45" column="7" />
+        <mark key="]" line="45" column="7" />
+        <mark key="^" line="45" column="7" />
+        <mark key="." line="45" column="6" />
       </file>
       <file name="/config.rs" timestamp="1596087816659">
         <mark key="[" line="0" column="0" />
@@ -368,10 +374,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>ssh://git@git.sqcorp.co/rust/sq-tonic.git</text>
+        <text>SIGINT</text>
       </register>
       <register name="-" type="4">
-        <text>ssh://git@git.sqcorp.co/rust/sq-tonic.git</text>
+        <text>SIGINT</text>
       </register>
       <register name="/" type="4">
         <text>cargo</text>
