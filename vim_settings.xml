@@ -172,10 +172,11 @@
         <mark key="[" line="187" column="8" />
         <mark key="]" line="189" column="8" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600376667949">
-        <mark key="[" line="92" column="35" />
-        <mark key="]" line="92" column="35" />
-        <mark key="." line="92" column="35" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600377537045">
+        <mark key="[" line="96" column="48" />
+        <mark key="]" line="96" column="56" />
+        <mark key="." line="96" column="55" />
+        <mark key="^" line="96" column="56" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.22/src/sync/mpsc/chan.rs" timestamp="1600362487939">
         <mark key="'" line="275" column="18" />
@@ -363,47 +364,52 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">YXN5bmMg</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAubWFwKHxffCBwcmludGxuISgiU2h1dHRpbmcgZG93bi4uLiIpKTsK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">YXN5bmMg</text>
+        <text>await</text>
       </register>
       <register name="/" type="4">
         <text>log</text>
       </register>
       <register name="0" type="4">
-        <text>|_| info!(&quot;Shutting down...&quot;)</text>
+        <text>.map(|_| println!(&quot;Shutting down...&quot;));</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAubWFwKHxffCBwcmludGxuISgiU2h1dHRpbmcgZG93bi4uLiIpKTsK</text>
+      </register>
+      <register name="2" type="4">
+        <text>{
+        
+    }</text>
+      </register>
+      <register name="3" type="4">
+        <text>signal(SignalKind::terminate())
+            .expect(&quot;bind SIGTERM&quot;)
+            .into_future()
+            .map(|_| println!(&quot;Shutting down...&quot;))</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgLmF3YWl0Owo=</text>
       </register>
-      <register name="2" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgLm1hcCh8X3wgcHJpbnRsbiEoIlNodXR0aW5nIGRvd24uLi4iKSkK</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>//let sig = rx.recv().await;
         //println!(&quot;Received signal {:?}&quot;, sig);
         /*while let Some(sig) =  {
         }*/</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLy8ubWFwX29rKHx4fCB4KQo=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIGsK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaW50bG4hKCJ5aWtlcyIpOwo=</text>
+        <text encoding="base64">ICAgIGsK</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
