@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>say_hello</entry>
         <entry>Serve</entry>
         <entry>call</entry>
         <entry>Body</entry>
@@ -107,6 +106,7 @@
         <entry>signal</entry>
         <entry>tower</entry>
         <entry>Service</entry>
+        <entry>AddrStream</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -167,14 +167,14 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" timestamp="1600381054610">
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" timestamp="1600396569010">
         <mark key="'" line="205" column="36" />
-        <mark key="[" line="443" column="8" />
-        <mark key="]" line="443" column="55" />
-        <mark key="^" line="207" column="56" />
-        <mark key="." line="207" column="55" />
+        <mark key="[" line="446" column="70" />
+        <mark key="]" line="446" column="70" />
+        <mark key="^" line="446" column="70" />
+        <mark key="." line="446" column="69" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600381228558">
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600395398948">
         <mark key="'" line="19" column="16" />
         <mark key="[" line="36" column="0" />
         <mark key="]" line="36" column="18" />
@@ -183,6 +183,9 @@
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.22/src/sync/mpsc/chan.rs" timestamp="1600362487939">
         <mark key="'" line="275" column="18" />
+      </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/tcp.rs" timestamp="1600394979157">
+        <mark key="'" line="230" column="23" />
       </file>
       <file name="$USER_HOME$/.cargo/git/checkouts/sq-tonic-230a3091631f41a8/fb8d452/tonic/src/codegen.rs" timestamp="1600380871387">
         <mark key="[" line="12" column="0" />
@@ -225,11 +228,6 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/conn.rs" timestamp="1600352791593">
         <mark key="'" line="3" column="50" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" timestamp="1600289934492">
-        <mark key="'" line="426" column="43" />
-        <mark key="[" line="477" column="10" />
-        <mark key="]" line="477" column="24" />
-      </file>
       <file name="$USER_HOME$/rust/kochiku.yml" timestamp="1600293234975">
         <mark key="'" line="43" column="30" />
       </file>
@@ -255,23 +253,14 @@
       <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1600363781717">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600390427936">
-        <mark key="[" line="15" column="20" />
-        <mark key="]" line="15" column="20" />
-        <mark key="^" line="15" column="20" />
-        <mark key="." line="15" column="19" />
+      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600396305070">
+        <mark key="[" line="23" column="8" />
+        <mark key="]" line="23" column="10" />
+        <mark key="." line="23" column="9" />
+        <mark key="^" line="23" column="10" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="55" column="15" filename="$USER_HOME$/tonic1/examples/src/hyper_warp/server.rs" />
-      <jump line="118" column="0" filename="$USER_HOME$/tonic1/examples/Cargo.toml" />
-      <jump line="38" column="25" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
-      <jump line="107" column="39" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
-      <jump line="123" column="39" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
-      <jump line="146" column="39" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
-      <jump line="147" column="52" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
-      <jump line="196" column="51" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
-      <jump line="212" column="20" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
       <jump line="354" column="16" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
       <jump line="373" column="8" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
       <jump line="356" column="27" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
@@ -363,48 +352,57 @@
       <jump line="129" column="15" filename="$USER_HOME$/rust/example/src/server.rs" />
       <jump line="137" column="36" filename="$USER_HOME$/rust/example/src/server.rs" />
       <jump line="19" column="16" filename="$USER_HOME$/rust/example/src/server.rs" />
+      <jump line="176" column="31" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/tcp.rs" />
+      <jump line="193" column="15" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/tcp.rs" />
+      <jump line="198" column="9" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/tcp.rs" />
+      <jump line="199" column="63" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/tcp.rs" />
+      <jump line="10" column="27" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/tcp.rs" />
+      <jump line="257" column="24" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/tcp.rs" />
+      <jump line="200" column="12" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/tcp.rs" />
+      <jump line="212" column="25" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/tcp.rs" />
+      <jump line="230" column="23" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/tcp.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>/*</text>
+        <text>tonic::codegen::Service;</text>
       </register>
       <register name="-" type="4">
-        <text>/*</text>
+        <text>tonic::codegen::Service;</text>
       </register>
       <register name="/" type="4">
-        <text>Service</text>
+        <text>AddrStream</text>
       </register>
       <register name="0" type="4">
-        <text>tower = &quot;0.3&quot;</text>
+        <text>I::Conn: AsyncRead + AsyncWrite + Unpin + Send + 'static,</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8vRjogRnV0dXJlPE91dHB1dD0oKT4sCg==</text>
+        <text encoding="base64">ICAgICAgICAgIEk6OkNvbm46IEFzeW5jUmVhZCArIEFzeW5jV3JpdGUgKyBVbnBpbiArIFNlbmQgKyAnc3RhdGljLAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vUjogQm9keSArIFNlbmQgKyBTeW5jICsgVW5waW4gKyAnc3RhdGljLAo=</text>
+        <text encoding="base64">ICAgICAgICBTOjpCCg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8K</text>
+      <register name="3" type="4">
+        <text encoding="base64">bWFrZV9zZXJ2aWNlX2ZuKG1vdmUgfF98IHsKICAgICAgICBsZXQgbXV0IHMgPSBzZXJ2aWNlLmNsb25lKCk7CiAgICAgICAgZnV0dXJlOjpvazo6PF8sIEluZmFsbGlibGU+KHRvd2VyOjpzZXJ2aWNlX2ZuKAogICAgICAgICAgICAvLzogaHlwZXI6OlJlcXVlc3Q8aHlwZXI6OkJvZHk+CiAgICAgICAgICAgIG1vdmUgfHJlcXwKICAgICAgICAgICAgICAgIHMuY2FsbChyZXEpLm1hcF9lcnIoRXJyb3I6OmZyb20pLAogICAgICAgICkpCiAgICB9KQ==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">dXNlIHRvd2VyOjpTZXJ2aWNlOwo=</text>
+        <text encoding="base64">ICAgIC8vRjogRnV0dXJlPE91dHB1dD0oKT4sCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">cHViIHR5cGUgU3RkRXJyb3IgPSBCb3g8ZHluIHN0ZDo6ZXJyb3I6OkVycm9yICsgU2VuZCArIFN5bmMgKyAnc3RhdGljPjsK</text>
+        <text encoding="base64">ICAgICAgICAgIC8vUjogQm9keSArIFNlbmQgKyBTeW5jICsgVW5waW4gKyAnc3RhdGljLAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">dXNlIGh0dAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy8K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">dXNlIGh0dHBfYm9keTo6Qm9keTsKdXNlIGh0dAo=</text>
+        <text encoding="base64">dXNlIHRvd2VyOjpTZXJ2aWNlOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">dXNlIGh5cGVyOjpSZXN1bHQK</text>
+        <text encoding="base64">cHViIHR5cGUgU3RkRXJyb3IgPSBCb3g8ZHluIHN0ZDo6ZXJyb3I6OkVycm9yICsgU2VuZCArIFN5bmMgKyAnc3RhdGljPjsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">dXNlIGh5cGVyOjpzZXJ2aWNlOjoK</text>
+        <text encoding="base64">dXNlIGh0dAo=</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
@@ -413,9 +411,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Service</last-search>
+      <last-search>AddrStream</last-search>
       <last-offset />
-      <last-pattern>Service</last-pattern>
+      <last-pattern>AddrStream</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
