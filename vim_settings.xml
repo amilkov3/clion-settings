@@ -200,12 +200,12 @@
         <mark key="^" line="46" column="8" />
         <mark key="." line="46" column="7" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1600380868607">
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1600390145647">
         <mark key="'" line="32" column="53" />
-        <mark key="[" line="202" column="8" />
-        <mark key="]" line="204" column="49" />
-        <mark key="." line="216" column="0" />
-        <mark key="^" line="224" column="111" />
+        <mark key="[" line="199" column="73" />
+        <mark key="]" line="199" column="73" />
+        <mark key="." line="199" column="72" />
+        <mark key="^" line="199" column="73" />
       </file>
       <file name="/LLDB" timestamp="1600363681388">
         <mark key="[" line="0" column="0" />
@@ -255,11 +255,11 @@
       <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1600363781717">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600382170652">
-        <mark key="[" line="18" column="12" />
-        <mark key="]" line="18" column="10" />
-        <mark key="^" line="18" column="10" />
-        <mark key="." line="18" column="9" />
+      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600390427936">
+        <mark key="[" line="15" column="20" />
+        <mark key="]" line="15" column="20" />
+        <mark key="^" line="15" column="20" />
+        <mark key="." line="15" column="19" />
       </file>
     </filemarks>
     <jumps>
@@ -367,11 +367,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIC8vRjogRnV0dXJlPE91dHB1dD0oKT4sCg==</text>
+      <register name="&quot;" type="4">
+        <text>/*</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">OiBoeXBlcjo6UmVxdWVzdDxoeXBlcjo6Qm9keT4=</text>
+        <text>/*</text>
       </register>
       <register name="/" type="4">
         <text>Service</text>
