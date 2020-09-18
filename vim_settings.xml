@@ -174,13 +174,6 @@
         <mark key="^" line="446" column="70" />
         <mark key="." line="446" column="69" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600395398948">
-        <mark key="'" line="19" column="16" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="36" column="18" />
-        <mark key="." line="95" column="104" />
-        <mark key="^" line="95" column="105" />
-      </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.22/src/sync/mpsc/chan.rs" timestamp="1600362487939">
         <mark key="'" line="275" column="18" />
       </file>
