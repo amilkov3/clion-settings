@@ -174,14 +174,18 @@
         <mark key="^" line="446" column="70" />
         <mark key="." line="446" column="69" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600812173299">
-        <mark key="[" line="101" column="17" />
-        <mark key="]" line="101" column="19" />
-        <mark key="^" line="101" column="19" />
-        <mark key="." line="101" column="18" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600815507278">
+        <mark key="[" line="31" column="19" />
+        <mark key="]" line="32" column="27" />
+        <mark key="^" line="32" column="27" />
+        <mark key="." line="32" column="26" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.22/src/sync/mpsc/chan.rs" timestamp="1600362487939">
         <mark key="'" line="275" column="18" />
+      </file>
+      <file name="/server.rs" timestamp="1600814414750">
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="63" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/tcp.rs" timestamp="1600394979157">
         <mark key="'" line="230" column="23" />
@@ -194,16 +198,11 @@
         <mark key="[" line="17" column="4" />
         <mark key="]" line="18" column="36" />
       </file>
-      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1600381182737">
+      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1600814580839">
+        <mark key="[" line="45" column="0" />
+        <mark key="]" line="45" column="0" />
         <mark key="^" line="48" column="8" />
-        <mark key="." line="48" column="7" />
-      </file>
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1600390145647">
-        <mark key="'" line="32" column="53" />
-        <mark key="[" line="199" column="73" />
-        <mark key="]" line="199" column="73" />
-        <mark key="." line="199" column="72" />
-        <mark key="^" line="199" column="73" />
+        <mark key="." line="45" column="0" />
       </file>
       <file name="/LLDB" timestamp="1600363681388">
         <mark key="[" line="0" column="0" />
@@ -223,13 +222,10 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/conn.rs" timestamp="1600352791593">
         <mark key="'" line="3" column="50" />
       </file>
-      <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1600381186052">
-        <mark key="[" line="37" column="0" />
-        <mark key="]" line="37" column="13" />
-        <mark key="^" line="37" column="0" />
-        <mark key="." line="37" column="0" />
+      <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1600812465310">
+        <mark key="^" line="42" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1600363317757">
+      <file name="/Dummy.txt" timestamp="1600815778679">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1600363939876">
@@ -239,9 +235,6 @@
         <mark key="." line="356" column="82" />
         <mark key="^" line="356" column="83" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/signal-hook-0.1.16/src/iterator.rs" timestamp="1600351940948">
-        <mark key="'" line="152" column="11" />
-      </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/service/make.rs" timestamp="1600807546586">
         <mark key="'" line="42" column="10" />
         <mark key="[" line="71" column="4" />
@@ -249,12 +242,6 @@
       </file>
       <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1600363781717">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600812270562">
-        <mark key="[" line="66" column="15" />
-        <mark key="]" line="66" column="32" />
-        <mark key="." line="66" column="31" />
-        <mark key="^" line="66" column="32" />
       </file>
     </filemarks>
     <jumps>
@@ -363,43 +350,47 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>F, B, R, RR</text>
+        <text>hyper</text>
       </register>
       <register name="-" type="4">
-        <text>F, B, R, RR</text>
+        <text>hyper</text>
       </register>
       <register name="/" type="4">
         <text>Incoming</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">aHR0cDo6UmVzcG9uc2U8dG9uaWM6OmJvZHk6OkJveEJvZHk=</text>
+        <text encoding="base64">dHlwZSBFcnJvciA9IEJveDxkeW4gc3RkOjplcnJvcjo6RXJyb3IgKyBTZW5kICsgU3luYyArICdzdGF0aWM+Ow==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGh0dHA6OlJlcXVlc3Q8Qj46IEZyb20sCg==</text>
+        <text encoding="base64">dXNlIGh5cGVyOjpSZXN1bHQ7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIFM6OlIK</text>
+        <text encoding="base64">Ly91c2UgaHlwZXI6OnNlcnZlcjo6YWNjZXB0OjpBOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEIgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIFM6OlJlc3BvbnNlOiAK</text>
+      <register name="4" type="4">
+        <text>signal-hook = &quot;^0.1&quot;
+log = &quot;^0.4&quot;</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIFM6OkZ1dHVyZTogRnV0dXJlPE91dHB1dCA9IFJlc3VsdDxodHRwOjpSZXNwb25zZTx0b25pYzo6Ym9keTo6Qm94Qm9keT4sIHRvbmljOjpjb2RlZ2VuOjpOZXZlcj4+ICsgU2VuZCArICdzdGF0aWMsCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmKHJlcSkK</text>
+      <register name="6" type="4">
+        <text>#[macro_use]
+extern crate log;</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">RjogRm5NdXQoUmVxdWVzdDxoeXBlcjo6Qm9keT4pIC0+IFIgKyBTZW5kICsgJ3N0YXRpYyArIENvcHksCiAgICAgICAgICBSOiBGdXR1cmU8T3V0cHV0ID0gUmVzdWx0PGh0dHA6OlJlc3BvbnNlPHRvbmljOjpib2R5OjpCb3hCb2R5PiwgdG9uaWM6OmNvZGVnZW46Ok5ldmVyPj4gKyBTZW5kICsgJ3N0YXRpYw==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">cHViIGFzeW5jIGZuIHNlcnZlPFMsIEYsIEIsIFIsIFJSPihhZGRyOiBTb2NrZXRBZGRyLCBtdXQgZjogRikgLT4gaHlwZXI6OlJlc3VsdDwoKT4K</text>
+      <register name="9" type="4">
+        <text>let s = signal(SignalKind::terminate())
+        .expect(&quot;bind SIGTERM&quot;)
+        .into_future();</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
