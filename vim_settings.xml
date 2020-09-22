@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>check</entry>
         <entry>check(</entry>
         <entry>tonic:Response</entry>
         <entry>encode_server</entry>
@@ -107,6 +106,7 @@
         <entry>AddrStream</entry>
         <entry>AddrIncoming</entry>
         <entry>Incoming</entry>
+        <entry>BoxService</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -174,11 +174,11 @@
         <mark key="^" line="446" column="70" />
         <mark key="." line="446" column="69" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600815507278">
-        <mark key="[" line="31" column="19" />
-        <mark key="]" line="32" column="27" />
-        <mark key="^" line="32" column="27" />
-        <mark key="." line="32" column="26" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600816582980">
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="0" />
+        <mark key="^" line="16" column="19" />
+        <mark key="." line="18" column="0" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-0.2.22/src/sync/mpsc/chan.rs" timestamp="1600362487939">
         <mark key="'" line="275" column="18" />
@@ -243,9 +243,15 @@
       <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1600363781717">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600816479179">
+        <mark key="'" line="7" column="0" />
+        <mark key="[" line="10" column="19" />
+        <mark key="]" line="10" column="18" />
+        <mark key="^" line="10" column="18" />
+        <mark key="." line="10" column="17" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="454" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
       <jump line="395" column="37" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
       <jump line="171" column="38" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
       <jump line="552" column="99" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
@@ -345,52 +351,49 @@
       <jump line="203" column="32" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" />
       <jump line="222" column="46" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" />
       <jump line="240" column="20" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" />
+      <jump line="7" column="0" filename="$USER_HOME$/rust/src/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>hyper</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">dXNlIGh5cGVyOjp7c2VydmljZTo6bWFrZV9zZXJ2aWNlX2ZuLCBTZXJ2ZXJ9Owo=</text>
       </register>
       <register name="-" type="4">
-        <text>hyper</text>
+        <text>future::TryFutureExt</text>
       </register>
       <register name="/" type="4">
-        <text>Incoming</text>
+        <text>BoxService</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">dHlwZSBFcnJvciA9IEJveDxkeW4gc3RkOjplcnJvcjo6RXJyb3IgKyBTZW5kICsgU3luYyArICdzdGF0aWM+Ow==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">dXNlIGh5cGVyOjpSZXN1bHQ7Cg==</text>
+        <text encoding="base64">dXNlIGh5cGVyOjp7c2VydmljZTo6bWFrZV9zZXJ2aWNlX2ZuLCBTZXJ2ZXJ9Owo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly91c2UgaHlwZXI6OnNlcnZlcjo6YWNjZXB0OjpBOwo=</text>
+        <text encoding="base64">dXNlIHRvd2VyOjpTZXJ2aWNlOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">dXNlIHN0ZDo6Y29udmVydDo6SW5mYWxsaWJsZTsK</text>
       </register>
-      <register name="4" type="4">
-        <text>signal-hook = &quot;^0.1&quot;
-log = &quot;^0.4&quot;</text>
+      <register name="4" type="2">
+        <text encoding="base64">dXNlIHRva2lvOjppbzo6e0FzeW5jUmVhZCwgQXN5bmNXcml0ZX07Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">dXNlIGh5cGVyOjpzZXJ2ZXI6OmNvbm46OntBZGRySW5jb21pbmcsIEFkZHJTdHJlYW19Owo=</text>
       </register>
-      <register name="6" type="4">
-        <text>#[macro_use]
-extern crate log;</text>
+      <register name="6" type="2">
+        <text encoding="base64">dXNlIGh5cGVyOjpzZXJ2ZXI6OmFjY2VwdDo6QWNjZXB0Owo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">dXNlIGh0dHBfYm9keTo6Qm9keTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">dXNlIGh5cGVyOjpSZXN1bHQ7Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>let s = signal(SignalKind::terminate())
-        .expect(&quot;bind SIGTERM&quot;)
-        .into_future();</text>
+      <register name="9" type="2">
+        <text encoding="base64">Ly91c2UgaHlwZXI6OnNlcnZlcjo6YWNjZXB0OjpBOwo=</text>
       </register>
       <register name=":" type="4">
         <text>nohl</text>
@@ -399,13 +402,13 @@ extern crate log;</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Incoming</last-search>
+      <last-search>BoxService</last-search>
       <last-offset />
-      <last-pattern>Incoming</last-pattern>
+      <last-pattern>BoxService</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
   </component>
   <component name="VimSettings">
