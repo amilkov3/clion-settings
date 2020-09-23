@@ -204,12 +204,12 @@
         <mark key="[" line="12" column="0" />
         <mark key="]" line="12" column="70" />
       </file>
-      <file name="$USER_HOME$/prost/prost-build/src/code_generator.rs" timestamp="1600872415053">
+      <file name="$USER_HOME$/prost/prost-build/src/code_generator.rs" timestamp="1600873278127">
         <mark key="'" line="12" column="18" />
-        <mark key="[" line="116" column="12" />
-        <mark key="]" line="116" column="25" />
-        <mark key="^" line="116" column="25" />
-        <mark key="." line="116" column="24" />
+        <mark key="[" line="592" column="69" />
+        <mark key="]" line="592" column="69" />
+        <mark key="^" line="592" column="69" />
+        <mark key="." line="592" column="68" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tower-util-0.3.1/src/service_fn.rs" timestamp="1600809560859">
         <mark key="[" line="17" column="4" />
