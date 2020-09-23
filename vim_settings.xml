@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>encode_</entry>
-        <entry>server_streaming</entry>
         <entry>Data</entry>
         <entry encoding="base64">Qm9keSA=</entry>
         <entry>into_body</entry>
@@ -107,6 +105,8 @@
         <entry>FieldOptions</entry>
         <entry>comment</entry>
         <entry>File</entry>
+        <entry>Import</entry>
+        <entry>import</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -204,8 +204,12 @@
         <mark key="[" line="12" column="0" />
         <mark key="]" line="12" column="70" />
       </file>
-      <file name="$USER_HOME$/prost/prost-build/src/code_generator.rs" timestamp="1600870905122">
+      <file name="$USER_HOME$/prost/prost-build/src/code_generator.rs" timestamp="1600872415053">
         <mark key="'" line="12" column="18" />
+        <mark key="[" line="116" column="12" />
+        <mark key="]" line="116" column="25" />
+        <mark key="^" line="116" column="25" />
+        <mark key="." line="116" column="24" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tower-util-0.3.1/src/service_fn.rs" timestamp="1600809560859">
         <mark key="[" line="17" column="4" />
@@ -359,14 +363,14 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">dXNlIGh5cGVyOjp7c2VydmljZTo6bWFrZV9zZXJ2aWNlX2ZuLCBTZXJ2ZXJ9Owo=</text>
+      <register name="&quot;" type="4">
+        <text>extension</text>
       </register>
       <register name="-" type="4">
-        <text>future::TryFutureExt</text>
+        <text>extension</text>
       </register>
       <register name="/" type="4">
-        <text>File</text>
+        <text>import</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">dHlwZSBFcnJvciA9IEJveDxkeW4gc3RkOjplcnJvcjo6RXJyb3IgKyBTZW5kICsgU3luYyArICdzdGF0aWM+Ow==</text>
@@ -405,9 +409,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>File</last-search>
+      <last-search>import</last-search>
       <last-offset />
-      <last-pattern>File</last-pattern>
+      <last-pattern>import</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
