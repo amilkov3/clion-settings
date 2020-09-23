@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>encode_server</entry>
         <entry>encode_</entry>
         <entry>server_streaming</entry>
         <entry>Data</entry>
@@ -107,6 +106,7 @@
         <entry>BoxService</entry>
         <entry>FieldOptions</entry>
         <entry>comment</entry>
+        <entry>File</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -204,8 +204,8 @@
         <mark key="[" line="12" column="0" />
         <mark key="]" line="12" column="70" />
       </file>
-      <file name="$USER_HOME$/prost/prost-build/src/code_generator.rs" timestamp="1600869149718">
-        <mark key="'" line="655" column="12" />
+      <file name="$USER_HOME$/prost/prost-build/src/code_generator.rs" timestamp="1600870905122">
+        <mark key="'" line="12" column="18" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tower-util-0.3.1/src/service_fn.rs" timestamp="1600809560859">
         <mark key="[" line="17" column="4" />
@@ -255,8 +255,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="548" column="19" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
-      <jump line="554" column="19" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
       <jump line="75" column="5" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
       <jump line="93" column="4" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
       <jump line="455" column="42" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
@@ -352,9 +350,11 @@
       <jump line="7" column="0" filename="$USER_HOME$/rust/src/server.rs" />
       <jump line="13" column="18" filename="$USER_HOME$/prost/prost-build/src/code_generator.rs" />
       <jump line="849" column="27" filename="$USER_HOME$/prost/prost-build/src/code_generator.rs" />
-      <jump line="12" column="4" filename="$USER_HOME$/prost/prost-build/src/code_generator.rs" />
       <jump line="268" column="20" filename="$USER_HOME$/prost/prost-build/src/code_generator.rs" />
       <jump line="655" column="12" filename="$USER_HOME$/prost/prost-build/src/code_generator.rs" />
+      <jump line="735" column="26" filename="$USER_HOME$/prost/prost-build/src/code_generator.rs" />
+      <jump line="60" column="14" filename="$USER_HOME$/prost/prost-build/src/code_generator.rs" />
+      <jump line="12" column="18" filename="$USER_HOME$/prost/prost-build/src/code_generator.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -366,7 +366,7 @@
         <text>future::TryFutureExt</text>
       </register>
       <register name="/" type="4">
-        <text>comment</text>
+        <text>File</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">dHlwZSBFcnJvciA9IEJveDxkeW4gc3RkOjplcnJvcjo6RXJyb3IgKyBTZW5kICsgU3luYyArICdzdGF0aWM+Ow==</text>
@@ -405,9 +405,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>comment</last-search>
+      <last-search>File</last-search>
       <last-offset />
-      <last-pattern>comment</last-pattern>
+      <last-pattern>File</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
