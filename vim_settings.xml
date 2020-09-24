@@ -183,17 +183,18 @@
         <mark key="]" line="83" column="13" />
         <mark key="." line="83" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600986152837">
-        <mark key="[" line="43" column="47" />
-        <mark key="]" line="43" column="47" />
-        <mark key="." line="43" column="47" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600988451707">
+        <mark key="[" line="38" column="29" />
+        <mark key="]" line="38" column="28" />
+        <mark key="." line="38" column="27" />
+        <mark key="^" line="38" column="28" />
       </file>
-      <file name="$USER_HOME$/rust/src/acls.rs" timestamp="1600988299454">
+      <file name="$USER_HOME$/rust/src/acls.rs" timestamp="1600988342807">
         <mark key="'" line="20" column="10" />
-        <mark key="[" line="312" column="49" />
-        <mark key="]" line="312" column="57" />
-        <mark key="^" line="312" column="57" />
-        <mark key="." line="312" column="56" />
+        <mark key="[" line="324" column="16" />
+        <mark key="]" line="324" column="22" />
+        <mark key="^" line="324" column="22" />
+        <mark key="." line="324" column="21" />
       </file>
       <file name="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" timestamp="1600986061349">
         <mark key="'" line="44" column="2" />
@@ -369,10 +370,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>self</text>
+        <text>&quot;conf/test-acls.yml&quot;</text>
       </register>
       <register name="-" type="4">
-        <text>self</text>
+        <text>&quot;conf/test-acls.yml&quot;</text>
       </register>
       <register name="/" type="4">
         <text>str(</text>
