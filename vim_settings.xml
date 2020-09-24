@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">Qm9keSA=</entry>
-        <entry>into_body</entry>
-        <entry>Request</entry>
         <entry>await</entry>
         <entry>body.</entry>
         <entry>HttpBody</entry>
@@ -107,6 +104,9 @@
         <entry>Import</entry>
         <entry>import</entry>
         <entry>MethodOptions</entry>
+        <entry>derive</entry>
+        <entry>flatten</entry>
+        <entry encoding="base64">Jm11dCBzZWxm</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -167,7 +167,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" timestamp="1600808967487">
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" timestamp="1600973334379">
         <mark key="'" line="240" column="20" />
         <mark key="[" line="446" column="70" />
         <mark key="]" line="446" column="70" />
@@ -185,6 +185,11 @@
         <mark key="]" line="18" column="0" />
         <mark key="^" line="16" column="19" />
         <mark key="." line="18" column="0" />
+      </file>
+      <file name="$USER_HOME$/rust/src/acls.rs" timestamp="1600974193311">
+        <mark key="'" line="2" column="0" />
+        <mark key="[" line="98" column="4" />
+        <mark key="]" line="98" column="20" />
       </file>
       <file name="/server.rs" timestamp="1600814414750">
         <mark key="[" line="15" column="0" />
@@ -245,11 +250,6 @@
       <file name="$USER_HOME$/prost/tests/src/protos/options.rs" timestamp="1600892636560">
         <mark key="'" line="947" column="48" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/service/make.rs" timestamp="1600807546586">
-        <mark key="'" line="42" column="10" />
-        <mark key="[" line="71" column="4" />
-        <mark key="]" line="71" column="37" />
-      </file>
       <file name="$USER_HOME$/prost/tests/src/protos/squareup/connect/v2/common/options.proto" timestamp="1600891431530">
         <mark key="'" line="321" column="1" />
         <mark key="]" line="322" column="0" />
@@ -257,18 +257,14 @@
         <mark key="." line="321" column="1" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/protobuf-2.17.0/src/rustproto.rs" timestamp="1600892787073" />
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600816479179">
-        <mark key="'" line="7" column="0" />
-        <mark key="[" line="10" column="19" />
-        <mark key="]" line="10" column="18" />
-        <mark key="^" line="10" column="18" />
-        <mark key="." line="10" column="17" />
+      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600974612240">
+        <mark key="[" line="43" column="1" />
+        <mark key="]" line="44" column="36" />
+        <mark key="^" line="44" column="36" />
+        <mark key="." line="44" column="35" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="409" column="25" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
-      <jump line="411" column="45" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
-      <jump line="424" column="24" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
       <jump line="426" column="43" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
       <jump line="139" column="13" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
       <jump line="184" column="9" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
@@ -366,21 +362,24 @@
       <jump line="413" column="1" filename="$USER_HOME$/prost/tests/src/protos/common.proto" />
       <jump line="321" column="1" filename="$USER_HOME$/prost/tests/src/protos/squareup/connect/v2/common/options.proto" />
       <jump line="947" column="48" filename="$USER_HOME$/prost/tests/src/protos/options.rs" />
+      <jump line="258" column="11" filename="$USER_HOME$/rust/src/acls.rs" />
+      <jump line="267" column="10" filename="$USER_HOME$/rust/src/acls.rs" />
+      <jump line="2" column="0" filename="$USER_HOME$/rust/src/acls.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>squaerup</text>
+        <text>Builder</text>
       </register>
       <register name="-" type="4">
-        <text>squaerup</text>
+        <text>Builder</text>
       </register>
       <register name="/" type="4">
-        <text>MethodOptions</text>
+        <text encoding="base64">Jm11dCBzZWxm</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;src/protos/squareup/xp/oauth/datatypes/common.proto&quot;</text>
+        <text>#[serde(flatten)]</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAvLy9jb21tb24vdW5pdmVyc2FsX3Rva2VuLnByb3RvIiwgInNyYy9wcm90b3Mvc3F1YXJldXAveHAvb2F1dGgvZGF0YXR5cGVzL2NvbW1vbi5wcm90byIsICJzcmMvcHJvdG9zL3NxdWFyZXVwL2Nvbm5lY3QvdjIvY29tbW9uL29wdGlvbnMucHJvdG8K</text>
@@ -416,9 +415,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>MethodOptions</last-search>
+      <last-search encoding="base64">Jm11dCBzZWxm</last-search>
       <last-offset />
-      <last-pattern>MethodOptions</last-pattern>
+      <last-pattern encoding="base64">Jm11dCBzZWxm</last-pattern>
       <last-replace>{:?}</last-replace>
       <last-substitute>RpcArgs::</last-substitute>
       <last-dir>1</last-dir>
