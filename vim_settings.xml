@@ -257,11 +257,11 @@
         <mark key="." line="321" column="1" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/protobuf-2.17.0/src/rustproto.rs" timestamp="1600892787073" />
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600974612240">
-        <mark key="[" line="43" column="1" />
-        <mark key="]" line="44" column="36" />
-        <mark key="^" line="44" column="36" />
-        <mark key="." line="44" column="35" />
+      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600975471521">
+        <mark key="[" line="44" column="87" />
+        <mark key="]" line="44" column="87" />
+        <mark key="^" line="44" column="87" />
+        <mark key="." line="44" column="86" />
       </file>
     </filemarks>
     <jumps>
