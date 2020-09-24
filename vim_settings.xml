@@ -257,11 +257,11 @@
         <mark key="." line="321" column="1" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/protobuf-2.17.0/src/rustproto.rs" timestamp="1600892787073" />
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600975471521">
-        <mark key="[" line="44" column="87" />
-        <mark key="]" line="44" column="87" />
-        <mark key="^" line="44" column="87" />
-        <mark key="." line="44" column="86" />
+      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600977817143">
+        <mark key="[" line="46" column="71" />
+        <mark key="]" line="46" column="84" />
+        <mark key="^" line="46" column="84" />
+        <mark key="." line="46" column="83" />
       </file>
     </filemarks>
     <jumps>
@@ -370,16 +370,16 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>Builder</text>
+        <text>impl Future</text>
       </register>
       <register name="-" type="4">
-        <text>Builder</text>
+        <text>impl Future</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">Jm11dCBzZWxm</text>
       </register>
       <register name="0" type="4">
-        <text>#[serde(flatten)]</text>
+        <text>s.call(req).map_err(Error::from)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAvLy9jb21tb24vdW5pdmVyc2FsX3Rva2VuLnByb3RvIiwgInNyYy9wcm90b3Mvc3F1YXJldXAveHAvb2F1dGgvZGF0YXR5cGVzL2NvbW1vbi5wcm90byIsICJzcmMvcHJvdG9zL3NxdWFyZXVwL2Nvbm5lY3QvdjIvY29tbW9uL29wdGlvbnMucHJvdG8K</text>
