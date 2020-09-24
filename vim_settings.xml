@@ -7,12 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>await</entry>
-        <entry>body.</entry>
-        <entry>HttpBody</entry>
-        <entry>Byts</entry>
-        <entry encoding="base64">Qnl0ZXMg</entry>
-        <entry>Send</entry>
         <entry>HealthServer</entry>
         <entry>rq_buf</entry>
         <entry>req_buf</entry>
@@ -107,6 +101,12 @@
         <entry>derive</entry>
         <entry>flatten</entry>
         <entry encoding="base64">Jm11dCBzZWxm</entry>
+        <entry>tonic::</entry>
+        <entry>Pin</entry>
+        <entry>Poll</entry>
+        <entry>StrResp</entry>
+        <entry>to_http_code</entry>
+        <entry>tonic:Status</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -116,6 +116,7 @@
         <entry>bprevious</entry>
         <entry>nohl</entry>
         <entry>vsplit</entry>
+        <entry>%s/to_http_code/tonic::util::to_http_code/g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -180,25 +181,26 @@
         <mark key="." line="24" column="27" />
         <mark key="^" line="24" column="28" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600816582980">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="0" />
-        <mark key="^" line="16" column="19" />
-        <mark key="." line="18" column="0" />
+      <file name="$USER_HOME$/tonic1/tonic/src/lib.rs" timestamp="1600979189975">
+        <mark key="[" line="83" column="0" />
+        <mark key="]" line="83" column="13" />
+        <mark key="." line="83" column="0" />
       </file>
       <file name="$USER_HOME$/rust/src/acls.rs" timestamp="1600974193311">
         <mark key="'" line="2" column="0" />
         <mark key="[" line="98" column="4" />
         <mark key="]" line="98" column="20" />
       </file>
-      <file name="/server.rs" timestamp="1600814414750">
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="63" />
-      </file>
       <file name="$USER_HOME$/prost/tests/src/protos/universal_token.proto" timestamp="1600891129247">
         <mark key="]" line="63" column="0" />
         <mark key="^" line="63" column="0" />
         <mark key="." line="62" column="70" />
+      </file>
+      <file name="$USER_HOME$/tonic1/tonic/src/util.rs" timestamp="1600979824588">
+        <mark key="[" line="5" column="22" />
+        <mark key="]" line="5" column="26" />
+        <mark key="^" line="5" column="26" />
+        <mark key="." line="5" column="25" />
       </file>
       <file name="$USER_HOME$/prost/prost-build/src/code_generator.rs" timestamp="1600883493991">
         <mark key="'" line="12" column="18" />
@@ -207,34 +209,31 @@
         <mark key="." line="129" column="9" />
         <mark key="^" line="129" column="10" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/tower-util-0.3.1/src/service_fn.rs" timestamp="1600809560859">
-        <mark key="[" line="17" column="4" />
-        <mark key="]" line="18" column="36" />
-      </file>
-      <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1600828989367">
-        <mark key="[" line="30" column="18" />
-        <mark key="]" line="30" column="16" />
-        <mark key="^" line="30" column="16" />
-        <mark key="." line="30" column="15" />
-      </file>
-      <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1600809365232">
-        <mark key="[" line="10" column="14" />
-        <mark key="]" line="11" column="15" />
-        <mark key="." line="11" column="14" />
-        <mark key="^" line="11" column="15" />
+      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1600978695936">
+        <mark key="'" line="25" column="37" />
       </file>
       <file name="$USER_HOME$/rust/example/.protoc-version" timestamp="1600892374039" />
+      <file name="$USER_HOME$/tonic1/tonic/src/codec/util.rs" timestamp="1600979105751">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="4" />
+        <mark key="^" line="5" column="4" />
+        <mark key="." line="5" column="3" />
+      </file>
       <file name="$USER_HOME$/prost/tests/src/protos/common.proto" timestamp="1600891258518">
         <mark key="'" line="413" column="1" />
         <mark key="]" line="415" column="0" />
         <mark key="^" line="415" column="0" />
         <mark key="." line="414" column="1" />
       </file>
-      <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1600812465310">
-        <mark key="^" line="42" column="0" />
-      </file>
       <file name="/Dummy.txt" timestamp="1600884158062">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1600979310057">
+        <mark key="'" line="352" column="39" />
+        <mark key="[" line="352" column="40" />
+        <mark key="]" line="352" column="40" />
+        <mark key="." line="352" column="39" />
+        <mark key="^" line="352" column="40" />
       </file>
       <file name="$USER_HOME$/prost/prost-build/Cargo.toml" timestamp="1600888933037">
         <mark key="[" line="21" column="0" />
@@ -246,6 +245,11 @@
         <mark key="]" line="37" column="18" />
         <mark key="^" line="37" column="18" />
         <mark key="." line="37" column="17" />
+      </file>
+      <file name="$USER_HOME$/tonic1/tonic/src/codec/mod.rs" timestamp="1600979210475">
+        <mark key="[" line="26" column="0" />
+        <mark key="]" line="26" column="0" />
+        <mark key="." line="26" column="0" />
       </file>
       <file name="$USER_HOME$/prost/tests/src/protos/options.rs" timestamp="1600892636560">
         <mark key="'" line="947" column="48" />
@@ -265,26 +269,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="426" column="43" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
-      <jump line="139" column="13" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="184" column="9" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="19" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="20" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="42" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="52" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="55" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="58" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="61" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="64" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="67" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="70" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="73" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="76" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="79" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="82" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="85" column="0" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="87" column="22" filename="$USER_HOME$/tonic1/tonic/src/status.rs" />
-      <jump line="348" column="36" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
       <jump line="43" column="30" filename="$USER_HOME$/rust/kochiku.yml" />
       <jump line="152" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/signal-hook-0.1.16/src/iterator.rs" />
       <jump line="89" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/hyper-0.13.7/src/server/mod.rs" />
@@ -365,61 +349,92 @@
       <jump line="258" column="11" filename="$USER_HOME$/rust/src/acls.rs" />
       <jump line="267" column="10" filename="$USER_HOME$/rust/src/acls.rs" />
       <jump line="2" column="0" filename="$USER_HOME$/rust/src/acls.rs" />
+      <jump line="25" column="37" filename="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" />
+      <jump line="26" column="28" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="27" column="16" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="38" column="44" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="47" column="73" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="29" column="27" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="330" column="22" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="340" column="16" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="65" column="67" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="66" column="20" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="332" column="17" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="333" column="16" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="339" column="17" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="319" column="0" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="353" column="64" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="380" column="64" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="388" column="52" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="392" column="52" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="334" column="39" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="352" column="39" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>impl Future</text>
+        <text>tonic::</text>
       </register>
       <register name="-" type="4">
-        <text>impl Future</text>
+        <text>tonic::</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">Jm11dCBzZWxm</text>
+        <text>tonic:Status</text>
       </register>
       <register name="0" type="4">
-        <text>s.call(req).map_err(Error::from)</text>
+        <text>tonic::util::StringBody</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAvLy9jb21tb24vdW5pdmVyc2FsX3Rva2VuLnByb3RvIiwgInNyYy9wcm90b3Mvc3F1YXJldXAveHAvb2F1dGgvZGF0YXR5cGVzL2NvbW1vbi5wcm90byIsICJzcmMvcHJvdG9zL3NxdWFyZXVwL2Nvbm5lY3QvdjIvY29tbW9uL29wdGlvbnMucHJvdG8K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">cHJvdG9idWYgPSB7IHZlcnNpb24gPSAiMiIsIGZlYXR1cmVzID0gWyJ3aXRoLWJ5dGVzIl0gfQo=</text>
+      <register name="2" type="4">
+        <text encoding="base64">c3RydWN0IFN0clJlc3AoU3RyaW5nKTsKICAgICAgICBpbXBsIEh0dHBCb2R5IGZvciBTdHJSZXNwIHsKICAgICAgICAgICAgdHlwZSBEYXRhID0gYnl0ZXM6OkJ5dGVzOwogICAgICAgICAgICB0eXBlIEVycm9yID0gdG9uaWM6OlN0YXR1czsKCiAgICAgICAgICAgIGZuIGlzX2VuZF9zdHJlYW0oJnNlbGYpIC0+IGJvb2wgewogICAgICAgICAgICAgICAgdHJ1ZQogICAgICAgICAgICB9CgogICAgICAgICAgICBmbiBwb2xsX2RhdGEoCiAgICAgICAgICAgICAgICBzZWxmOiBQaW48Jm11dCBTZWxmPiwKICAgICAgICAgICAgICAgIF9jeDogJm11dCBDb250ZXh0PCdfPiwKICAgICAgICAgICAgKSAtPiBQb2xsPE9wdGlvbjxSZXN1bHQ8U2VsZjo6RGF0YSwgU2VsZjo6RXJyb3I+Pj4gewogICAgICAgICAgICAgICAgUG9sbDo6UmVhZHkoU29tZShPayhieXRlczo6Qnl0ZXM6OmZyb20oc2VsZi4wLmNsb25lKCkpKSkpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZuIHBvbGxfdHJhaWxlcnMoCiAgICAgICAgICAgICAgICBzZWxmOiBQaW48Jm11dCBTZWxmPiwKICAgICAgICAgICAgICAgIF9jeDogJm11dCBDb250ZXh0PCdfPiwKICAgICAgICAgICAgKSAtPiBQb2xsPFJlc3VsdDxPcHRpb248aHR0cDo6SGVhZGVyTWFwPiwgU2VsZjo6RXJyb3I+PiB7CiAgICAgICAgICAgICAgICBQb2xsOjpSZWFkeShPayhOb25lKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBmbiB0b19odHRwX2NvZGUoc3RhdHVzOiB0b25pYzo6Q29kZSkgLT4gaHR0cDo6U3RhdHVzQ29kZSB7CiAgICAgICAgICAgIG1hdGNoIHN0YXR1cyB7CiAgICAgICAgICAgICAgICB0b25pYzo6Q29kZTo6T2sgPT4gaHR0cDo6U3RhdHVzQ29kZTo6T0ssCiAgICAgICAgICAgICAgICB0b25pYzo6Q29kZTo6SW52YWxpZEFyZ3VtZW50IHwgdG9uaWM6OkNvZGU6OkZhaWxlZFByZWNvbmRpdGlvbiB8IHRvbmljOjpDb2RlOjpPdXRPZlJhbmdlICA9PiBodHRwOjpTdGF0dXNDb2RlOjpCQURfUkVRVUVTVCwKICAgICAgICAgICAgICAgIHRvbmljOjpDb2RlOjpVbmF1dGhlbnRpY2F0ZWQgPT4gaHR0cDo6U3RhdHVzQ29kZTo6VU5BVVRIT1JJWkVELAogICAgICAgICAgICAgICAgdG9uaWM6OkNvZGU6OlBlcm1pc3Npb25EZW5pZWQgPT4gaHR0cDo6U3RhdHVzQ29kZTo6Rk9SQklEREVOLAogICAgICAgICAgICAgICAgdG9uaWM6OkNvZGU6Ok5vdEZvdW5kID0+IGh0dHA6OlN0YXR1c0NvZGU6Ok5PVF9GT1VORCwKICAgICAgICAgICAgICAgIHRvbmljOjpDb2RlOjpBYm9ydGVkIHwgdG9uaWM6OkNvZGU6OkFscmVhZHlFeGlzdHMgPT4gaHR0cDo6U3RhdHVzQ29kZTo6UkVRVUVTVF9USU1FT1VULAogICAgICAgICAgICAgICAgdG9uaWM6OkNvZGU6OlJlc291cmNlRXhoYXVzdGVkID0+IGh0dHA6OlN0YXR1c0NvZGU6OlRPT19NQU5ZX1JFUVVFU1RTLAogICAgICAgICAgICAgICAgdG9uaWM6OkNvZGU6OkNhbmNlbGxlZCA9PiBodHRwOjpTdGF0dXNDb2RlOjpmcm9tX3UxNig0OTkpLnVud3JhcCgpLAogICAgICAgICAgICAgICAgdG9uaWM6OkNvZGU6OkludGVybmFsIHwgdG9uaWM6OkNvZGU6OkRhdGFMb3NzIHwgdG9uaWM6OkNvZGU6OlVua25vd24gPT4gaHR0cDo6U3RhdHVzQ29kZTo6SU5URVJOQUxfU0VSVkVSX0VSUk9SLAogICAgICAgICAgICAgICAgdG9uaWM6OkNvZGU6OlVuaW1wbGVtZW50ZWQgPT4gaHR0cDo6U3RhdHVzQ29kZTo6Tk9UX0lNUExFTUVOVEVELAogICAgICAgICAgICAgICAgdG9uaWM6OkNvZGU6OlVuYXZhaWxhYmxlID0+IGh0dHA6OlN0YXR1c0NvZGU6OlNFUlZJQ0VfVU5BVkFJTEFCTEUsCiAgICAgICAgICAgICAgICB0b25pYzo6Q29kZTo6RGVhZGxpbmVFeGNlZWRlZCA9PiBodHRwOjpTdGF0dXNDb2RlOjpHQVRFV0FZX1RJTUVPVVQsCiAgICAgICAgICAgICAgICBfID0+IGh0dHA6OlN0YXR1c0NvZGU6OklOVEVSTkFMX1NFUlZFUl9FUlJPUiwKICAgICAgICAgICAgfQogICAgICAgIH0=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">W2RlcGVuZGVuY2llc10K</text>
+        <text encoding="base64">cHViIHVzZSB1dGlsOjpTdHJpbmdCb2R5Owo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">bW9kIHV0aWw7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">cHViIG1vZCB1dGlsOwo=</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">CiAgICAgICAgY29kZV9nZW4ucGF0aC5wdXNoKDYpOwogICAgICAgIGZvciAoaWR4LCBkZXNjKSBpbiBmaWxlLmV4dGVuc2lvbi5pbnRvX2l0ZXIoKS5lbnVtZXJhdGUoKSB7CiAgICAgICAgICAgIGRlc2MuZXh0ZW5kZWUKICAgICAgICB9</text>
+      <register name="6" type="8">
+        <text>tonic::
+tonic::
+tonic::
+tonic::
+tonic::
+tonic::
+tonic::
+tonic::
+tonic::
+tonic::
+tonic::
+tonic::</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">dXNlIGh5cGVyOjp7c2VydmljZTo6bWFrZV9zZXJ2aWNlX2ZuLCBTZXJ2ZXJ9Owo=</text>
+        <text encoding="base64">ICAgICAgICAvLy9jb21tb24vdW5pdmVyc2FsX3Rva2VuLnByb3RvIiwgInNyYy9wcm90b3Mvc3F1YXJldXAveHAvb2F1dGgvZGF0YXR5cGVzL2NvbW1vbi5wcm90byIsICJzcmMvcHJvdG9zL3NxdWFyZXVwL2Nvbm5lY3QvdjIvY29tbW9uL29wdGlvbnMucHJvdG8K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">dXNlIHRvd2VyOjpTZXJ2aWNlOwo=</text>
+        <text encoding="base64">cHJvdG9idWYgPSB7IHZlcnNpb24gPSAiMiIsIGZlYXR1cmVzID0gWyJ3aXRoLWJ5dGVzIl0gfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">dXNlIHN0ZDo6Y29udmVydDo6SW5mYWxsaWJsZTsK</text>
+        <text encoding="base64">W2RlcGVuZGVuY2llc10K</text>
       </register>
       <register name=":" type="4">
-        <text>vsplit</text>
+        <text>%s/to_http_code/tonic::util::to_http_code/g</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">Jm11dCBzZWxm</last-search>
+      <last-search>tonic:Status</last-search>
       <last-offset />
-      <last-pattern encoding="base64">Jm11dCBzZWxm</last-pattern>
-      <last-replace>{:?}</last-replace>
-      <last-substitute>RpcArgs::</last-substitute>
+      <last-pattern>tonic:Status</last-pattern>
+      <last-replace>tonic::util::to_http_code</last-replace>
+      <last-substitute>to_http_code</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
