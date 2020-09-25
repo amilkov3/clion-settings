@@ -179,25 +179,24 @@
         <mark key="^" line="333" column="0" />
         <mark key="." line="333" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/src/redis.rs" timestamp="1601010407390">
-        <mark key="[" line="19" column="70" />
-        <mark key="]" line="20" column="9" />
-        <mark key="." line="20" column="8" />
-        <mark key="^" line="20" column="9" />
+      <file name="$USER_HOME$/rust/src/redis.rs" timestamp="1601053969944">
+        <mark key="'" line="28" column="32" />
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="0" />
+        <mark key="^" line="32" column="15" />
+        <mark key="." line="35" column="0" />
+      </file>
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1601053075223">
+        <mark key="[" line="33" column="28" />
+        <mark key="]" line="33" column="38" />
+        <mark key="." line="16" column="0" />
+        <mark key="^" line="38" column="28" />
       </file>
       <file name="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" timestamp="1601001556827">
         <mark key="'" line="2129" column="31" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/util.rs" timestamp="1600997447160">
-        <mark key="[" line="6" column="4" />
-        <mark key="]" line="20" column="4" />
-        <mark key="." line="5" column="0" />
-      </file>
-      <file name="$USER_HOME$/rust/src/spiffe.rs" timestamp="1600997099990">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
-        <mark key="^" line="53" column="41" />
+      <file name="$USER_HOME$/rust/src/config.rs" timestamp="1601054262519">
+        <mark key="'" line="109" column="0" />
       </file>
       <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1601006368511">
         <mark key="[" line="14" column="11" />
@@ -241,17 +240,10 @@
         <mark key="." line="625" column="0" />
         <mark key="^" line="610" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/src/error.rs" timestamp="1600998082385">
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="2" column="0" />
-        <mark key="^" line="2" column="38" />
-        <mark key="." line="2" column="0" />
-      </file>
-      <file name="$USER_HOME$/rust/src/env.rs" timestamp="1601001324100">
-        <mark key="[" line="44" column="4" />
-        <mark key="]" line="44" column="8" />
-        <mark key="." line="44" column="4" />
-        <mark key="^" line="44" column="8" />
+      <file name="$USER_HOME$/rust/src/env.rs" timestamp="1601054177609">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/rust/src/scraps.rs" timestamp="1601001807969">
         <mark key="[" line="15" column="4" />
@@ -262,30 +254,23 @@
       <file name="/Dummy.txt" timestamp="1601010055405">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/example/conf/example-test.yml" timestamp="1601006134776">
-        <mark key="[" line="2" column="18" />
-        <mark key="]" line="3" column="19" />
-        <mark key="^" line="3" column="19" />
-        <mark key="." line="3" column="18" />
+      <file name="$USER_HOME$/rust/example/conf/example-test.yml" timestamp="1601052218478">
+        <mark key="[" line="6" column="8" />
+        <mark key="]" line="6" column="19" />
+        <mark key="^" line="6" column="8" />
+        <mark key="." line="6" column="8" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" timestamp="1601007207862">
         <mark key="'" line="29" column="9" />
       </file>
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1601005662728">
-        <mark key="'" line="11" column="16" />
-        <mark key="[" line="61" column="22" />
-        <mark key="]" line="61" column="26" />
-        <mark key="^" line="61" column="26" />
-        <mark key="." line="61" column="25" />
+      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1601054242514">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="25" />
+        <mark key="^" line="2" column="17" />
+        <mark key="." line="23" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="16" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/path.rs" />
-      <jump line="38" column="24" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/path.rs" />
-      <jump line="72" column="28" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/path.rs" />
-      <jump line="82" column="25" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/path.rs" />
-      <jump line="95" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
-      <jump line="103" column="9" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
       <jump line="105" column="4" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
       <jump line="119" column="51" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
       <jump line="121" column="4" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
@@ -380,54 +365,69 @@
       <jump line="46" column="20" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/connection.rs" />
       <jump line="476" column="31" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
       <jump line="525" column="19" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
+      <jump line="35" column="19" filename="$USER_HOME$/rust/src/server.rs" />
+      <jump line="25" column="32" filename="$USER_HOME$/rust/src/redis.rs" />
+      <jump line="42" column="10" filename="$USER_HOME$/rust/src/error.rs" />
+      <jump line="5" column="0" filename="$USER_HOME$/rust/src/error.rs" />
+      <jump line="14" column="0" filename="$USER_HOME$/rust/src/env.rs" />
+      <jump line="59" column="0" filename="$USER_HOME$/rust/src/config.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHkuc2V0Cg==</text>
+      <register name="&quot;" type="4">
+        <text>use crate::acls::AclsConf;</text>
       </register>
       <register name="-" type="4">
-        <text>ConnectionManager</text>
+        <text>env</text>
       </register>
       <register name="/" type="4">
         <text>as_pubsub</text>
       </register>
       <register name="0" type="4">
-        <text>y.set_read_timeout(r.read_timeout).unwrap()</text>
+        <text>use crate::acls::AclsConf;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHkuc2V0Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIENvbm5lY3Rpb246Om5ldwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIENvbm5lY3Rpb25NYW5hZ2VyOjpuZXcoKQo=</text>
+      <register name="3" type="4">
+        <text encoding="base64">I1tkZXJpdmUoRGVzZXJpYWxpemUsIENsb25lKV0Kc3RydWN0IFNlcnZlckNvbmYgewogICAgYWRkcjogU29ja2V0QWRkciwKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUsIENsb25lKV0Kc3RydWN0IExvYWRhYmxlQ29uZiB7CiAgICAjW3NlcmRlKGZsYXR0ZW4pXQogICAgYWNsczogQWNsc0NvbmYsCiAgICBzZXJ2ZXI6IFNlcnZlckNvbmYsCiAgICByZWRpczogUmVkaXNDb25mLAp9CgpzdHJ1Y3QgQ29uZmlnIHsKICAgIGNvbmY6IExvYWRhYmxlQ29uZiwKICAgIHZhcnM6IFZhcnMsCn0KCmltcGwgQ29uZmlnIHsKICAgIHB1YiBmbiBsb2FkKHNlcnZpY2VfaG9tZTogUGF0aCkgLT4gQ29uZmlnIHsKICAgICAgICBsZXQgbXV0IHZhcnMgPSBWYXJzIHsKICAgICAgICAgICAgc2VydmljZV9ob21lLAogICAgICAgICAgICBzZXJ2aWNlX25hbWU6IHNlcnZpY2VfaG9tZQogICAgICAgICAgICAgICAgLmZpbGVfc3RlbSgpCiAgICAgICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgICAgIC50b19zdHIoKQogICAgICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGVudmlyb25tZW50OiBFbnZpcm9ubWVudDo6VGVzdCwKICAgICAgICB9OwogICAgICAgIHZhcnMubG9hZCgpOwogICAgICAgIGxldCBjb25maWdfcGF0aCA9IGZvcm1hdCEoCiAgICAgICAgICAgICJ7fS9jb25maWcve30tezo/fS55YW1sIiwKICAgICAgICAgICAgJnZhcnMuc2VydmljZV9ob21lLCAmdmFycy5zZXJ2aWNlX25hbWUsICZ2YXJzLmVudmlyb25tZW50CiAgICAgICAgKTsKICAgICAgICBsZXQgY29uZjogTG9hZGFibGVDb25mID0KICAgICAgICAgICAgc2VyZGVfeWFtbDo6ZnJvbV9yZWFkZXIoc3RkOjpmczo6RmlsZTo6b3Blbihjb25maWdfcGF0aCkuZXhwZWN0KCJwYXRoIG5vdCBmb3VuZCIpKQogICAgICAgICAgICAgICAgLmV4cGVjdCgiZmFpbGVkIHJlYWRpbmcgY29uZmlnIik7CiAgICAgICAgQ29uZmlnIHsgY29uZiwgdmFycyB9CiAgICB9Cn0=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="4">
-        <text>redis::ConnectionInfo
-    redis::aio::connect_async_std(ConnectionInfo{
-        addr: Box::new(ConnectionAddr::),
-        db: 0,
-        username: None,
-        passwd: None
-    })</text>
+        <text>use failure::_core::fmt::Formatter;
+use failure::_core::str::FromStr;
+use std::env::var;
+use std::fmt::Display;
+use std::path::Path;</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHkuc2V0Cg==</text>
+      <register name="6" type="4">
+        <text encoding="base64">cHViIGVudW0gRW52aXJvbm1lbnQgewogICAgVGVzdCwKICAgIERldmVsb3BtZW50LAogICAgU3RhZ2luZywKICAgIFByb2R1Y3Rpb24sCn0KCmltcGwgRGlzcGxheSBmb3IgRW52aXJvbm1lbnQgewogICAgZm4gZm10KCZzZWxmLCBmOiAmbXV0IEZvcm1hdHRlcjwnXz4pIC0+IHN0ZDo6Zm10OjpSZXN1bHQgewogICAgICAgIHdyaXRlISgKICAgICAgICAgICAgZiwKICAgICAgICAgICAgInt9IiwKICAgICAgICAgICAgbWF0Y2ggc2VsZiB7CiAgICAgICAgICAgICAgICBFbnZpcm9ubWVudDo6VGVzdCA9PiAiZGV2ZWxvcG1lbnQiLAogICAgICAgICAgICAgICAgRW52aXJvbm1lbnQ6OkRldmVsb3BtZW50ID0+ICJkZXZlbG9wbWVudCIsCiAgICAgICAgICAgICAgICBFbnZpcm9ubWVudDo6U3RhZ2luZyA9PiAiZGV2ZWxvcG1lbnQiLAogICAgICAgICAgICAgICAgRW52aXJvbm1lbnQ6OlByb2R1Y3Rpb24gPT4gImRldmVsb3BtZW50IiwKICAgICAgICAgICAgfQogICAgICAgICkKICAgIH0KfQoKaW1wbCBGcm9tU3RyIGZvciBFbnZpcm9ubWVudCB7CiAgICB0eXBlIEVyciA9IFN0cmluZzsKCiAgICBmbiBmcm9tX3N0cihzOiAmc3RyKSAtPiBSZXN1bHQ8U2VsZiwgU2VsZjo6RXJyPiB7CiAgICAgICAgbWF0Y2ggcyB7CiAgICAgICAgICAgICJ0ZXN0IiA9PiBPayhFbnZpcm9ubWVudDo6VGVzdCksCiAgICAgICAgICAgICJkZXZlbG9wbWVudCIgPT4gT2soRW52aXJvbm1lbnQ6OkRldmVsb3BtZW50KSwKICAgICAgICAgICAgInN0YWdpbmciID0+IE9rKEVudmlyb25tZW50OjpTdGFnaW5nKSwKICAgICAgICAgICAgInByb2R1Y3Rpb24iID0+IE9rKEVudmlyb25tZW50OjpQcm9kdWN0aW9uKSwKICAgICAgICAgICAgXyA9PiBFcnIoZm9ybWF0ISgidW5yZWNvZ25pemVkIGVudmlyb25tZW50OiB7fSIsIHMpKSwKICAgICAgICB9CiAgICB9Cn0KCnB1YihjcmF0ZSkgc3RydWN0IFZhcnMgewogICAgcHViIHNlcnZpY2VfaG9tZTogUGF0aCwKICAgIHB1YiBzZXJ2aWNlX25hbWU6IFN0cmluZywKICAgIHB1YiBlbnZpcm9ubWVudDogRW52aXJvbm1lbnQsCn0KCmltcGwgVmFycyB7CiAgICBwdWIoY3JhdGUpIGZuIGxvYWQobXV0IHNlbGYpIC0+IFNlbGYgewogICAgICAgIHZhcigiSE9NRSIpLm1hcCh8aHwgc2VsZi5zZXJ2aWNlX3BhdGggPSBQYXRoOjpuZXcoJmZvcm1hdCEoInt9L2N1cnJlbnQiLCBoKSkpOwogICAgICAgIHZhcigiTEFVTkNIQUJMRV9JRCIpLm1hcCh8bnwgc2VsZi5zZXJ2aWNlX25hbWUgPSBuKTsKICAgICAgICBzZWxmLmVudmlyb25tZW50ID0gdmFyKCJFTlZJUk9OTUVOVCIpLm1hcF9vcl9lbHNlKAogICAgICAgICAgICB8X3wgRW52aXJvbm1lbnQ6OlRlc3QsCiAgICAgICAgICAgIHx2fCBFbnZpcm9ubWVudDo6ZnJvbV9zdHIoJnYpLnVud3JhcCgpLAogICAgICAgICk7CiAgICAgICAgc2VsZgogICAgfQp9</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIHkuc2V0X2V4KCkK</text>
+      <register name="9" type="4">
+        <text>async fn foo(r: RedisConf) {
+
+
+    let x = redis::Client::open(r.addr).unwrap();
+    let y = x.get_tokio_connection_manager().await.unwrap();
+    let mut y = x.get_async_connection().await.unwrap().into_pubsub();
+    y.set
+    y.get
+    //y.set_read_timeout(r.read_timeout).unwrap();
+    //y.set_write_timeout(r.write_timeout).unwrap();
+    y.set()
+}</text>
       </register>
       <register name=":" type="4">
         <text>x</text>
