@@ -7,15 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>request.metadata</entry>
-        <entry>print</entry>
-        <entry>spawn</entry>
-        <entry>spawn_blocking</entry>
-        <entry>open</entry>
-        <entry>decoder</entry>
-        <entry>decode</entry>
-        <entry>nobody</entry>
-        <entry>no body</entry>
         <entry>No body</entry>
         <entry>let req</entry>
         <entry>let req =</entry>
@@ -36,7 +27,6 @@
         <entry>make</entry>
         <entry>OK</entry>
         <entry>400</entry>
-        <entry>to_http</entry>
         <entry>501</entry>
         <entry>Aborted</entry>
         <entry>Aborted =</entry>
@@ -107,6 +97,16 @@
         <entry>to_string</entry>
         <entry>str</entry>
         <entry>str(</entry>
+        <entry>tonic::util</entry>
+        <entry>tonic::body</entry>
+        <entry>to_http_status</entry>
+        <entry>to_http</entry>
+        <entry>tonic::body::String</entry>
+        <entry>tonic::util::String</entry>
+        <entry>Into</entry>
+        <entry>Path</entry>
+        <entry>stem</entry>
+        <entry>file_stem</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -163,6 +163,9 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed E</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed H</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
@@ -178,15 +181,15 @@
         <mark key="[" line="373" column="16" />
         <mark key="]" line="373" column="29" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/lib.rs" timestamp="1600979189975">
+      <file name="$USER_HOME$/tonic1/tonic/src/lib.rs" timestamp="1600997665582">
         <mark key="[" line="83" column="0" />
-        <mark key="]" line="83" column="13" />
+        <mark key="]" line="83" column="0" />
         <mark key="." line="83" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600988451707">
-        <mark key="[" line="38" column="29" />
-        <mark key="]" line="38" column="28" />
-        <mark key="." line="38" column="27" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600997077686">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="16" column="0" />
         <mark key="^" line="38" column="28" />
       </file>
       <file name="$USER_HOME$/rust/src/acls.rs" timestamp="1600988342807">
@@ -196,118 +199,84 @@
         <mark key="^" line="324" column="22" />
         <mark key="." line="324" column="21" />
       </file>
-      <file name="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" timestamp="1600986061349">
-        <mark key="'" line="44" column="2" />
+      <file name="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" timestamp="1601001556827">
+        <mark key="'" line="2129" column="31" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/util.rs" timestamp="1600979824588">
-        <mark key="[" line="5" column="22" />
-        <mark key="]" line="5" column="26" />
-        <mark key="^" line="5" column="26" />
-        <mark key="." line="5" column="25" />
+      <file name="$USER_HOME$/tonic1/tonic/src/body.rs" timestamp="1600997505221">
+        <mark key="[" line="219" column="34" />
+        <mark key="]" line="220" column="0" />
+        <mark key="^" line="220" column="0" />
+        <mark key="." line="220" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/src/spiffe.rs" timestamp="1600988267197">
-        <mark key="[" line="54" column="41" />
-        <mark key="]" line="54" column="41" />
-        <mark key="." line="54" column="40" />
-        <mark key="^" line="54" column="41" />
+      <file name="$USER_HOME$/tonic1/tonic/src/util.rs" timestamp="1600997447160">
+        <mark key="[" line="6" column="4" />
+        <mark key="]" line="20" column="4" />
+        <mark key="." line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/src/error.rs" timestamp="1600987687410">
-        <mark key="[" line="38" column="46" />
-        <mark key="]" line="38" column="55" />
-        <mark key="^" line="38" column="55" />
-        <mark key="." line="38" column="54" />
+      <file name="$USER_HOME$/rust/src/spiffe.rs" timestamp="1600997099990">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
+        <mark key="^" line="53" column="41" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" timestamp="1600978695936">
-        <mark key="'" line="25" column="37" />
+      <file name="$USER_HOME$/tonic1/tonic/src/status.rs" timestamp="1600997463585">
+        <mark key="[" line="625" column="0" />
+        <mark key="]" line="625" column="0" />
+        <mark key="." line="625" column="0" />
+        <mark key="^" line="610" column="18" />
       </file>
-      <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1600981875397">
-        <mark key="[" line="11" column="15" />
-        <mark key="]" line="13" column="11" />
-        <mark key="." line="13" column="10" />
-        <mark key="^" line="13" column="11" />
+      <file name="$USER_HOME$/rust/src/error.rs" timestamp="1600998082385">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="^" line="2" column="38" />
+        <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/codec/util.rs" timestamp="1600979105751">
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="5" column="4" />
-        <mark key="^" line="5" column="4" />
-        <mark key="." line="5" column="3" />
+      <file name="$USER_HOME$/rust/src/env.rs" timestamp="1601001324100">
+        <mark key="[" line="44" column="4" />
+        <mark key="]" line="44" column="8" />
+        <mark key="." line="44" column="4" />
+        <mark key="^" line="44" column="8" />
+      </file>
+      <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1601000190289">
+        <mark key="[" line="13" column="11" />
+        <mark key="]" line="13" column="8" />
+        <mark key="." line="13" column="7" />
+        <mark key="^" line="13" column="8" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" timestamp="1600987569035">
         <mark key="'" line="41" column="11" />
       </file>
-      <file name="$USER_HOME$/rust/src/scraps.rs" timestamp="1600985256367">
-        <mark key="]" line="0" column="1" />
+      <file name="$USER_HOME$/rust/src/scraps.rs" timestamp="1601001807969">
+        <mark key="[" line="15" column="4" />
+        <mark key="]" line="19" column="5" />
+        <mark key="^" line="15" column="4" />
+        <mark key="." line="15" column="4" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1600979310057">
-        <mark key="'" line="352" column="39" />
-        <mark key="[" line="352" column="40" />
-        <mark key="]" line="352" column="40" />
-        <mark key="." line="352" column="39" />
-        <mark key="^" line="352" column="40" />
+      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1600997874489">
+        <mark key="'" line="47" column="68" />
+        <mark key="[" line="379" column="44" />
+        <mark key="]" line="379" column="46" />
+        <mark key="." line="379" column="45" />
+        <mark key="^" line="379" column="46" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/path.rs" timestamp="1600987937651">
         <mark key="'" line="82" column="25" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/codec/mod.rs" timestamp="1600979210475">
-        <mark key="[" line="26" column="0" />
-        <mark key="]" line="26" column="0" />
-        <mark key="." line="26" column="0" />
+      <file name="$USER_HOME$/rust/example/conf/example-test.yml" timestamp="1600998591684">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="2" column="7" />
+        <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/convert/mod.rs" timestamp="1600984219604">
-        <mark key="'" line="432" column="51" />
-      </file>
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1600986969247">
-        <mark key="'" line="37" column="47" />
-        <mark key="[" line="27" column="48" />
-        <mark key="]" line="27" column="48" />
-        <mark key="^" line="27" column="48" />
-        <mark key="." line="27" column="47" />
+      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1601001827003">
+        <mark key="'" line="11" column="16" />
+        <mark key="[" line="42" column="0" />
+        <mark key="]" line="42" column="0" />
+        <mark key="^" line="39" column="43" />
+        <mark key="." line="42" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="413" column="1" filename="$USER_HOME$/prost/tests/src/protos/common.proto" />
-      <jump line="321" column="1" filename="$USER_HOME$/prost/tests/src/protos/squareup/connect/v2/common/options.proto" />
-      <jump line="947" column="48" filename="$USER_HOME$/prost/tests/src/protos/options.rs" />
-      <jump line="258" column="11" filename="$USER_HOME$/rust/src/acls.rs" />
-      <jump line="267" column="10" filename="$USER_HOME$/rust/src/acls.rs" />
-      <jump line="2" column="0" filename="$USER_HOME$/rust/src/acls.rs" />
-      <jump line="25" column="37" filename="$USER_HOME$/rust/example/src/proto/squareup.exemplargrpc.service.rs" />
-      <jump line="26" column="28" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="27" column="16" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="38" column="44" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="47" column="73" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="29" column="27" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="330" column="22" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="340" column="16" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="65" column="67" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="66" column="20" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="332" column="17" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="333" column="16" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="339" column="17" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="319" column="0" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="353" column="64" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="380" column="64" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="388" column="52" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="392" column="52" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="334" column="39" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="352" column="39" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
-      <jump line="55" column="12" filename="$USER_HOME$/rust/src/server.rs" />
-      <jump line="29" column="16" filename="$USER_HOME$/rust/src/spiffe.rs" />
-      <jump line="46" column="36" filename="$USER_HOME$/rust/src/spiffe.rs" />
-      <jump line="380" column="10" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/convert/mod.rs" />
-      <jump line="390" column="41" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/convert/mod.rs" />
-      <jump line="401" column="23" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/convert/mod.rs" />
-      <jump line="425" column="37" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/convert/mod.rs" />
-      <jump line="431" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/convert/mod.rs" />
-      <jump line="432" column="51" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/convert/mod.rs" />
-      <jump line="49" column="47" filename="$USER_HOME$/rust/src/server.rs" />
-      <jump line="1749" column="28" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
-      <jump line="2279" column="21" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
-      <jump line="9" column="17" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
-      <jump line="44" column="2" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
-      <jump line="19" column="31" filename="$USER_HOME$/rust/src/acls.rs" />
-      <jump line="41" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" />
-      <jump line="20" column="10" filename="$USER_HOME$/rust/src/acls.rs" />
       <jump line="46" column="10" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
       <jump line="541" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
       <jump line="533" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
@@ -365,48 +334,91 @@
       <jump line="466" column="32" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
       <jump line="497" column="48" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
       <jump line="755" column="40" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
+      <jump line="261" column="23" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="352" column="40" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="380" column="64" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="332" column="39" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="346" column="59" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="353" column="64" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="373" column="59" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="379" column="53" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="398" column="62" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="43" column="47" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="59" column="30" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="47" column="68" filename="$USER_HOME$/tonic1/tonic-build/src/server.rs" />
+      <jump line="30" column="0" filename="$USER_HOME$/rust/src/env.rs" />
+      <jump line="11" column="16" filename="$USER_HOME$/rust/src/server.rs" />
+      <jump line="38" column="21" filename="$USER_HOME$/rust/src/env.rs" />
+      <jump line="2335" column="27" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2874" column="34" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="3085" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="3075" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="3065" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="3055" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="3045" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="3035" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="3025" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="3015" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="3005" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2995" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2985" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2975" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2965" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2955" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2945" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2935" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2925" column="8" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2891" column="26" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2886" column="21" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2873" column="43" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2872" column="46" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2871" column="32" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2867" column="21" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2132" column="11" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="1710" column="15" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="2129" column="31" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>&quot;conf/test-acls.yml&quot;</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;conf/test-acls.yml&quot;</text>
+        <text>bind</text>
       </register>
       <register name="/" type="4">
-        <text>str(</text>
+        <text>file_stem</text>
       </register>
       <register name="0" type="4">
-        <text>format!(&quot;{:?}&quot;, self.uri)</text>
+        <text encoding="base64">cHViIGZuIHNlcnZpY2VfaG9tZShtdXQgc2VsZiwgcGF0aDogUGF0aCkgLT4gU2VsZiB7CiAgICAgICAgc2VsZi52YXJzLnNlcnZpY2VfaG9tZSA9IHBhdGg7CiAgICAgICAgc2VsZi52YXJzLnNlcnZpY2VfbmFtZSA9IGZpbGVfc3RlbSgpLnVud3JhcCgpLnRvX3N0cigpLnVud3JhcCgpOwogICAgICAgIHNlbGYKICAgIH0=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBPayhVUkkgeyB1cmkgfSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfHwgdXJpLnBhdGhfYW5kX3F1ZXJ5KCkudW53cmFwKCkgZnJhZ21lbnQoKS5pc19zb21lKCkK</text>
+      <register name="3" type="4">
+        <text encoding="base64">cHViIGZuIHNlcnZpY2VfaG9tZShtdXQgc2VsZiwgcGF0aDogUGF0aCkgLT4gU2VsZiB7CiAgICAgICAgc2VsZi52YXJzLnNlcnZpY2VfaG9tZSA9IHBhdGg7CiAgICAgICAgc2VsZi52YXJzLnNlcnZpY2VfbmFtZSA9IGZpbGVfc3RlbSgpLnVud3JhcCgpLnRvX3N0cigpLnVud3JhcCgpOwogICAgICAgIHNlbGYKICAgIH0=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfHwgdXJpLnBhc3N3b3JkKCkuaXNfc29tZSgpCg==</text>
+        <text encoding="base64">CiAgICAK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfHwgKHVyaS51c2VybmFtZSgpICE9ICIiKQo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">cHViIGZuIHNlcnZpY2UobXV0IHNlbGYsIG5hbWU6IFN0cmluZykgLT4gU2VsZiB7CiAgICAgICAgc2VsZi5zZXJ2aWNlX25hbWUgPSBTb21lKG5hbWUpOwogICAgICAgIHNlbGYKICAgIH0=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6ZnM6OkZpbGU6Om9wZW4oKQo=</text>
+      <register name="6" type="4">
+        <text>home path.</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">CnN0cnVjdCBCdWlsZGVyIHsKICAgIGFkZHI6IFNvY2tldEFkZHIsCiAgICBwYXRoOiBQYXRoLAp9CgppbXBsIEJ1aWxkZXIgewogICAgcHViIGZuIGJpbmQoYWRkcjogU29ja2V0QWRkcikgLT4gQnVpbGRlciB7CiAgICAgICAgQnVpbGRlciB7IGFkZHIgfQogICAgfQoKICAgIHB1YiBmbiBjb25maWcobXV0IHNlbGYsIHBhdGg6IFBhdGgpIC0+IFNlbGYgewogICAgICAgIHNlbGYucGF0aCA9IHBhdGg7CiAgICAgICAgc2VsZgogICAgfQp9</text>
+        <text encoding="base64">bGV0IGVudiA9IHZhcigiRU5WSVJPTk1FTlQiKS5tYXBfb3JfZWxzZSh8X3wgRW52aXJvbm1lbnQ6OlRlc3QsIHx2fCBFbnZpcm9ubWVudDo6ZnJvbV9zdHIoJnYpLnVud3JhcCgpKQogICAgICAgIGxldCBzZXJ2aWNlX25hbWUgPSB2YXIoIkxBVU5DSEFCTEVfSUQiKS5vaygpOw==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YXIoIkhPTUUiKS5tYXAofGh8IHNlbGYuc2VydmljZV9wYXRoID0gUGF0aDo6bmV3KCZmb3JtYXQhKCJ7fS9jdXJyZW50IiwgaCkpKTsK</text>
       </register>
       <register name=":" type="4">
         <text>%s/to_http_code/tonic::util::to_http_code/g</text>
@@ -415,9 +427,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>str(</last-search>
+      <last-search>file_stem</last-search>
       <last-offset />
-      <last-pattern>str(</last-pattern>
+      <last-pattern>file_stem</last-pattern>
       <last-replace>tonic::util::to_http_code</last-replace>
       <last-substitute>to_http_code</last-substitute>
       <last-dir>1</last-dir>
