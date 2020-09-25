@@ -112,12 +112,12 @@
         <entry>%s/:?//g</entry>
         <entry>%s/{}/{:?}/g</entry>
         <entry>GhcModType</entry>
-        <entry>bnext</entry>
         <entry>nohl</entry>
         <entry>vsplit</entry>
         <entry>%s/to_http_code/tonic::util::to_http_code/g</entry>
         <entry>x</entry>
         <entry>bprevious</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -179,30 +179,34 @@
         <mark key="^" line="333" column="0" />
         <mark key="." line="333" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/src/redis.rs" timestamp="1601053969944">
+      <file name="$USER_HOME$/rust/src/redis.rs" timestamp="1601061286892">
         <mark key="'" line="28" column="32" />
-        <mark key="[" line="35" column="0" />
-        <mark key="]" line="35" column="0" />
-        <mark key="^" line="32" column="15" />
-        <mark key="." line="35" column="0" />
+        <mark key="[" line="7" column="3" />
+        <mark key="]" line="7" column="3" />
+        <mark key="^" line="23" column="18" />
+        <mark key="." line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1601053075223">
-        <mark key="[" line="33" column="28" />
-        <mark key="]" line="33" column="38" />
-        <mark key="." line="16" column="0" />
-        <mark key="^" line="38" column="28" />
+      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1601061225334">
+        <mark key="[" line="37" column="41" />
+        <mark key="]" line="38" column="4" />
+        <mark key="." line="38" column="3" />
+        <mark key="^" line="38" column="4" />
       </file>
       <file name="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" timestamp="1601001556827">
         <mark key="'" line="2129" column="31" />
       </file>
-      <file name="$USER_HOME$/rust/src/config.rs" timestamp="1601054262519">
-        <mark key="'" line="109" column="0" />
+      <file name="$USER_HOME$/rust/src/config.rs" timestamp="1601061692137">
+        <mark key="'" line="113" column="0" />
+        <mark key="[" line="56" column="0" />
+        <mark key="]" line="57" column="14" />
+        <mark key="." line="57" column="13" />
+        <mark key="^" line="57" column="14" />
       </file>
-      <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1601006368511">
-        <mark key="[" line="14" column="11" />
-        <mark key="]" line="14" column="10" />
-        <mark key="." line="14" column="9" />
-        <mark key="^" line="14" column="10" />
+      <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1601059596590">
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="0" />
+        <mark key="." line="13" column="0" />
+        <mark key="^" line="11" column="4" />
       </file>
       <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1601009153762">
         <mark key="[" line="31" column="41" />
@@ -263,11 +267,11 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" timestamp="1601007207862">
         <mark key="'" line="29" column="9" />
       </file>
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1601054242514">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="25" />
-        <mark key="^" line="2" column="17" />
-        <mark key="." line="23" column="0" />
+      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1601061716752">
+        <mark key="[" line="24" column="22" />
+        <mark key="]" line="24" column="20" />
+        <mark key="^" line="24" column="20" />
+        <mark key="." line="24" column="19" />
       </file>
     </filemarks>
     <jumps>
@@ -376,10 +380,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>use crate::acls::AclsConf;</text>
+        <text encoding="base64">UDogQXNSZWY8UGF0aD4=</text>
       </register>
       <register name="-" type="4">
-        <text>env</text>
+        <text encoding="base64">UDogQXNSZWY8UGF0aD4=</text>
       </register>
       <register name="/" type="4">
         <text>as_pubsub</text>
@@ -393,41 +397,30 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">I1tkZXJpdmUoRGVzZXJpYWxpemUsIENsb25lKV0Kc3RydWN0IFNlcnZlckNvbmYgewogICAgYWRkcjogU29ja2V0QWRkciwKfQoKI1tkZXJpdmUoRGVzZXJpYWxpemUsIENsb25lKV0Kc3RydWN0IExvYWRhYmxlQ29uZiB7CiAgICAjW3NlcmRlKGZsYXR0ZW4pXQogICAgYWNsczogQWNsc0NvbmYsCiAgICBzZXJ2ZXI6IFNlcnZlckNvbmYsCiAgICByZWRpczogUmVkaXNDb25mLAp9CgpzdHJ1Y3QgQ29uZmlnIHsKICAgIGNvbmY6IExvYWRhYmxlQ29uZiwKICAgIHZhcnM6IFZhcnMsCn0KCmltcGwgQ29uZmlnIHsKICAgIHB1YiBmbiBsb2FkKHNlcnZpY2VfaG9tZTogUGF0aCkgLT4gQ29uZmlnIHsKICAgICAgICBsZXQgbXV0IHZhcnMgPSBWYXJzIHsKICAgICAgICAgICAgc2VydmljZV9ob21lLAogICAgICAgICAgICBzZXJ2aWNlX25hbWU6IHNlcnZpY2VfaG9tZQogICAgICAgICAgICAgICAgLmZpbGVfc3RlbSgpCiAgICAgICAgICAgICAgICAudW53cmFwKCkKICAgICAgICAgICAgICAgIC50b19zdHIoKQogICAgICAgICAgICAgICAgLnVud3JhcCgpCiAgICAgICAgICAgICAgICAudG9fc3RyaW5nKCksCiAgICAgICAgICAgIGVudmlyb25tZW50OiBFbnZpcm9ubWVudDo6VGVzdCwKICAgICAgICB9OwogICAgICAgIHZhcnMubG9hZCgpOwogICAgICAgIGxldCBjb25maWdfcGF0aCA9IGZvcm1hdCEoCiAgICAgICAgICAgICJ7fS9jb25maWcve30tezo/fS55YW1sIiwKICAgICAgICAgICAgJnZhcnMuc2VydmljZV9ob21lLCAmdmFycy5zZXJ2aWNlX25hbWUsICZ2YXJzLmVudmlyb25tZW50CiAgICAgICAgKTsKICAgICAgICBsZXQgY29uZjogTG9hZGFibGVDb25mID0KICAgICAgICAgICAgc2VyZGVfeWFtbDo6ZnJvbV9yZWFkZXIoc3RkOjpmczo6RmlsZTo6b3Blbihjb25maWdfcGF0aCkuZXhwZWN0KCJwYXRoIG5vdCBmb3VuZCIpKQogICAgICAgICAgICAgICAgLmV4cGVjdCgiZmFpbGVkIHJlYWRpbmcgY29uZmlnIik7CiAgICAgICAgQ29uZmlnIHsgY29uZiwgdmFycyB9CiAgICB9Cn0=</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgIGxldCBhZGRyOiBTb2NrZXRBZGRyID0gIls6OjFdOjEwMDAwIi5wYXJzZSgpPzsK</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>use failure::_core::fmt::Formatter;
-use failure::_core::str::FromStr;
-use std::env::var;
-use std::fmt::Display;
-use std::path::Path;</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">cHViIGVudW0gRW52aXJvbm1lbnQgewogICAgVGVzdCwKICAgIERldmVsb3BtZW50LAogICAgU3RhZ2luZywKICAgIFByb2R1Y3Rpb24sCn0KCmltcGwgRGlzcGxheSBmb3IgRW52aXJvbm1lbnQgewogICAgZm4gZm10KCZzZWxmLCBmOiAmbXV0IEZvcm1hdHRlcjwnXz4pIC0+IHN0ZDo6Zm10OjpSZXN1bHQgewogICAgICAgIHdyaXRlISgKICAgICAgICAgICAgZiwKICAgICAgICAgICAgInt9IiwKICAgICAgICAgICAgbWF0Y2ggc2VsZiB7CiAgICAgICAgICAgICAgICBFbnZpcm9ubWVudDo6VGVzdCA9PiAiZGV2ZWxvcG1lbnQiLAogICAgICAgICAgICAgICAgRW52aXJvbm1lbnQ6OkRldmVsb3BtZW50ID0+ICJkZXZlbG9wbWVudCIsCiAgICAgICAgICAgICAgICBFbnZpcm9ubWVudDo6U3RhZ2luZyA9PiAiZGV2ZWxvcG1lbnQiLAogICAgICAgICAgICAgICAgRW52aXJvbm1lbnQ6OlByb2R1Y3Rpb24gPT4gImRldmVsb3BtZW50IiwKICAgICAgICAgICAgfQogICAgICAgICkKICAgIH0KfQoKaW1wbCBGcm9tU3RyIGZvciBFbnZpcm9ubWVudCB7CiAgICB0eXBlIEVyciA9IFN0cmluZzsKCiAgICBmbiBmcm9tX3N0cihzOiAmc3RyKSAtPiBSZXN1bHQ8U2VsZiwgU2VsZjo6RXJyPiB7CiAgICAgICAgbWF0Y2ggcyB7CiAgICAgICAgICAgICJ0ZXN0IiA9PiBPayhFbnZpcm9ubWVudDo6VGVzdCksCiAgICAgICAgICAgICJkZXZlbG9wbWVudCIgPT4gT2soRW52aXJvbm1lbnQ6OkRldmVsb3BtZW50KSwKICAgICAgICAgICAgInN0YWdpbmciID0+IE9rKEVudmlyb25tZW50OjpTdGFnaW5nKSwKICAgICAgICAgICAgInByb2R1Y3Rpb24iID0+IE9rKEVudmlyb25tZW50OjpQcm9kdWN0aW9uKSwKICAgICAgICAgICAgXyA9PiBFcnIoZm9ybWF0ISgidW5yZWNvZ25pemVkIGVudmlyb25tZW50OiB7fSIsIHMpKSwKICAgICAgICB9CiAgICB9Cn0KCnB1YihjcmF0ZSkgc3RydWN0IFZhcnMgewogICAgcHViIHNlcnZpY2VfaG9tZTogUGF0aCwKICAgIHB1YiBzZXJ2aWNlX25hbWU6IFN0cmluZywKICAgIHB1YiBlbnZpcm9ubWVudDogRW52aXJvbm1lbnQsCn0KCmltcGwgVmFycyB7CiAgICBwdWIoY3JhdGUpIGZuIGxvYWQobXV0IHNlbGYpIC0+IFNlbGYgewogICAgICAgIHZhcigiSE9NRSIpLm1hcCh8aHwgc2VsZi5zZXJ2aWNlX3BhdGggPSBQYXRoOjpuZXcoJmZvcm1hdCEoInt9L2N1cnJlbnQiLCBoKSkpOwogICAgICAgIHZhcigiTEFVTkNIQUJMRV9JRCIpLm1hcCh8bnwgc2VsZi5zZXJ2aWNlX25hbWUgPSBuKTsKICAgICAgICBzZWxmLmVudmlyb25tZW50ID0gdmFyKCJFTlZJUk9OTUVOVCIpLm1hcF9vcl9lbHNlKAogICAgICAgICAgICB8X3wgRW52aXJvbm1lbnQ6OlRlc3QsCiAgICAgICAgICAgIHx2fCBFbnZpcm9ubWVudDo6ZnJvbV9zdHIoJnYpLnVud3JhcCgpLAogICAgICAgICk7CiAgICAgICAgc2VsZgogICAgfQp9</text>
+      <register name="7" type="4">
+        <text>let p = &quot;conf/test-acls.yml&quot;;
+    let conf: ServerConf =
+        service::serde_yaml::from_reader(BufReader::new(std::fs::File::open(p).unwrap())).unwrap();</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>conf
+            .redis_addr
+            .map(|addr| Client::open(addr).expect(&quot;should connect&quot;));</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="4">
-        <text>async fn foo(r: RedisConf) {
-
-
-    let x = redis::Client::open(r.addr).unwrap();
-    let y = x.get_tokio_connection_manager().await.unwrap();
-    let mut y = x.get_async_connection().await.unwrap().into_pubsub();
-    y.set
-    y.get
-    //y.set_read_timeout(r.read_timeout).unwrap();
-    //y.set_write_timeout(r.write_timeout).unwrap();
-    y.set()
-}</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>x</text>
