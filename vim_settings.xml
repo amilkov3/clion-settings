@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>tonic::status</entry>
-        <entry>tonic::Status</entry>
-        <entry>BAD_REQUEST</entry>
         <entry>format!</entry>
         <entry>StatusCode::</entry>
         <entry>::future</entry>
@@ -96,7 +93,6 @@
         <entry>Path</entry>
         <entry>stem</entry>
         <entry>file_stem</entry>
-        <entry>timeout</entry>
         <entry>set_timeout</entry>
         <entry>feature =</entry>
         <entry>feature</entry>
@@ -107,6 +103,10 @@
         <entry>ConnectionManager</entry>
         <entry>set_read</entry>
         <entry>set_</entry>
+        <entry>read</entry>
+        <entry>timeout</entry>
+        <entry>get_pubsub</entry>
+        <entry>as_pubsub</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -172,13 +172,18 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" timestamp="1601009092473">
-        <mark key="'" line="826" column="17" />
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" timestamp="1601010431712">
+        <mark key="'" line="525" column="19" />
+        <mark key="[" line="330" column="12" />
+        <mark key="]" line="333" column="0" />
+        <mark key="^" line="333" column="0" />
+        <mark key="." line="333" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/src/redis.rs" timestamp="1601009763753">
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="0" />
-        <mark key="." line="20" column="0" />
+      <file name="$USER_HOME$/rust/src/redis.rs" timestamp="1601010407390">
+        <mark key="[" line="19" column="70" />
+        <mark key="]" line="20" column="9" />
+        <mark key="." line="20" column="8" />
+        <mark key="^" line="20" column="9" />
       </file>
       <file name="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" timestamp="1601001556827">
         <mark key="'" line="2129" column="31" />
@@ -275,8 +280,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="74" column="76" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
-      <jump line="11" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/path.rs" />
       <jump line="22" column="16" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/path.rs" />
       <jump line="38" column="24" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/path.rs" />
       <jump line="72" column="28" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/path.rs" />
@@ -375,6 +378,8 @@
       <jump line="84" column="17" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/client.rs" />
       <jump line="826" column="17" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
       <jump line="46" column="20" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/connection.rs" />
+      <jump line="476" column="31" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
+      <jump line="525" column="19" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -386,7 +391,7 @@
         <text>ConnectionManager</text>
       </register>
       <register name="/" type="4">
-        <text>set_</text>
+        <text>as_pubsub</text>
       </register>
       <register name="0" type="4">
         <text>y.set_read_timeout(r.read_timeout).unwrap()</text>
@@ -431,9 +436,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>set_</last-search>
+      <last-search>as_pubsub</last-search>
       <last-offset />
-      <last-pattern>set_</last-pattern>
+      <last-pattern>as_pubsub</last-pattern>
       <last-replace>tonic::util::to_http_code</last-replace>
       <last-substitute>to_http_code</last-substitute>
       <last-dir>1</last-dir>
