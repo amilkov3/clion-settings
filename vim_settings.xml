@@ -7,17 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>No body</entry>
-        <entry>let req</entry>
-        <entry>let req =</entry>
-        <entry>match</entry>
-        <entry>move ||</entry>
-        <entry>async</entry>
-        <entry>Format</entry>
-        <entry>http::StatusCode</entry>
-        <entry>http::Response</entry>
-        <entry>Response</entry>
-        <entry>StatusCode</entry>
         <entry>tonic::status</entry>
         <entry>tonic::Status</entry>
         <entry>BAD_REQUEST</entry>
@@ -107,6 +96,17 @@
         <entry>Path</entry>
         <entry>stem</entry>
         <entry>file_stem</entry>
+        <entry>timeout</entry>
+        <entry>set_timeout</entry>
+        <entry>feature =</entry>
+        <entry>feature</entry>
+        <entry>tls</entry>
+        <entry>set</entry>
+        <entry>get_tokio</entry>
+        <entry>get_tokio_conn</entry>
+        <entry>ConnectionManager</entry>
+        <entry>set_read</entry>
+        <entry>set_</entry>
       </history-search>
       <history-cmd>
         <entry>%s/:?//g</entry>
@@ -116,6 +116,7 @@
         <entry>nohl</entry>
         <entry>vsplit</entry>
         <entry>%s/to_http_code/tonic::util::to_http_code/g</entry>
+        <entry>x</entry>
         <entry>bprevious</entry>
       </history-cmd>
       <history-expr />
@@ -171,42 +172,16 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" timestamp="1600987663928">
-        <mark key="'" line="549" column="7" />
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" timestamp="1601009092473">
+        <mark key="'" line="826" column="17" />
       </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" timestamp="1600988170798">
-        <mark key="'" line="755" column="40" />
-      </file>
-      <file name="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/fs.rs" timestamp="1600986091541">
-        <mark key="[" line="373" column="16" />
-        <mark key="]" line="373" column="29" />
-      </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/lib.rs" timestamp="1600997665582">
-        <mark key="[" line="83" column="0" />
-        <mark key="]" line="83" column="0" />
-        <mark key="." line="83" column="0" />
-      </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1600997077686">
-        <mark key="[" line="16" column="0" />
-        <mark key="]" line="16" column="0" />
-        <mark key="." line="16" column="0" />
-        <mark key="^" line="38" column="28" />
-      </file>
-      <file name="$USER_HOME$/rust/src/acls.rs" timestamp="1600988342807">
-        <mark key="'" line="20" column="10" />
-        <mark key="[" line="324" column="16" />
-        <mark key="]" line="324" column="22" />
-        <mark key="^" line="324" column="22" />
-        <mark key="." line="324" column="21" />
+      <file name="$USER_HOME$/rust/src/redis.rs" timestamp="1601009763753">
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
       </file>
       <file name="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" timestamp="1601001556827">
         <mark key="'" line="2129" column="31" />
-      </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/body.rs" timestamp="1600997505221">
-        <mark key="[" line="219" column="34" />
-        <mark key="]" line="220" column="0" />
-        <mark key="^" line="220" column="0" />
-        <mark key="." line="220" column="0" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/src/util.rs" timestamp="1600997447160">
         <mark key="[" line="6" column="4" />
@@ -218,6 +193,42 @@
         <mark key="]" line="3" column="0" />
         <mark key="." line="3" column="0" />
         <mark key="^" line="53" column="41" />
+      </file>
+      <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1601006368511">
+        <mark key="[" line="14" column="11" />
+        <mark key="]" line="14" column="10" />
+        <mark key="." line="14" column="9" />
+        <mark key="^" line="14" column="10" />
+      </file>
+      <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1601009153762">
+        <mark key="[" line="31" column="41" />
+        <mark key="]" line="31" column="54" />
+        <mark key="^" line="31" column="54" />
+        <mark key="." line="31" column="53" />
+      </file>
+      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1600997874489">
+        <mark key="'" line="47" column="68" />
+        <mark key="[" line="379" column="44" />
+        <mark key="]" line="379" column="46" />
+        <mark key="." line="379" column="45" />
+        <mark key="^" line="379" column="46" />
+      </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/connection.rs" timestamp="1601009886774">
+        <mark key="'" line="46" column="20" />
+      </file>
+      <file name="$USER_HOME$/tonic1/tonic/src/lib.rs" timestamp="1600997665582">
+        <mark key="[" line="83" column="0" />
+        <mark key="]" line="83" column="0" />
+        <mark key="." line="83" column="0" />
+      </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/client.rs" timestamp="1601008801375">
+        <mark key="'" line="84" column="17" />
+      </file>
+      <file name="$USER_HOME$/tonic1/tonic/src/body.rs" timestamp="1600997505221">
+        <mark key="[" line="219" column="34" />
+        <mark key="]" line="220" column="0" />
+        <mark key="^" line="220" column="0" />
+        <mark key="." line="220" column="0" />
       </file>
       <file name="$USER_HOME$/tonic1/tonic/src/status.rs" timestamp="1600997463585">
         <mark key="[" line="625" column="0" />
@@ -237,78 +248,33 @@
         <mark key="." line="44" column="4" />
         <mark key="^" line="44" column="8" />
       </file>
-      <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1601000190289">
-        <mark key="[" line="13" column="11" />
-        <mark key="]" line="13" column="8" />
-        <mark key="." line="13" column="7" />
-        <mark key="^" line="13" column="8" />
-      </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/status.rs" timestamp="1600987569035">
-        <mark key="'" line="41" column="11" />
-      </file>
       <file name="$USER_HOME$/rust/src/scraps.rs" timestamp="1601001807969">
         <mark key="[" line="15" column="4" />
         <mark key="]" line="19" column="5" />
         <mark key="^" line="15" column="4" />
         <mark key="." line="15" column="4" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1600997874489">
-        <mark key="'" line="47" column="68" />
-        <mark key="[" line="379" column="44" />
-        <mark key="]" line="379" column="46" />
-        <mark key="." line="379" column="45" />
-        <mark key="^" line="379" column="46" />
-      </file>
-      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/path.rs" timestamp="1600987937651">
-        <mark key="'" line="82" column="25" />
-      </file>
-      <file name="$USER_HOME$/rust/example/conf/example-test.yml" timestamp="1600998591684">
+      <file name="/Dummy.txt" timestamp="1601010055405">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="^" line="2" column="7" />
-        <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1601001827003">
+      <file name="$USER_HOME$/rust/example/conf/example-test.yml" timestamp="1601006134776">
+        <mark key="[" line="2" column="18" />
+        <mark key="]" line="3" column="19" />
+        <mark key="^" line="3" column="19" />
+        <mark key="." line="3" column="18" />
+      </file>
+      <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" timestamp="1601007207862">
+        <mark key="'" line="29" column="9" />
+      </file>
+      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1601005662728">
         <mark key="'" line="11" column="16" />
-        <mark key="[" line="42" column="0" />
-        <mark key="]" line="42" column="0" />
-        <mark key="^" line="39" column="43" />
-        <mark key="." line="42" column="0" />
+        <mark key="[" line="61" column="22" />
+        <mark key="]" line="61" column="26" />
+        <mark key="^" line="61" column="26" />
+        <mark key="." line="61" column="25" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="46" column="10" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="541" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="533" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="525" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="517" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="501" column="15" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="500" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="492" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="484" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="477" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="469" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="462" column="15" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="461" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="454" column="15" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="453" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="446" column="15" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="445" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="438" column="15" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="437" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="429" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="421" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="258" column="15" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="139" column="9" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="138" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="132" column="45" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="90" column="44" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="550" column="15" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="549" column="7" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/error.rs" />
-      <jump line="599" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
-      <jump line="627" column="14" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
-      <jump line="71" column="10" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
-      <jump line="113" column="38" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
       <jump line="74" column="76" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/mod.rs" />
       <jump line="11" column="11" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/path.rs" />
       <jump line="22" column="16" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/http-0.2.1/src/uri/path.rs" />
@@ -377,59 +343,97 @@
       <jump line="2132" column="11" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
       <jump line="1710" column="15" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
       <jump line="2129" column="31" filename="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" />
+      <jump line="406" column="18" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
+      <jump line="414" column="6" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
+      <jump line="480" column="14" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
+      <jump line="490" column="18" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
+      <jump line="840" column="10" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
+      <jump line="848" column="10" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
+      <jump line="866" column="51" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
+      <jump line="870" column="18" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
+      <jump line="27" column="10" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="33" column="9" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="37" column="9" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="41" column="9" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="45" column="9" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="49" column="9" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="53" column="9" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="61" column="9" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="83" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="84" column="8" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="100" column="8" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="159" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="172" column="0" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="174" column="1" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="25" column="4" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="29" column="9" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" />
+      <jump line="49" column="33" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/connection.rs" />
+      <jump line="84" column="30" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/connection.rs" />
+      <jump line="56" column="17" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/client.rs" />
+      <jump line="59" column="17" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/client.rs" />
+      <jump line="70" column="21" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/client.rs" />
+      <jump line="84" column="17" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/client.rs" />
+      <jump line="826" column="17" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" />
+      <jump line="46" column="20" filename="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/connection.rs" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHkuc2V0Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>bind</text>
+        <text>ConnectionManager</text>
       </register>
       <register name="/" type="4">
-        <text>file_stem</text>
+        <text>set_</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHViIGZuIHNlcnZpY2VfaG9tZShtdXQgc2VsZiwgcGF0aDogUGF0aCkgLT4gU2VsZiB7CiAgICAgICAgc2VsZi52YXJzLnNlcnZpY2VfaG9tZSA9IHBhdGg7CiAgICAgICAgc2VsZi52YXJzLnNlcnZpY2VfbmFtZSA9IGZpbGVfc3RlbSgpLnVud3JhcCgpLnRvX3N0cigpLnVud3JhcCgpOwogICAgICAgIHNlbGYKICAgIH0=</text>
+        <text>y.set_read_timeout(r.read_timeout).unwrap()</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHkuc2V0Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIENvbm5lY3Rpb246Om5ldwo=</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">cHViIGZuIHNlcnZpY2VfaG9tZShtdXQgc2VsZiwgcGF0aDogUGF0aCkgLT4gU2VsZiB7CiAgICAgICAgc2VsZi52YXJzLnNlcnZpY2VfaG9tZSA9IHBhdGg7CiAgICAgICAgc2VsZi52YXJzLnNlcnZpY2VfbmFtZSA9IGZpbGVfc3RlbSgpLnVud3JhcCgpLnRvX3N0cigpLnVud3JhcCgpOwogICAgICAgIHNlbGYKICAgIH0=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIENvbm5lY3Rpb25NYW5hZ2VyOjpuZXcoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">cHViIGZuIHNlcnZpY2UobXV0IHNlbGYsIG5hbWU6IFN0cmluZykgLT4gU2VsZiB7CiAgICAgICAgc2VsZi5zZXJ2aWNlX25hbWUgPSBTb21lKG5hbWUpOwogICAgICAgIHNlbGYKICAgIH0=</text>
+        <text>redis::ConnectionInfo
+    redis::aio::connect_async_std(ConnectionInfo{
+        addr: Box::new(ConnectionAddr::),
+        db: 0,
+        username: None,
+        passwd: None
+    })</text>
       </register>
-      <register name="6" type="4">
-        <text>home path.</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHkuc2V0Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">bGV0IGVudiA9IHZhcigiRU5WSVJPTk1FTlQiKS5tYXBfb3JfZWxzZSh8X3wgRW52aXJvbm1lbnQ6OlRlc3QsIHx2fCBFbnZpcm9ubWVudDo6ZnJvbV9zdHIoJnYpLnVud3JhcCgpKQogICAgICAgIGxldCBzZXJ2aWNlX25hbWUgPSB2YXIoIkxBVU5DSEFCTEVfSUQiKS5vaygpOw==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB2YXIoIkhPTUUiKS5tYXAofGh8IHNlbGYuc2VydmljZV9wYXRoID0gUGF0aDo6bmV3KCZmb3JtYXQhKCJ7fS9jdXJyZW50IiwgaCkpKTsK</text>
+        <text encoding="base64">ICAgIHkuc2V0X2V4KCkK</text>
       </register>
       <register name=":" type="4">
-        <text>%s/to_http_code/tonic::util::to_http_code/g</text>
+        <text>x</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>file_stem</last-search>
+      <last-search>set_</last-search>
       <last-offset />
-      <last-pattern>file_stem</last-pattern>
+      <last-pattern>set_</last-pattern>
       <last-replace>tonic::util::to_http_code</last-replace>
       <last-substitute>to_http_code</last-substitute>
       <last-dir>1</last-dir>
