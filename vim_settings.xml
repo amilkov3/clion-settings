@@ -195,24 +195,11 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/client.rs" timestamp="1601008801375">
         <mark key="'" line="84" column="17" />
       </file>
-      <file name="$USER_HOME$/rust/src/config.rs" timestamp="1601426235538">
-        <mark key="'" line="12" column="28" />
-        <mark key="[" line="6" column="22" />
-        <mark key="]" line="6" column="34" />
-        <mark key="." line="6" column="33" />
-        <mark key="^" line="6" column="34" />
-      </file>
-      <file name="$USER_HOME$/rust/src/spiffe.rs" timestamp="1601426772341">
-        <mark key="[" line="54" column="38" />
-        <mark key="]" line="54" column="36" />
-        <mark key="." line="54" column="35" />
+      <file name="$USER_HOME$/rust/src/spiffe.rs" timestamp="1601427002337">
+        <mark key="[" line="28" column="18" />
+        <mark key="]" line="28" column="19" />
+        <mark key="." line="28" column="19" />
         <mark key="^" line="54" column="36" />
-      </file>
-      <file name="$USER_HOME$/rust/src/error.rs" timestamp="1601426820170">
-        <mark key="[" line="24" column="70" />
-        <mark key="]" line="24" column="74" />
-        <mark key="." line="24" column="73" />
-        <mark key="^" line="24" column="74" />
       </file>
       <file name="$USER_HOME$/rust/src/env.rs" timestamp="1601054177609">
         <mark key="[" line="0" column="0" />
@@ -220,34 +207,13 @@
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1601409752181">
-        <mark key="'" line="34" column="20" />
-        <mark key="[" line="30" column="0" />
-        <mark key="]" line="30" column="0" />
-        <mark key="." line="30" column="0" />
+        <mark key="'" line="33" column="20" />
       </file>
       <file name="$USER_HOME$/rust/example/config/example-test.yaml" timestamp="1601410067332">
         <mark key="[" line="6" column="8" />
         <mark key="]" line="6" column="9" />
         <mark key="^" line="6" column="9" />
         <mark key="." line="6" column="8" />
-      </file>
-      <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1601426135058">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="^" line="9" column="4" />
-        <mark key="." line="3" column="0" />
-      </file>
-      <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1601425885097">
-        <mark key="[" line="20" column="18" />
-        <mark key="]" line="20" column="17" />
-        <mark key="^" line="20" column="17" />
-        <mark key="." line="20" column="16" />
-      </file>
-      <file name="$USER_HOME$/rust/src/scraps.rs" timestamp="1601001807969">
-        <mark key="[" line="15" column="4" />
-        <mark key="]" line="19" column="5" />
-        <mark key="^" line="15" column="4" />
-        <mark key="." line="15" column="4" />
       </file>
       <file name="/Dummy.txt" timestamp="1601010055405">
         <mark key="[" line="0" column="0" />
