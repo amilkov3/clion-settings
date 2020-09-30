@@ -186,12 +186,6 @@
         <mark key="^" line="27" column="46" />
         <mark key="." line="16" column="12" />
       </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1601426270383">
-        <mark key="[" line="32" column="29" />
-        <mark key="]" line="32" column="30" />
-        <mark key="." line="32" column="29" />
-        <mark key="^" line="32" column="30" />
-      </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/client.rs" timestamp="1601008801375">
         <mark key="'" line="84" column="17" />
       </file>
@@ -207,7 +201,7 @@
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/rust/example/Cargo.toml" timestamp="1601409752181">
-        <mark key="'" line="33" column="20" />
+        <mark key="'" line="34" column="20" />
       </file>
       <file name="$USER_HOME$/rust/example/config/example-test.yaml" timestamp="1601410067332">
         <mark key="[" line="6" column="8" />
@@ -229,11 +223,6 @@
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" timestamp="1601007207862">
         <mark key="'" line="29" column="9" />
-      </file>
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1601426301128">
-        <mark key="[" line="4" column="22" />
-        <mark key="]" line="4" column="22" />
-        <mark key="." line="4" column="22" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/connection.rs" timestamp="1601009886774">
         <mark key="'" line="46" column="20" />
