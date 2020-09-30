@@ -112,12 +112,12 @@
         <entry>%s/:?//g</entry>
         <entry>%s/{}/{:?}/g</entry>
         <entry>GhcModType</entry>
-        <entry>nohl</entry>
         <entry>vsplit</entry>
         <entry>%s/to_http_code/tonic::util::to_http_code/g</entry>
         <entry>x</entry>
         <entry>bprevious</entry>
         <entry>bnext</entry>
+        <entry>nohl</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -175,13 +175,6 @@
       <file name="/Dummy.txt" timestamp="1601010055405">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic-build/src/server.rs" timestamp="1600997874489">
-        <mark key="'" line="47" column="68" />
-        <mark key="[" line="379" column="44" />
-        <mark key="]" line="379" column="46" />
-        <mark key="." line="379" column="45" />
-        <mark key="^" line="379" column="46" />
-      </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/aio.rs" timestamp="1601010431712">
         <mark key="'" line="525" column="19" />
         <mark key="[" line="330" column="12" />
@@ -189,23 +182,12 @@
         <mark key="^" line="333" column="0" />
         <mark key="." line="333" column="0" />
       </file>
-      <file name="$USER_HOME$/tonic1/tonic/src/lib.rs" timestamp="1600997665582">
-        <mark key="[" line="83" column="0" />
-        <mark key="]" line="83" column="0" />
-        <mark key="." line="83" column="0" />
-      </file>
       <file name="$USER_HOME$/rust/src/redis.rs" timestamp="1601062086724">
         <mark key="'" line="27" column="32" />
         <mark key="[" line="16" column="12" />
         <mark key="]" line="16" column="12" />
         <mark key="^" line="27" column="46" />
         <mark key="." line="16" column="12" />
-      </file>
-      <file name="$USER_HOME$/rust/example/src/server.rs" timestamp="1601409466278">
-        <mark key="[" line="43" column="67" />
-        <mark key="]" line="43" column="76" />
-        <mark key="." line="43" column="75" />
-        <mark key="^" line="43" column="76" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/client.rs" timestamp="1601008801375">
         <mark key="'" line="84" column="17" />
@@ -222,12 +204,18 @@
       <file name="$USER_HOME$/.rustup/toolchains/nightly-2020-03-19-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/path.rs" timestamp="1601001556827">
         <mark key="'" line="2129" column="31" />
       </file>
-      <file name="$USER_HOME$/rust/src/config.rs" timestamp="1601410131023">
-        <mark key="'" line="13" column="28" />
-        <mark key="[" line="103" column="49" />
-        <mark key="]" line="103" column="57" />
-        <mark key="." line="103" column="56" />
-        <mark key="^" line="103" column="57" />
+      <file name="$USER_HOME$/rust/src/config.rs" timestamp="1601426235538">
+        <mark key="'" line="12" column="28" />
+        <mark key="[" line="6" column="22" />
+        <mark key="]" line="6" column="34" />
+        <mark key="." line="6" column="33" />
+        <mark key="^" line="6" column="34" />
+      </file>
+      <file name="$USER_HOME$/rust/src/error.rs" timestamp="1601426148173">
+        <mark key="[" line="2" column="39" />
+        <mark key="]" line="2" column="21" />
+        <mark key="." line="2" column="20" />
+        <mark key="^" line="2" column="21" />
       </file>
       <file name="$USER_HOME$/rust/src/env.rs" timestamp="1601054177609">
         <mark key="[" line="0" column="0" />
@@ -249,26 +237,20 @@
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/Cargo.toml" timestamp="1601007207862">
         <mark key="'" line="29" column="9" />
       </file>
-      <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1601059596590">
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="13" column="0" />
-        <mark key="." line="13" column="0" />
-        <mark key="^" line="11" column="4" />
-      </file>
-      <file name="$USER_HOME$/rust/src/server.rs" timestamp="1601411985609">
-        <mark key="[" line="32" column="0" />
-        <mark key="]" line="32" column="0" />
-        <mark key="^" line="32" column="96" />
-        <mark key="." line="32" column="0" />
+      <file name="$USER_HOME$/rust/src/lib.rs" timestamp="1601426135058">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="^" line="9" column="4" />
+        <mark key="." line="3" column="0" />
       </file>
       <file name="$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/redis-0.17.0/src/connection.rs" timestamp="1601009886774">
         <mark key="'" line="46" column="20" />
       </file>
-      <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1601409759146">
-        <mark key="[" line="30" column="0" />
-        <mark key="]" line="30" column="0" />
-        <mark key="^" line="30" column="54" />
-        <mark key="." line="30" column="0" />
+      <file name="$USER_HOME$/rust/Cargo.toml" timestamp="1601425885097">
+        <mark key="[" line="20" column="18" />
+        <mark key="]" line="20" column="17" />
+        <mark key="^" line="20" column="17" />
+        <mark key="." line="20" column="16" />
       </file>
       <file name="$USER_HOME$/rust/src/scraps.rs" timestamp="1601001807969">
         <mark key="[" line="15" column="4" />
@@ -383,46 +365,47 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hd2FpdCwK</text>
+        <text encoding="base64">dXNlIHN0ZDo6Zm0K</text>
       </register>
       <register name="-" type="4">
-        <text>into_future()</text>
+        <text>_core::</text>
       </register>
       <register name="/" type="4">
         <text>into_future</text>
       </register>
       <register name="0" type="4">
-        <text>use crate::acls::AclsConf;</text>
+        <text>format!(&quot;error starting hyper server: {}&quot;, e)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hd2FpdCwK</text>
+        <text encoding="base64">dXNlIHN0ZDo6Zm0K</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5leHBlY3QoImJpbmQgU0lHVEVSTSIpCg==</text>
+        <text encoding="base64">dXNlIGZhaWx1cmU6Ol9jb3JlOjpmbXQ6OkZvcm1hdHRlcjsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCEoInt9IiwgY29uZmlnX3BhdGgpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">IywgZmVhdHVyZXMgPSBbImFpbyIsICJhY2wiLCBdCg==</text>
+      <register name="4" type="4">
+        <text>#[macro_use]
+extern crate failure;</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">cGItamVsbHkgPSAiXjAuMCIK</text>
+        <text encoding="base64">ICAgICAgICBwcmluY2lwYWwsIG1ldGhvZCwgc2VydmljZQo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">cHViIHR5cGUgU2VydmljZVJlc3VsdDxPPiA9IFJlc3VsdDxPLCBTZXJ2aWNlRXJyb3I+Owo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly9pbXBsIHN0ZDo6ZXJyb3I6OkVycm9yIGZvciBTZXJ2aWNlRXJyb3Ige30K</text>
       </register>
       <register name=":" type="4">
-        <text>x</text>
+        <text>nohl</text>
       </register>
     </registers>
   </component>
@@ -434,7 +417,7 @@
       <last-replace>tonic::util::to_http_code</last-replace>
       <last-substitute>to_http_code</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
   </component>
   <component name="VimSettings">
